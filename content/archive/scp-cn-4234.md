@@ -151,7 +151,9 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 
 <p class="center"><a href="https://scp-wiki-cn.wikidot.com/scp-cn-4233">SCP-CN-4233</a> · SCP-CN-4234 · <a href="https://scp-wiki-cn.wikidot.com/scp-cn-4235">SCP-CN-4235</a></p>
 
-</span> 作者贴
+</span>
+
+## 作者贴
 
 > **碎碎念 文文无关**
 >
