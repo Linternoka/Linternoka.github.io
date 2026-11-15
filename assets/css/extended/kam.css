@@ -130,6 +130,15 @@ a {
   text-decoration: none;
 }
 
+.moe-archive h1,
+.moe-archive h2,
+.moe-archive h3,
+.moe-archive h4,
+.moe-archive h5,
+.moe-archive h6 {
+  color: #1f1f1f;
+}
+
 .moe-archive a:hover {
   text-decoration: underline;
 }

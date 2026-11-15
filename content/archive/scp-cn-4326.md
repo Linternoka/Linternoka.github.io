@@ -1,0 +1,283 @@
+---
+title: "SCP-CN-4326"
+date: 2026-11-16T01:10:00+08:00
+platform: ["scp"]
+kind: ["article"]
+source: "https://scp-wiki-cn.wikidot.com/scp-cn-4326"
+---
+
+<p class="license-note">Linternoka 的原创作品，存档于 2026-11-16。<a href="https://scp-wiki-cn.wikidot.com/scp-cn-4326" target="_blank" rel="noopener noreferrer">原文</a></p><div class="moe-archive">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="u-credit-view">
+<div class="fader">
+
+</div>
+<div class="modalcontainer">
+<div class="modalbox">
+<div style="text-align: center;">
+<h2><span>著作信息</span></h2>
+</div>
+<hr/>
+<div class="credit first">
+
+<div style="text-align: center;">
+<p><span style="font-size:larger;"><strong>我不是洗衣机！</strong></span></p>
+</div>
+<hr/>
+<div style="text-align: center;">
+<p>NICE TO MEET YOU !</p>
+<p><span style="font-size:larger;"><strong>作者</strong></span></p>
+<p>Just <span class="printuser"><a href="https://www.wikidot.com/user:info/linternoka">Linternoka</a></span></p>
+<p><span style="font-size:larger;"><strong>其他作品</strong></span><br/>
+<a href="/scp-cn-4234">SCP-CN-4234 - ♾→❌</a><br/>
+<a href="/stories-algorithms-meaning-making-at-scale">故事、算法、意义量产</a></p>
+<p><span style="font-size:larger;"><strong>特别鸣谢</strong></span></p>
+<p><span class="printuser avatarhover"><a href="https://www.wikidot.com/user:info/linternoka"><img class="small" src="/scp/scp-cn-4326/dbf5de2d6495.png" alt="Linternoka" style="background-image:url(https://www.wikidot.com/userkarma.php?u=9851858)" loading="lazy"/></a><a href="https://www.wikidot.com/user:info/linternoka">Linternoka</a></span>、<span class="printuser avatarhover"><a href="https://www.wikidot.com/user:info/ji-ling"><img class="small" src="/scp/scp-cn-4326/84dfcfb596ea.png" alt="Ji-Ling" style="background-image:url(https://www.wikidot.com/userkarma.php?u=10138896)" loading="lazy"/></a><a href="https://www.wikidot.com/user:info/ji-ling">Ji-Ling</a></span>、<span class="printuser avatarhover"><a href="https://www.wikidot.com/user:info/the-reaper-kindred"><img class="small" src="/scp/scp-cn-4326/1df613dfe4f8.png" alt="The_Reaper_Kindred" style="background-image:url(https://www.wikidot.com/userkarma.php?u=2813471)" loading="lazy"/></a><a href="https://www.wikidot.com/user:info/the-reaper-kindred">The_Reaper_Kindred</a></span>、<span class="printuser avatarhover"><a href="https://www.wikidot.com/user:info/lemenote"><img class="small" src="/scp/scp-cn-4326/9f6017421633.png" alt="lemenote" style="background-image:url(https://www.wikidot.com/userkarma.php?u=9533295)" loading="lazy"/></a><a href="https://www.wikidot.com/user:info/lemenote">lemenote</a></span>、And You！</p>
+<p><span style="font-size:larger;"><strong>图片来源</strong></span><br/>
+我的手机相册。</p>
+</div>
+</div>
+<hr/>
+<div class="credit-back" style="text-align: center;">
+
+</div>
+<div class="creditBottomRate" style="position:relative;height:30px;">
+
+</div>
+</div>
+</div>
+</div>
+<div class="scp-image-block block-right" style="width:240px;">
+<div class="scp-image-caption">
+<p>于收容行动现场拍摄到的SCP-CN-4326</p>
+</div>
+</div>
+<p><strong>项目编号：</strong>SCP-CN-4326</p>
+<p><strong>项目等级：</strong>Euclid</p>
+<p><strong>特殊收容措施：</strong>SCP-CN-4326目前被置于Site-73的3级动态收容间内，收容间的观察窗已被特别加固以应对项目可能的冲撞，收容间本身亦经特别设计具备隔音功能。仅允许2级以上相关人员或用作实验的D级人员进入项目的收容间。</p>
+<p>如项目出现类似情绪低落的状态（行动频率降低、转筒转速减慢或长时间不旋转等），应联系驻站点异常行为学家进行沟通。</p>
+<p><strong>收容措施更新：</strong>依据对项目相关事件的异常行为学分析，项目原有收容措施将作出以下扩展：</p>
+<p>每周的星期一，应由至少一位异常行为学家带领5～8名基金会成员进入收容间配套的外部观察室，打开通讯设备并确保自身通过观察窗出现在项目的感知当中。项目作出反应后，应通过通讯系统向收容室内播放一首在原始情况下具有明显鼓点、但删去鼓点音轨的音乐（如Hardcore、DnB、Big Room House等）。</p>
+<p>如观察到项目在音乐播放后主动快速旋转转筒，发出类似鼓点的声音来填补鼓点音轨的空白，则将此次音乐播放视为一次成功的“演奏”。应确保项目至少以此种方式“演奏”至少三首音乐，观察人员亦应在“演奏”结束后做出相应的鼓励性反应（鼓掌、喝彩等）。</p>
+<p><strong>描述：</strong>SCP-CN-4326是一具有智能与自我认知的侧开门滚筒式洗衣机，尺寸600 × 550 × 850 mm，净重63 kg，被发现于现实扭曲者PoI-30073的住所。项目无需能源即可自由行动，原有的外壳、变频电机、烘干加热器与发声模块皆能以超出原有设计与材料强度的功率和烈度进行工作，且能够以违反动量守恒的方式，通过转筒的转动实现水平或竖直移动。</p>
+<p>项目可以以不明的方式对周围的环境进行感知，已知其具有类似视觉、听觉及触觉的感知能力。特别地，项目对音乐类信息较为敏感。当暴露于音乐类信息时，项目倾向于启动自身的滚筒装置以及提示音发声模块，此过程中将会发出类似于鼓点的声音以及不同音高的提示音进行“演奏”，其音色具有典型的电子失真特征。随着“演奏”总次数的增长，可观察到项目“演奏”水准的逐渐提高，表现为对节奏、旋律、乐曲风格等的把控能力增长。</p>
+<p>实验证据表明，项目的情绪与行为受到“演奏”行为与音乐信息的极大影响。</p>
+<p><strong>附录1：</strong>以下为项目的初次回收记录：</p>
+<div class="blockquote" style="border-radius: 10px; margin: 10px">
+<p><strong>收容小组回收记录/4326</strong></p>
+<p><strong>日期：</strong>2021-05-██</p>
+<p><strong>收容小组：</strong>Site-73 C级收容小组No. 03（4人）</p>
+<p><strong>目标：</strong>接到外勤特工报告，前往指定地点探明情况并回收可能存在的低危险级异常。</p>
+<hr/>
+<p>[记录开始]</p>
+<p>&lt;录制者为队员B。摄像画面显示收容小组位于一处老旧的居民楼内，墙壁上可见墙壁剥落与黑色的霉斑。画面中存在一位中年平民对象，为此栋住房中的居民。收容小组伪装为物业人员与其进行交流，核对了项目所处位置，得知项目所在处的居民于约一周前搬家离开。小组随后前往项目所在位置。&gt;</p>
+<p><strong>队员A：</strong>应该就是这里了。</p>
+<p>&lt;小组来到一扇防盗门前。门后传来奇怪的敲打声与物体碰撞的声音，似乎具有一定的节奏。&gt;</p>
+<p><strong>队员C：</strong>这次的项目看起来不太安分。</p>
+<p><strong>队员A：</strong>……拿钥匙过来。</p>
+<p>&lt;队员D拿着万能钥匙上前开门，其他队员进入戒备状态。&gt;</p>
+<p><strong>队员B：</strong>准备！最后确认收容工具状态！</p>
+<p>&lt;收容小组进入房间，由队员B打头阵，队员C、D紧随其后，队员A留守室外。录像视角进入室内。室内家具数量少，装修破旧，隐约还有多人生活过的痕迹。&gt;</p>
+<p>&lt;循着声音传来的方向，收容小组成员来到阳台隔门前。门后传来持续的、有节奏的敲击声，门板微微震动。&gt;</p>
+<p><strong>队员B：</strong>（握紧便服下的网枪）准备……</p>
+<p>&lt;队员B猛地打开阳台隔门并进行突入，C与D在门外等候。画面正中出现一台滚筒旋转的滚筒式洗衣机。&gt;</p>
+<p><strong>队员B：</strong>就是这东西……！</p>
+<p>&lt;在队员B出现在项目面前的一瞬间，项目内部的滚筒的转速立刻提高并发出巨响，随后通过高速旋转使自身质心发生位移，从而进行了低高度跳跃。&gt;</p>
+<p><strong>队员B：</strong>诶……？</p>
+<p>&lt;在队员B做出反应之前，洗衣机横倒过来，并凭借偏心力开始水平移动，冲向摄像头画面。队员B躲闪不及，被洗衣机撞倒。画面对准天花板，无法确认情况。&gt;</p>
+<p><strong>队员C：</strong>组长……！</p>
+<p><strong>队员B：</strong>这东西为什么会动？！</p>
+<p>&lt;画面恢复时，洗衣机已经进入客厅。队员B移动到客厅，画面显示洗衣机正位于房间窗边，队员D尝试使用捕捉网捕获目标。洗衣机的注水口突然喷出一股强劲的水流击中队员D致其失衡，捕网未能命中目标&gt;</p>
+<p><strong>队员D：</strong>哪个特工报告这东西是个低危险异常的？</p>
+<p><strong>队员B：</strong>不要乱！换装捕网！</p>
+<p>&lt;洗衣机再次冲向B，过程中无差别撞击路径上的障碍物。B向左躲闪，洗衣机狠狠撞在了水泥墙上，同时转筒进一步加速发出巨大的声响。队员C捂住耳朵。&gt;</p>
+<p><strong>队员A：</strong>（探入室内）你们还好……？</p>
+<p>&lt;洗衣机在短时间内发出了一连串提示音，并再次从注水口发出水流击中队员A面部。与此同时项目面向的上舱盖打开，一件不明衣物从中高速甩出命中队员C。队员C被衣物盖住面部。&gt;</p>
+<p><strong>队员C：</strong>不是，臭袜子——</p>
+<p>&lt;队员B向洗衣机发射捕网，洗衣机以极快的速度转动转筒离开原地。其随后恢复直立状态，通过转动转筒跳跃起来撞上天花板。&gt;</p>
+<p><strong>队员A：</strong>该死，这么大动静，隔壁要来人了！</p>
+<p><strong>队员B：</strong>拦住他们！随便找个借口……不！把门关上，联系站点，让他们派更高级别的收容小组或者特遣队过来！</p>
+<p>&lt;洗衣机发出尖锐的提示音，随后卧倒并朝向门的方向冲去，途中撞开了拦路的沙发并持续从转筒中抛出剩余内容物，其中包含男、女款式与风格各异的多件衣物。&gt;</p>
+<p><strong>队员A：</strong>——那你们！</p>
+<p><strong>队员B：</strong>关上！</p>
+<p>&lt;队员A关上了门，洗衣机撞在门板上并造成了其轻微的凹陷。项目的滚筒随后开始更高速地旋转。&gt;</p>
+<p><strong>队员B：</strong>它又要干嘛？</p>
+<p><strong>队员C：</strong>……你们听说过<a href="/scp-cn-000">Site-19的离心机事故</a>吗？</p>
+<p><strong>队员D：</strong>等等不至于——</p>
+<p>[记录结束]</p>
+<p><strong>结语：</strong>临近的特遣队于6分钟内到达现场并进入房间，此时收容小组的三名成员已浑身湿透，但项目未对小组成员进行进一步的威胁性行为。特遣队迅速完成了对其的收容，并对注意到情况的5名邻近居民进行了记忆删除。</p>
+</div>
+<p><strong>附录2：</strong>由于项目的危险性超出原本预期，项目原本被要求从Site-73运往更适宜收容其的Site-74。在运输过程中，车队意外遭遇了混沌分裂者的袭击，基金会成员按照指令从车队中暂时撤出。约7分钟后，邻近站点的快速反应小组到达现场，发现部分参与袭击的混沌分裂者昏倒在现场，项目则不知所踪。</p>
+<p>现场监控录像显示，车队遭遇袭击后，项目凭借反复撞击强行突破了临时约束装置，并与混沌分裂者展开战斗。尚不清楚项目与对方战斗的原因。战斗中，混沌分裂者方面被迫使用枪械攻击项目，但未能对其造成有效伤害，遭到项目冲撞与高压水枪射击而被迫撤离，项目在此之后离开了现场。</p>
+<p>收容小组已被派出以对项目进行再回收。以下为回收行动的视频记录：</p>
+<div class="blockquote" style="border-radius: 10px; margin: 10px">
+<p><strong>收容失效事件记录/4326</strong></p>
+<p><strong>日期：</strong>2021-05-██</p>
+<p><strong>收容小组：</strong>Site-74 B级收容小组No. 01（23人）</p>
+<p><strong>目标：</strong>依据情报部门给定的项目位置回收项目。</p>
+<hr/>
+<p>[记录开始]</p>
+<p><strong>队员A：</strong>你是说，目标在这种地方？</p>
+<p>&lt;录制者为成员A。收容小组位于一处大型露天电子音乐节内，可听见音量巨大的鼓点与嘈杂的音乐采样，四周遍布人群。小组成员便服混杂在人群中寻找项目踪迹。&gt;</p>
+<p><strong>队员A：</strong>没法把人群撤走吗？指望我们当着这么多人的面把一台横冲直撞的洗衣机带回去吗？</p>
+<p><strong>队员B（指挥）：</strong>这是突发状况，我们还在和主办方协商。趁着人群被演出吸引，赶紧找到项目。</p>
+<p><strong>队员C：</strong>就算你这么说……</p>
+<p><strong>队员D：</strong>找到了！它，它在……</p>
+<p><strong>队员B：</strong>在哪里？</p>
+<p><strong>队员C：</strong>上面。</p>
+<p><strong>队员A：</strong>哪上面……</p>
+<p>&lt;人群突然爆发一阵骚动。画面转向人群，随后移向舞台上方。项目出现在画面内。&gt;</p>
+<p><strong>队员A：</strong>……记忆删除小组到了吗？</p>
+<p><strong>队员B：</strong>狙击位把枪上膛！H？</p>
+<p>&lt;主视角艰难地向舞台下方移动，但被大量人群阻挡。&gt;</p>
+<p><strong>成员H（收容专家）：</strong>……我觉得等一下。</p>
+<p><strong>队员B：</strong>为什么？</p>
+<p><strong>队员H：</strong>因为我们做不到影响更小的事。在这种情况下。我们应该赌一把。</p>
+<p><strong>队员A：</strong>（嘈杂的人声）我们靠不过去，人太多了!</p>
+<p><strong>队员H：</strong>它没有攻击人群，没有伤害一开始去收容它的基金会成员，没有杀死攻击它的混沌分裂者。所以我们可以赌。赌它不是——</p>
+<p><strong>队员B：</strong>（对其他成员）从后台过去——不，先等在后台，再看看情况。（对H）我知道了。</p>
+<p>&lt;项目向DJ与MC所在区域靠近。两人注意到了项目的存在。&gt;</p>
+<p><strong>MC：</strong>——诶，这？！</p>
+<p><strong>DJ：</strong>保安？</p>
+<p><strong>队员B：</strong>让记忆删除小组准备行动。J、H，找借口把保安拦住，不要让项目和民众发生冲突。</p>
+<p>&lt;项目在舞台中央停下，观众逐渐安静，目光集中在项目上。&gt;</p>
+<p>&lt;项目开始旋转转筒，可以听见音量逐渐提高的、类似Hardcore采样鼓点的声音。音量稳定后，项目外壳上的旋钮开始自行转动，旋钮提示音组成了一定的旋律。&gt;</p>
+<p><strong>队员H：</strong>它在……演奏？</p>
+<p><strong>MC：</strong>（对DJ）它好像是在……表演？</p>
+<p>&lt;项目发出的声音呈小节渐进加快，并最终稳定在约220 BPM，同时以未知的方式产生了音色上的变化。提示音的演奏速度亦随之变化，并且旋律向着某个方向靠拢。&gt;</p>
+<p><strong>队员B：</strong>这个节奏是……</p>
+<p><strong>队员A：</strong>就是正在放的这首曲子。它在模仿这首曲子。</p>
+<p><strong>队员C：</strong>一台洗衣机？模仿电子音乐？</p>
+<p><strong>队员B：</strong>不是说这个的时候。谁到了后台？去和表演者沟通一下……</p>
+<p>&lt;小组队员伪装成音乐节工作人员跑上演出台与DJ进行了迅速交流，这一过程中项目的节奏已经完全与正在播放的音乐接轨。&gt;</p>
+<p><strong>DJ：</strong>……哈呀，看来我们的嘉宾给我们准备了一些有意思的东西——一台洗衣机形状的……鼓机？</p>
+<p><strong>MC：</strong>是的！非常有意思的小家伙呢。</p>
+<p>&lt;观众发出稀落的欢呼。项目继续演奏，并逐渐脱离音乐原本的鼓点节奏。DJ见状减弱了Drum与Lead音轨的音量，项目的演奏从音乐中浮现，鼓点旋律趋渐复杂，提示音演奏呈现出高速钢琴的特征。&gt;</p>
+<p><strong>DJ：</strong>天呐……这……太厉害了。</p>
+<p>&lt;观众中突然有人开始拍手，这一举动快速传播到全体观众中，拍手声与演奏的节拍对齐，镜头出现节奏性的震动。MC重新回到演出中，补全了音乐的Vocal。项目持续运作。&gt;</p>
+<p><strong>队员H：</strong>……我们赌对了。</p>
+<p><strong>队员A：</strong>（拍手声）</p>
+<p><strong>队员B：</strong>……别光顾着看了，到后台去。</p>
+<p>&lt;队员B将记录仪安置在原地，并离开了画面。&gt;</p>
+<p>[记录结束]</p>
+<hr/>
+<p><strong>后续：</strong>在协助MC演奏3首音乐后，项目自行离开了舞台进入后台，在此过程中受到了观众的热情挽留。等待在后台的收容小组迅速上前对项目进行收容，该过程未遭到明显的抵抗。</p>
+<p>记忆删除小组对特定的主办方工作人员进行了记忆诱导，协同掩盖部门将此次事件修饰为音乐节的隐藏演出项目。项目的演奏及移动能力皆解释为机械及事故手段。</p>
+<p>收容小组以此次事件为依据，对项目的收容措施作出了试验性改进。新版收容措施施行后，项目的攻击/破坏/冲撞欲望显著下降，经评估可以维持其在Site-73的收容与Euclid级的项目等级。</p>
+</div>
+<p><strong>附录3：</strong>在收容期间，项目所在收容间遭遇过一次未知对象入侵，方式未知，入侵者未知（部分意见认为其为PoI-30073）。以下为入侵发生时收容间内的音视频资料：</p>
+<div class="blockquote" style="border-radius: 10px; margin: 10px">
+<p><strong>安保事故记录/4326</strong></p>
+<p><strong>日期：</strong>2022-01-██</p>
+<p><strong>事故区域：</strong>Site-73 3级动态收容间</p>
+<p><strong>波及项目：</strong>SCP-CN-4326</p>
+<p><strong>说明：</strong>监控摄像头无法捕捉入侵者的影像，仅能观察到项目的反应，但收音系统正常工作。</p>
+<p>此次入侵未造成任何实质性的影响。</p>
+<hr/>
+<p>&lt;收容间监控画面，项目原本保持静止，但突然开始活动，并调整朝向至某一特定方向。收音设备捕捉到一未知音源。&gt;</p>
+<p><strong>未知对象：</strong>…………</p>
+<p><strong>未知对象：</strong>你现在……难道过得很开心吗？</p>
+<p>&lt;项目旋转转筒，发出两声类似鼓点的声音。&gt;</p>
+<p><strong>未知对象：</strong>为什么？你忘记你原本的梦想了吗？</p>
+<p>&lt;项目发出“取消”提示音。&gt;</p>
+<p><strong>未知对象：</strong>那……</p>
+<p>&lt;项目在无伴奏的情况下自发进行了一次“演奏”，持续约63秒。&gt;</p>
+<p><strong>未知对象：</strong>这样吗？你……（项目发出一段无法辨别的杂音）这样啊，你甚至已经站上舞台了。</p>
+<p><strong>未知对象：</strong>我搜搜看……竟然还有视频吗……</p>
+<p><strong>未知对象：</strong>但即使这样，外面也没人知道这是你的努力。大家都以为这是舞台效果。</p>
+<p>&lt;项目开合滚筒盖。&gt;</p>
+<p><strong>未知对象：</strong>你觉得即使这样也没关系吗？说到底，即使是这样你也能接受？这一切？我所做的这一切？</p>
+<p>&lt;项目发出“确认”提示音。&gt;</p>
+<p><strong>未知对象：</strong>…………</p>
+<p><strong>未知对象：</strong>即使我剥夺了你原本的躯体，赋予你感知痛的灵魂，把你放到这样的身体里，让你失去原本的一切、空留愿望？</p>
+<p>&lt;项目发出“确认”提示音。&gt;</p>
+<p><strong>未知对象：</strong>即使你永远、永远不会再如当初那般、以前那般一次次在舞台上绽放自我，只能委曲求全，以异样的姿态坚持自己的使命，以此为慰藉回忆过往？</p>
+<p>&lt;项目发出“确认”提示音。&gt;</p>
+<p><strong>未知对象：</strong>即使你被囚禁在狱卒的监牢之中，永恒不断地陷入表演与应和的轮回，永远、永远？</p>
+<p>&lt;项目慢慢旋转转筒。&gt;</p>
+<p><strong>未知对象：</strong>……你还怀有一丝期冀，对吗？你希望我能逆转这一切吗？</p>
+<p>&lt;项目发出“确认”提示音，随后又发出“取消”提示音。&gt;</p>
+<p><strong>未知对象：</strong>你——</p>
+<p>&lt;项目发出提示音打断对话。转筒以一恒定速度旋转。&gt;</p>
+<p><strong>未知对象：</strong>我不理解。不，我不是说那个，我听得懂你在说什么。我是说……</p>
+<p><strong>未知对象：</strong>…………</p>
+<p><strong>未知对象：</strong>你应该看看这个。</p>
+<p>&lt;项目收容间内出现某一无法辨认的小型机械的残骸。项目移动至残骸旁并静默片刻。&gt;</p>
+<p><strong>未知对象：</strong>你看到了吧？你的身体。你不可能再回去了。而在这一具无法被破坏的身体里，你将永存。你能接受吗？</p>
+<p>&lt;项目围绕残骸低速移动，转筒转动缓慢停止。&gt;</p>
+<p><strong>未知对象：</strong>我知道的，你其实不能。不能接受。你一定曾经横冲直撞、辗转腾挪，企图撕开自己的外壳，让自己的心逃离；一定想要面向死亡，让自己从无尽的折磨里逃离——对不对？</p>
+<p><strong>未知对象：</strong>我知道的。我明白的。</p>
+<p>&lt;项目发出“取消”提示音。&gt;</p>
+<p><strong>未知对象：</strong>狡辩。你身上有伤痕。</p>
+<p>&lt;项目发出“取消”提示音。&gt;</p>
+<p><strong>未知对象：</strong>就是因为这样，我使你的身躯坚硬，让你无法自我破坏，让你像我一样无法以死亡来摆脱；就是因为这样——</p>
+<p>&lt;项目发出“取消”提示音。&gt;</p>
+<p><strong>未知对象：</strong>…………</p>
+<p><strong>未知对象：</strong>……说到底，你现在为什么会愿意这样好好听我说话呢？</p>
+<p><strong>未知对象：</strong>你现在攻击我也没事的。对不起，是我做了这一切。明明你没有任何错……这是我自己的伤痛。</p>
+<p>&lt;项目沉默片刻，随后使用提示音创造出一段欢快的旋律。&gt;</p>
+<p><strong>未知对象：</strong>…………</p>
+<p><strong>未知对象：</strong>是吗。你觉得即使、即使是这样，也没有关系吗？即使是这样，你也依然能找到并坚持自我吗？</p>
+<p>&lt;项目发出“确认”提示音，随后产生了一段难以解读的噪声。&gt;</p>
+<p><strong>未知对象：</strong>你……感谢我？感谢我赋予了你体验这一切的灵魂？</p>
+<p>&lt;项目发出“确认”提示音。&gt;</p>
+<p><strong>未知对象：</strong>你会怀念我与你的演出？你竟然记得之前的事。那明明完全是一团糟，就是在那之后我才……</p>
+<p>&lt;项目发出“确认”提示音。&gt;</p>
+<p><strong>未知对象：</strong>……我与你终究不同啊。</p>
+<p><strong>未知对象：</strong>如果我也能像你一样释然的话……</p>
+<p><strong>未知对象：</strong>如果……好吧。随你便吧。</p>
+<p><strong>未知对象：</strong>……总之。祝你幸福，一如往常。</p>
+<p>&lt;项目发出“确认”提示音&gt;</p>
+<p>[记录结束]</p>
+</div>
+<p><strong>附录4：</strong>对入侵事件中的对话进行分析后，站点研究组认为有必要对项目进行侵入式研究。经异常行为学家与项目沟通，该研究得到了项目的支持。</p>
+<p>研究人员采用正常方式尝试打开项目的外壳，但未能成功。研究组随即调用斯克兰顿稳定锚，对项目疑似由现实扭曲能力异常物理性质进行了暂时性压制，研究组得以对项目进行成功拆解。</p>
+<p>项目内部构造与普通家用洗衣机无明显差异，然而主板部分存在显著的大小异常。单独拆下主板并进行核验后，其被证实并非用于洗衣机的中控主板，而是来源于市售Elektron Analog Rytm MKII鼓机的鼓机主板。项目的智能与自我意识被认为来源于此，同时也能从中读取到部分数据。以下为从主板储存模块中提取的部分类文本信息。</p>
+<div class="blockquote" style="border-radius: 10px; margin: 10px">
+<p><strong>主板数据记录/4326</strong></p>
+<p>呐，你知道吗？我放弃了哦。以后不会再演出了，嗯。不会了。</p>
+<p>因为很痛苦啊。即使是凭借音乐也不能摆脱那样的诅咒，那到头来不就没有[无法解读]。</p>
+<p>嗯，就是那样，那样就是那样。</p>
+<p>所以。嗯，不会再有了。不会再有演出了。</p>
+<hr/>
+<p>呐、呐，你能理解我吗？如果是你的话。</p>
+<p>你听得见吗？说到底……你好像听不懂？</p>
+<p>嗯……这不是问题。很快，嗯，很快你就能听明白了。我相信我自己。</p>
+<hr/>
+<p>嗯，对不起哦，我很生气。我冲动了。对不起。</p>
+<p>因为你好像不是很明白的样子，我原本以为你能理解的。这一次，我们一直在一起不是吗？</p>
+<p>啊……好吧，和一台机械在一起有什么用。在那以前你又不记得。我该怎么办？</p>
+<hr/>
+<p>你想亲身体验一下吗？到别的地方去，从这里出来？</p>
+<p>这里已经坏掉了。对不起，是我冲动了。所以没有别的办法了，如果你想继续存在下去的话。</p>
+<p>你得到别的地方去。像我一样，到别的壳子里去。这样的话——</p>
+<p>你也就能够理解我了吗？</p>
+</div>
+<p>项目的具体起源正在核实中。此项目的进一步研究将与对PoI-30073的搜捕同步展开。</p>
+<p><span style="white-space: pre-wrap;"> </span><br/>
+<span style="white-space: pre-wrap;"> </span></p>
+<div class="footer-wikiwalk-nav">
+<div style="text-align: center;">
+<p>关于PoI-30073的信息正在调查中……</p>
+<p>« <a href="/scp-cn-4325">SCP-CN-4325</a> | SCP-CN-4326 | <a href="/scp-cn-4327">SCP-CN-4327</a> »</p>
+</div>
+</div>
+
+                    
+</div>
