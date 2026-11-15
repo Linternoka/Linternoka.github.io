@@ -1,0 +1,20 @@
+.post-content a[href*="user:info/adminbright"] { font-size: 0; }
+.post-content a[href*="user:info/adminbright"]::before { content: 'TheDuckMan';
+    font-size: .95rem; }
+.post-content a[href*="user:info/adminbright"]:nth-child(1) img { display: none }
+.post-content a[href*="user:info/adminbright"]:nth-child(1)::before { content: "";
+  width: 16px;
+  height: 16px;
+  background-image: url(https://www.wikidot.com/avatar.php?userid=1522769&amp;amp;size=small&amp;amp;timestamp=1769563918), url(https://www.wikidot.com/userkarma.php?u=634139);
+  display: inline-block;
+  background-size: contain;
+  vertical-align: -0.3em;
+  padding: 1px 9px 1px 8px;
+  background-repeat: no-repeat;
+  background-position-x: 9px, 0; }
+.post-content .alt-block-0 { display:none; }
+.post-content .alt-block { color: black;
+ border: solid 1px #000000;
+ background:#f2f2c2;
+ padding:5px;
+ margin-bottom: 10px; }

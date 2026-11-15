@@ -1,0 +1,75 @@
+.post-content a[href*="user:info/adminbright"] { font-size: 0; }
+.post-content a[href*="user:info/adminbright"]::before { content: 'TheDuckMan';
+    font-size: .95rem; }
+.post-content a[href*="user:info/adminbright"]:nth-child(1) img { display: none }
+.post-content a[href*="user:info/adminbright"]:nth-child(1)::before { content: "";
+  width: 16px;
+  height: 16px;
+  background-image: url(https://www.wikidot.com/avatar.php?userid=1522769&amp;amp;size=small&amp;amp;timestamp=1769563918), url(https://www.wikidot.com/userkarma.php?u=634139);
+  display: inline-block;
+  background-size: contain;
+  vertical-align: -0.3em;
+  padding: 1px 9px 1px 8px;
+  background-repeat: no-repeat;
+  background-position-x: 9px, 0; }
+.post-content .alt-block-0 { display:none; }
+.post-content .alt-block { color: black;
+ border: solid 1px #000000;
+ background:#f2f2c2;
+ padding:5px;
+ margin-bottom: 10px; }
+.post-content .wd-editor-toolbar-panel ul li a:hover { background-image: none; }
+.post-content { --p-icon-sidebar: url("data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iY3VycmVudENvbG9yIiBjbGFzcz0iYmkgYmktbGlzdCIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yLjUgMTJhLjUuNSAwIDAgMSAuNS0uNWgxMGEuNS41IDAgMCAxIDAgMUgzYS41LjUgMCAwIDEtLjUtLjV6bTAtNGEuNS41IDAgMCAxIC41LS41aDEwYS41LjUgMCAwIDEgMCAxSDNhLjUuNSAwIDAgMS0uNS0uNXptMC00YS41LjUgMCAwIDEgLjUtLjVoMTBhLjUuNSAwIDAgMSAwIDFIM2EuNS41IDAgMCAxLS41LS41eiIvPgo8L3N2Zz4="); }
+.post-content div#header { grid-template-columns: var(--p-header-height) var(--p-header-height) auto 1fr var(--p-header-height) var(--p-header-height);
+        grid-template-areas: 'sidebar logo title topbar user search';
+        z-index: 99; }
+.post-content div#side-bar::after { top: 0rem;
+    z-index: 100;
+    width: calc(var(--p-header-height) + 0.75rem);
+    background-color: var(--p-gray-4);
+    transition: background-color var(--p-animation-duration-medium); }
+.post-content div#side-bar:hover::after { opacity: 1;
+    background-color: var(--p-gray-3); }
+.post-content .class1 .base:nth-of-type(1) { display: none; }
+.post-content .class1 .base:nth-of-type(2) { display: inline; }
+.post-content .class1 .CN:nth-of-type(1) { display: inline; }
+.post-content .class1 .CN:nth-of-type(2) { display: none; }
+.post-content .class1 .false:nth-of-type(1) { display: none!important; }
+.post-content .class1 .false:nth-of-type(2) { display: inline!important; }
+.post-content .class1 { white-space: nowrap;
+    width: auto; }
+.post-content .class1 h1 { color: #333;
+    font-family: BauhausLTDemi, Arial, "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", 'Noto Serif KR', serif;
+    font-size: 240%;
+    margin-top: 0.55em; }
+.post-content .class1image img { width:230px;
+    height: auto;
+    max-width: initial; }
+.post-content .item1 { white-space: nowrap;
+    text-align: right; }
+.post-content .item1 h1 { color: #333;
+    font-family: 'renner', Arial, "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", 'Noto Serif KR', serif;
+    font-size: 160%;
+    font-weight: normal;
+    transform: scale(0.9, 1); }
+.post-content .PL h1 > span { font-size: 75%; }
+.post-content .ES h1 > span { font-size: 85%; }
+.post-content .scale tr { line-height: 10px; }
+.post-content .scale { margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+    max-width: 100% !important; }
+.post-content .class1 h1 { font-size: 3.8vw;
+    font-weight: bold!important; }
+.post-content .class1image img { width:33vw;
+    height: auto; }
+.post-content .item1 h1 { font-size: 2.2vw; }
+.post-content .class1 h1 { font-size: 2.5vw;
+    font-weight: bold!important; }
+.post-content .class1image img { width:17.5vw;
+    height: auto; }
+.post-content .item1 h1 { font-size: 1.4vw; }
+.post-content display=swap');
+.class1 h1 { font-family: BauhausLTDemi, Arial, 'Noto Serif SC', serif; }
+.post-content .item1 h1 { font-family: 'renner', Arial, 'Noto Serif SC', serif; }

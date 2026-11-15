@@ -20,10 +20,28 @@
 }
 
 body {
-  font-family: -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
-    "Microsoft YaHei", "Source Han Sans SC", sans-serif;
-  line-height: 1.9;
+  font-family: "Noto Serif SC", "NotoSerifSC", "Source Han Serif SC",
+    "思源宋体", "Songti SC", STSong, SimSun, serif;
+  line-height: 1.95;
   letter-spacing: 0.01em;
+}
+
+/* 标题与界面元素用黑体，跟正文的宋体拉开层次 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo a,
+.menu,
+.post-meta,
+.entry-footer,
+.archive-meta,
+.breadcrumbs,
+.paginav {
+  font-family: "Noto Sans SC", "Source Han Sans SC", "PingFang SC",
+    "Microsoft YaHei", sans-serif;
 }
 
 .post-content p,
@@ -131,3 +149,169 @@ a {
 .profile_inner span {
   opacity: 0.65;
 }
+
+.post-content img {
+  display: block;
+  margin: 1.2em auto;
+  max-height: 560px;
+  width: auto;
+  max-width: 100%;
+}
+
+
+.post-content p img {
+  max-height: 2.2em;
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.post-content p > img:only-child {
+  max-height: 560px;
+  display: block;
+  margin: 1.2em auto;
+}
+
+
+/* 卡片：引用块做成便签，用来区分著作信息与作者贴 */
+.post-content blockquote {
+  border-left: none;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 18px 22px;
+  margin: 1.4em 0;
+}
+
+.post-content blockquote p:last-child,
+.post-content blockquote ul:last-child {
+  margin-bottom: 0;
+}
+
+.post-content img {
+  border: 1px solid var(--border);
+}
+
+/* 存档页的原文说明：细竖线，不做成卡片 */
+.post-content p:has(> em:only-child) {
+  border-left: 2px solid var(--border);
+  padding-left: 14px;
+  opacity: 0.75;
+  font-size: 0.9rem;
+}
+
+
+/* SCP 存档页：还原原页面的格式区分 */
+.ghost {
+  color: transparent;
+  transition: color 0.35s ease;
+  cursor: default;
+}
+.ghost:hover { color: var(--content); }
+
+
+
+/* 终端记录块：上下横线，贴近原页面的分隔方式 */
+.term {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 0;
+  margin: 0;
+  font-size: 0.95em;
+  line-height: 1.9;
+}
+.term + .term { border-top: none; }
+.term p { margin: 0; }
+
+/* 分级装饰块 */
+.classified {
+  display: grid;
+  grid-template-columns: 1fr 120px 1fr;
+  align-items: center;
+  gap: 24px;
+  margin: 3em 0;
+}
+.classified-left { display: flex; flex-direction: column; gap: 0.4em; }
+.classified-left .lv {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.classified-left .lv-mark {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.classified-mid { display: flex; justify-content: center; }
+.classified-mid .stripes-text {
+  font-size: 2.4rem;
+  letter-spacing: 0.2em;
+  color: var(--secondary);
+  transform: skewX(-12deg);
+}
+.classified-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35em;
+  text-align: right;
+  font-size: 1.05rem;
+}
+
+@media (max-width: 700px) {
+  .classified { grid-template-columns: 1fr; gap: 14px; text-align: left; }
+  .classified-right { text-align: left; }
+  .classified-mid { justify-content: flex-start; }
+}.term-head {
+  margin: 1.6em 0 0.6em;
+  font-family: "Cascadia Mono", "Consolas", "Sarasa Mono SC", monospace;
+  font-size: 0.82em;
+  letter-spacing: 0.02em;
+  color: var(--secondary);
+}
+
+.doc-card {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--entry);
+  padding: 16px 20px;
+  margin: 0.8em 0 1.6em;
+}
+.doc-card p { margin: 0.55em 0; }.prompt { color: var(--secondary); }
+.sys { color: var(--secondary); }
+.fn {
+  display: block;
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-top: 0.6em;
+  padding-left: 1em;
+  border-left: 2px solid var(--border);
+}
+.center { text-align: center; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ghost { transition: none; }
+}
+
+
+
+
+
+/* 档案标题条：反向配色，模仿原页面黑底标题 */
+.file-head {
+  margin: 2em auto 0;
+  padding: 5px 14px;
+  background: var(--primary);
+  color: var(--theme);
+  font-weight: 600;
+  font-size: 0.95em;
+  border-radius: 3px 3px 0 0;
+  width: 100%;
+}
+.file-head + .doc-card {
+  width: 100%;
+  margin: 0 auto 1.6em;
+  border-radius: 0 0 4px 4px;
+}
+
+
+.dim { color: var(--secondary); }
+

@@ -1,0 +1,4 @@
+{{- /* 页面级样式：存档页保留原页面的特效，但只作用于该页容器 */ -}}
+{{- with .Params.page_css -}}
+<link rel="stylesheet" href="{{ . | relURL }}">
+{{- end -}}
