@@ -52,6 +52,7 @@ master 已迁到新的 `layouts/_partials/` 结构，所以锁在 master 的提�
 ## 部署
 
 推送 `main` → GitHub Actions 跑 `hugo --minify --gc` → 部署 Pages。
+本机 git 全局代理指向没启动的 7897，推送要绕开：`git -c http.proxy= -c https.proxy= push`。
 构建产物约 0.8 MB。Pages 的 Source 必须是「GitHub Actions」，不是分支。
 
 ## 待办
