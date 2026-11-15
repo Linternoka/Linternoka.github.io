@@ -6,390 +6,392 @@ kind: ["article"]
 source: "https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-scale"
 ---
 
-<p class="license-note">Linternoka 的原创作品，存档于 2026-11-16。<a href="https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-scale" target="_blank" rel="noopener noreferrer">原文</a></p><div class="moe-archive">
+<p class="license-note">Linternoka 的原创作品，存档于 2026-11-16。<a href="https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-scale" target="_blank" rel="noopener noreferrer">原文</a></p>
+<div class="doc-archive">
+<div>
 
 
 
 
 
-<div style="display: none;">
-<div class="collapsible-block">
+<div>
+<div>
 
-<div class="collapsible-block-unfolded" style="display:none">
+<div>
 
-<div class="collapsible-block-content">
+<div>
 
-<div class="code">
-<div class="hl-main">
-<pre><span class="hl-var">@import</span><span class="hl-code"> </span><span class="hl-identifier">url</span><span class="hl-code">('</span><span class="hl-identifier">https</span><span class="hl-code">://</span><span class="hl-identifier">fonts.googleapis.com</span><span class="hl-code">/</span><span class="hl-identifier">css2</span><span class="hl-code">?</span><span class="hl-identifier">family</span><span class="hl-code">=</span><span class="hl-identifier">Nixie</span><span class="hl-code">+</span><span class="hl-identifier">One</span><span class="hl-code">&amp;</span><span class="hl-identifier">display</span><span class="hl-code">=</span><span class="hl-identifier">swap</span><span class="hl-code">');
-</span><span class="hl-var">@import</span><span class="hl-code"> </span><span class="hl-identifier">url</span><span class="hl-code">('</span><span class="hl-identifier">https</span><span class="hl-code">://</span><span class="hl-identifier">fonts.googleapis.com</span><span class="hl-code">/</span><span class="hl-identifier">css2</span><span class="hl-code">?</span><span class="hl-identifier">family</span><span class="hl-code">=</span><span class="hl-identifier">Atkinson</span><span class="hl-code">+</span><span class="hl-identifier">Hyperlegible</span><span class="hl-special">:ital</span><span class="hl-code">,</span><span class="hl-identifier">wght</span><span class="hl-var">@0</span><span class="hl-code">,400;0,700;1,400;1,700&amp;</span><span class="hl-identifier">display</span><span class="hl-code">=</span><span class="hl-identifier">swap</span><span class="hl-code">');
-</span><span class="hl-var">@import</span><span class="hl-code"> </span><span class="hl-identifier">url</span><span class="hl-code">('</span><span class="hl-identifier">https</span><span class="hl-code">://</span><span class="hl-identifier">fonts.googleapis.com</span><span class="hl-code">/</span><span class="hl-identifier">css2</span><span class="hl-code">?</span><span class="hl-identifier">family</span><span class="hl-code">=</span><span class="hl-identifier">Outfit</span><span class="hl-special">:wght</span><span class="hl-var">@100</span><span class="hl-code">..900&amp;</span><span class="hl-identifier">display</span><span class="hl-code">=</span><span class="hl-identifier">swap</span><span class="hl-code">');
+<div>
+<div>
+<pre>@import url('https://fonts.googleapis.com/css2?family=Nixie+One&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;display=swap');
  
-</span><span class="hl-special">:root</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    --</span><span class="hl-reserved">body-bg:</span><span class="hl-code"> </span><span class="hl-number">225</span><span class="hl-code">, </span><span class="hl-number">225</span><span class="hl-code">, </span><span class="hl-number">225</span><span class="hl-code">;
-    --</span><span class="hl-reserved">content-bg:</span><span class="hl-code"> var(--global-white-color)</span><span class="hl-code">;
-    --</span><span class="hl-reserved">bg-opacity:</span><span class="hl-code"> </span><span class="hl-number">0.9</span><span class="hl-code">;
+:root {
+    --body-bg: 225, 225, 225;
+    --content-bg: var(--global-white-color);
+    --bg-opacity: 0.9;
  
-    --</span><span class="hl-reserved">extra-bg-1:</span><span class="hl-code"> url(https://imagebed.pro/images/liurd/skyline.svg)</span><span class="hl-code">;
-    --</span><span class="hl-reserved">extra-bg-2:</span><span class="hl-code"> url(https://imagebed.pro/images/liurd/skyline.svg)</span><span class="hl-code">;
-    --</span><span class="hl-reserved">extra-bg-3:</span><span class="hl-code"> url(https://imagebed.pro/images/liurd/skyline.svg)</span><span class="hl-code">;
-    --</span><span class="hl-reserved">extra-opacity-1:</span><span class="hl-code"> </span><span class="hl-number">0.15</span><span class="hl-code">;
-    --</span><span class="hl-reserved">extra-opacity-2:</span><span class="hl-code"> </span><span class="hl-number">0.05</span><span class="hl-code">;
-    --</span><span class="hl-reserved">extra-opacity-3:</span><span class="hl-code"> </span><span class="hl-number">0.05</span><span class="hl-code">;
+    --extra-bg-1: url(https://imagebed.pro/images/liurd/skyline.svg);
+    --extra-bg-2: url(https://imagebed.pro/images/liurd/skyline.svg);
+    --extra-bg-3: url(https://imagebed.pro/images/liurd/skyline.svg);
+    --extra-opacity-1: 0.15;
+    --extra-opacity-2: 0.05;
+    --extra-opacity-3: 0.05;
  
-    --</span><span class="hl-reserved">topbar-hover-bg:</span><span class="hl-code"> var(--dark-ui-bg), </span><span class="hl-number">0.2</span><span class="hl-code">;
-    --</span><span class="hl-reserved">topbar-hover-txt:</span><span class="hl-code"> var(--light-ui-txt)</span><span class="hl-code">;
+    --topbar-hover-bg: var(--dark-ui-bg), 0.2;
+    --topbar-hover-txt: var(--light-ui-txt);
  
-    --</span><span class="hl-reserved">user-drop-txt:</span><span class="hl-code"> var(--dark-ui-txt)</span><span class="hl-code">;
+    --user-drop-txt: var(--dark-ui-txt);
  
-    --</span><span class="hl-reserved">bottombar-bg:</span><span class="hl-code"> var(--dark-ui-bg)</span><span class="hl-code">;
-    --</span><span class="hl-reserved">bottombar-txt:</span><span class="hl-code"> var(--dark-ui-txt)</span><span class="hl-code">;
+    --bottombar-bg: var(--dark-ui-bg);
+    --bottombar-txt: var(--dark-ui-txt);
  
-    --</span><span class="hl-reserved">header-title:</span><span class="hl-code"> "SCP 基金会"</span><span class="hl-code">;
+    --header-title: "SCP 基金会";
  
-    --</span><span class="hl-reserved">banner-title:</span><span class="hl-code"> "FOUNDATION"</span><span class="hl-code">;
-    --</span><span class="hl-reserved">banner-subtitle:</span><span class="hl-code"> "当色彩褪去的时候"</span><span class="hl-code">;
+    --banner-title: "FOUNDATION";
+    --banner-subtitle: "当色彩褪去的时候";
  
-    --</span><span class="hl-reserved">header-height:</span><span class="hl-code"> </span><span class="hl-number">3</span><span class="hl-code">rem</span><span class="hl-code">;
-    --</span><span class="hl-reserved">topbar-height:</span><span class="hl-code"> </span><span class="hl-number">2.5</span><span class="hl-code">rem</span><span class="hl-code">;
-    --</span><span class="hl-reserved">dropdown-height:</span><span class="hl-code"> var(--topbar-height)</span><span class="hl-code">;
-    --</span><span class="hl-reserved">banner-height:</span><span class="hl-code"> </span><span class="hl-number">25</span><span class="hl-code">rem</span><span class="hl-code">;
+    --header-height: 3rem;
+    --topbar-height: 2.5rem;
+    --dropdown-height: var(--topbar-height);
+    --banner-height: 25rem;
  
-    --</span><span class="hl-reserved">header-ui-size:</span><span class="hl-code"> </span><span class="hl-number">3</span><span class="hl-code">rem</span><span class="hl-code">;
+    --header-ui-size: 3rem;
  
-    --</span><span class="hl-reserved">header-title-size:</span><span class="hl-code"> </span><span class="hl-number">1.8</span><span class="hl-code">rem</span><span class="hl-code">;
-    --</span><span class="hl-reserved">topbar-size:</span><span class="hl-code"> clamp(</span><span class="hl-number">0.8</span><span class="hl-string">em</span><span class="hl-code">, calc(</span><span class="hl-number">0.4</span><span class="hl-code">rem + </span><span class="hl-number">0.8</span><span class="hl-code">vw), </span><span class="hl-number">1</span><span class="hl-string">em</span><span class="hl-code">)</span><span class="hl-code">;
-    --</span><span class="hl-reserved">banner-title-size:</span><span class="hl-code"> clamp(</span><span class="hl-number">2</span><span class="hl-code">rem, calc(</span><span class="hl-number">2</span><span class="hl-code">rem + </span><span class="hl-number">3.5</span><span class="hl-code">vw), </span><span class="hl-number">6</span><span class="hl-code">rem)</span><span class="hl-code">;
-    --</span><span class="hl-reserved">banner-subtitle-size:</span><span class="hl-code"> </span><span class="hl-number">1</span><span class="hl-code">rem</span><span class="hl-code">;
+    --header-title-size: 1.8rem;
+    --topbar-size: clamp(0.8em, calc(0.4rem + 0.8vw), 1em);
+    --banner-title-size: clamp(2rem, calc(2rem + 3.5vw), 6rem);
+    --banner-subtitle-size: 1rem;
  
-    --</span><span class="hl-reserved">banner-font:</span><span class="hl-code"> "Nixie One", "Noto </span><span class="hl-string">Serif</span><span class="hl-code"> SC", Franklin Gothic </span><span class="hl-string">Medium</span><span class="hl-code">, Franklin Gothic, ITC Franklin Gothic, Arial, </span><span class="hl-string">serif</span><span class="hl-code">;
-    --</span><span class="hl-reserved">header-font:</span><span class="hl-code"> var(--banner-font)</span><span class="hl-code">;
-    --</span><span class="hl-reserved">title-font:</span><span class="hl-code"> "Outfit", "Noto Sans SC", "Noto Sans TC", Franklin Gothic </span><span class="hl-string">Medium</span><span class="hl-code">, Franklin Gothic, ITC Franklin Gothic, Arial, </span><span class="hl-string">sans-serif</span><span class="hl-code">;
-    --</span><span class="hl-reserved">body-font:</span><span class="hl-code"> "Atkinson Hyperlegible", "Noto Sans SC", "Noto Sans TC", Arimo, Verdana, Geneva, </span><span class="hl-string">sans-serif</span><span class="hl-code">;
-    --</span><span class="hl-reserved">ui-font:</span><span class="hl-code"> "Outfit", "Noto Sans SC", "Noto Sans TC", Arimo, Verdana, Geneva, </span><span class="hl-string">sans-serif</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#extra-div-1</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">position:</span><span class="hl-code"> </span><span class="hl-string">fixed</span><span class="hl-code">;
-    </span><span class="hl-reserved">width:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;
-    </span><span class="hl-reserved">height:</span><span class="hl-code"> </span><span class="hl-number">25</span><span class="hl-code">vh</span><span class="hl-code">;
-    </span><span class="hl-reserved">bottom:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-    </span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-    </span><span class="hl-reserved">z-index:</span><span class="hl-code"> -</span><span class="hl-number">1</span><span class="hl-code">;
-    </span><span class="hl-reserved">background-image:</span><span class="hl-code"> var(--extra-bg-1)</span><span class="hl-code">;
-    </span><span class="hl-reserved">background-size:</span><span class="hl-code"> </span><span class="hl-number">20</span><span class="hl-code">rem</span><span class="hl-code">;
-    </span><span class="hl-reserved">background-repeat:</span><span class="hl-code"> </span><span class="hl-string">repeat-x</span><span class="hl-code">;
-    </span><span class="hl-reserved">background-position:</span><span class="hl-code"> </span><span class="hl-string">center</span><span class="hl-code">;
-    </span><span class="hl-reserved">opacity:</span><span class="hl-code"> var(--extra-opacity-1)</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#extra-div-2</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">position:</span><span class="hl-code"> </span><span class="hl-string">fixed</span><span class="hl-code">;
-    </span><span class="hl-reserved">width:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;
-    </span><span class="hl-reserved">height:</span><span class="hl-code"> </span><span class="hl-number">50</span><span class="hl-code">vh</span><span class="hl-code">;
-    </span><span class="hl-reserved">bottom:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-    </span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-    </span><span class="hl-reserved">z-index:</span><span class="hl-code"> -</span><span class="hl-number">2</span><span class="hl-code">;
-    </span><span class="hl-reserved">background-image:</span><span class="hl-code"> var(--extra-bg-2)</span><span class="hl-code">;
-    </span><span class="hl-reserved">background-size:</span><span class="hl-code"> </span><span class="hl-number">40</span><span class="hl-code">rem</span><span class="hl-code">;
-    </span><span class="hl-reserved">background-repeat:</span><span class="hl-code"> </span><span class="hl-string">repeat-x</span><span class="hl-code">;
-    </span><span class="hl-reserved">background-position:</span><span class="hl-code"> </span><span class="hl-string">center</span><span class="hl-code">;
-    </span><span class="hl-reserved">opacity:</span><span class="hl-code"> var(--extra-opacity-2)</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#extra-div-3</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">position:</span><span class="hl-code"> </span><span class="hl-string">fixed</span><span class="hl-code">;
-    </span><span class="hl-reserved">width:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;
-    </span><span class="hl-reserved">height:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-code">vh</span><span class="hl-code">;
-    </span><span class="hl-reserved">bottom:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-    </span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-    </span><span class="hl-reserved">z-index:</span><span class="hl-code"> -</span><span class="hl-number">3</span><span class="hl-code">;
-    </span><span class="hl-reserved">background-image:</span><span class="hl-code"> var(--extra-bg-3)</span><span class="hl-code">;
-    </span><span class="hl-reserved">background-size:</span><span class="hl-code"> contain</span><span class="hl-code">;
-    </span><span class="hl-reserved">background-repeat:</span><span class="hl-code"> </span><span class="hl-string">repeat-x</span><span class="hl-code">;
-    </span><span class="hl-reserved">background-position:</span><span class="hl-code"> </span><span class="hl-string">bottom</span><span class="hl-code">;
-    </span><span class="hl-reserved">opacity:</span><span class="hl-code"> var(--extra-opacity-3)</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#container</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">display:</span><span class="hl-code"> grid</span><span class="hl-code">;
-    </span><span class="hl-reserved">grid-template-columns:</span><span class="hl-code"> minmax(var(--sidebar-width), </span><span class="hl-number">1</span><span class="hl-code">fr)</span><span class="hl-string">auto</span><span class="hl-code"> </span><span class="hl-number">1</span><span class="hl-code">fr</span><span class="hl-code">;
-    </span><span class="hl-reserved">grid-template-rows:</span><span class="hl-code"> </span><span class="hl-string">auto</span><span class="hl-code"> </span><span class="hl-string">auto</span><span class="hl-code"> </span><span class="hl-string">auto</span><span class="hl-code"> </span><span class="hl-string">auto</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#extrac-div-1</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">grid-column:</span><span class="hl-code"> </span><span class="hl-number">2</span><span class="hl-code"> / </span><span class="hl-number">3</span><span class="hl-code">;
-    </span><span class="hl-reserved">grid-row:</span><span class="hl-code"> </span><span class="hl-number">1</span><span class="hl-code"> / </span><span class="hl-number">2</span><span class="hl-code">;
-    </span><span class="hl-reserved">display:</span><span class="hl-code"> flex</span><span class="hl-code">;
-    </span><span class="hl-reserved">flex-direction:</span><span class="hl-code"> column</span><span class="hl-code">;
-    </span><span class="hl-reserved">justify-content:</span><span class="hl-code"> </span><span class="hl-string">center</span><span class="hl-code">;
-    </span><span class="hl-reserved">align-items:</span><span class="hl-code"> </span><span class="hl-string">center</span><span class="hl-code">;
-    </span><span class="hl-reserved">font-family:</span><span class="hl-code"> var(--banner-font)</span><span class="hl-code">;
-    </span><span class="hl-reserved">font-weight:</span><span class="hl-code"> </span><span class="hl-number">200</span><span class="hl-code">;
-    </span><span class="hl-reserved">width:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;
-    </span><span class="hl-reserved">height:</span><span class="hl-code"> var(--banner-height)</span><span class="hl-code">;
-    </span><span class="hl-reserved">color:</span><span class="hl-code"> rgb(var(--header-txt))</span><span class="hl-code">;
-    </span><span class="hl-reserved">order:</span><span class="hl-code"> -</span><span class="hl-number">1</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#extrac-div-1</span><span class="hl-code">:</span><span class="hl-special">:before</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">content:</span><span class="hl-code"> var(--banner-title)</span><span class="hl-code">;
-    </span><span class="hl-reserved">font-size:</span><span class="hl-code"> var(--banner-title-size)</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#extrac-div-1</span><span class="hl-code">:</span><span class="hl-special">:after</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">content:</span><span class="hl-code"> var(--banner-subtitle)</span><span class="hl-code">;
-    </span><span class="hl-reserved">font-size:</span><span class="hl-code"> var(--banner-subtitle-size)</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#header</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">grid-column:</span><span class="hl-code"> </span><span class="hl-number">1</span><span class="hl-code"> / </span><span class="hl-number">2</span><span class="hl-code">;
-    </span><span class="hl-reserved">grid-row:</span><span class="hl-code"> </span><span class="hl-number">1</span><span class="hl-code"> / </span><span class="hl-number">3</span><span class="hl-code">;
-    </span><span class="hl-reserved">min-width:</span><span class="hl-code"> var(--sidebar-width)</span><span class="hl-code">;
-    </span><span class="hl-reserved">width:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;
-    </span><span class="hl-reserved">height:</span><span class="hl-code"> fit-content</span><span class="hl-code">;
-    </span><span class="hl-reserved">grid-template-columns:</span><span class="hl-code"> var(--header-ui-size) </span><span class="hl-number">1</span><span class="hl-code">fr </span><span class="hl-string">auto</span><span class="hl-code"> </span><span class="hl-string">auto</span><span class="hl-code">;
-    </span><span class="hl-reserved">grid-template-rows:</span><span class="hl-code"> var(--header-ui-size) calc(var(--banner-height) - var(--header-ui-size)) </span><span class="hl-string">auto</span><span class="hl-code">;
-    </span><span class="hl-reserved">top:</span><span class="hl-code"> calc(</span><span class="hl-number">0</span><span class="hl-string">px</span><span class="hl-code"> - var(--banner-height))</span><span class="hl-code">;
-    </span><span class="hl-reserved">order:</span><span class="hl-code"> -</span><span class="hl-number">2</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#search-top-box</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">grid-column:</span><span class="hl-code"> </span><span class="hl-number">3</span><span class="hl-code"> / </span><span class="hl-number">4</span><span class="hl-code">;
-    </span><span class="hl-reserved">position:</span><span class="hl-code"> </span><span class="hl-string">fixed</span><span class="hl-code">;
-    </span><span class="hl-reserved">right:</span><span class="hl-code"> var(--header-ui-size)</span><span class="hl-code">;
-    </span><span class="hl-reserved">backdrop-filter:</span><span class="hl-code"> blur(</span><span class="hl-number">1</span><span class="hl-code">rem)</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#login-status</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">grid-column:</span><span class="hl-code"> </span><span class="hl-number">4</span><span class="hl-code"> / </span><span class="hl-number">5</span><span class="hl-code">;
-    </span><span class="hl-reserved">position:</span><span class="hl-code"> </span><span class="hl-string">fixed</span><span class="hl-code">;
-    </span><span class="hl-reserved">right:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-    </span><span class="hl-reserved">backdrop-filter:</span><span class="hl-code"> blur(</span><span class="hl-number">1</span><span class="hl-code">rem)</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#header</span><span class="hl-code"> </span><span class="hl-identifier">h1</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">grid-column:</span><span class="hl-code"> </span><span class="hl-number">2</span><span class="hl-code"> / </span><span class="hl-number">3</span><span class="hl-code">;
-    </span><span class="hl-reserved">grid-row:</span><span class="hl-code"> </span><span class="hl-number">1</span><span class="hl-code"> / </span><span class="hl-number">2</span><span class="hl-code">;
-    </span><span class="hl-reserved">height:</span><span class="hl-code"> var(--header-height)</span><span class="hl-code">;
-    </span><span class="hl-reserved">position:</span><span class="hl-code"> </span><span class="hl-string">static</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#header</span><span class="hl-code"> </span><span class="hl-identifier">h1</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">justify-content:</span><span class="hl-code"> flex-start</span><span class="hl-code">;
-    </span><span class="hl-reserved">padding:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-    </span><span class="hl-reserved">padding-left:</span><span class="hl-code"> </span><span class="hl-number">0.5</span><span class="hl-code">rem</span><span class="hl-code">;
-    </span><span class="hl-reserved">transition:</span><span class="hl-code"> padding var(--global-duration)</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#header</span><span class="hl-code"> </span><span class="hl-identifier">h1</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-special">:is</span><span class="hl-code">(</span><span class="hl-special">:hover</span><span class="hl-code">, </span><span class="hl-special">:focus</span><span class="hl-code">) </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">padding-left:</span><span class="hl-code"> </span><span class="hl-number">1</span><span class="hl-code">rem</span><span class="hl-code">;
-    </span><span class="hl-reserved">transition:</span><span class="hl-code"> padding var(--global-hover-duration)</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#header</span><span class="hl-code"> </span><span class="hl-identifier">h2</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">display:</span><span class="hl-code"> </span><span class="hl-string">none</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#header-extra-div-1</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">display:</span><span class="hl-code"> </span><span class="hl-string">none</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#top-bar</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">grid-column:</span><span class="hl-code"> </span><span class="hl-number">1</span><span class="hl-code"> / </span><span class="hl-number">5</span><span class="hl-code">;
-    </span><span class="hl-reserved">grid-row:</span><span class="hl-code"> </span><span class="hl-number">3</span><span class="hl-code"> / </span><span class="hl-number">4</span><span class="hl-code">;
-    </span><span class="hl-reserved">height:</span><span class="hl-code"> </span><span class="hl-string">auto</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#top-bar</span><span class="hl-code"> &gt; </span><span class="hl-identifier">div</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">flex-direction:</span><span class="hl-code"> column</span><span class="hl-code">;
-    </span><span class="hl-reserved">height:</span><span class="hl-code"> </span><span class="hl-string">auto</span><span class="hl-code">;
-    </span><span class="hl-reserved">margin-right:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#top-bar</span><span class="hl-code"> &gt; </span><span class="hl-identifier">div</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> &gt; </span><span class="hl-identifier">li</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">flex-basis:</span><span class="hl-code"> unset</span><span class="hl-code">;
-    </span><span class="hl-reserved">height:</span><span class="hl-code"> var(--topbar-height)</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#top-bar</span><span class="hl-code"> &gt; </span><span class="hl-identifier">div</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> &gt; </span><span class="hl-identifier">li</span><span class="hl-code"> &gt; </span><span class="hl-identifier">a</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">justify-content:</span><span class="hl-code"> flex-end</span><span class="hl-code">;
-    </span><span class="hl-reserved">padding:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code"> </span><span class="hl-number">1</span><span class="hl-code">rem</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#top-bar</span><span class="hl-code"> &gt; </span><span class="hl-identifier">div</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> &gt; </span><span class="hl-special">:is</span><span class="hl-code">(</span><span class="hl-identifier">li</span><span class="hl-code">, </span><span class="hl-identifier">li</span><span class="hl-special">:last-of-type</span><span class="hl-code">) &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">top:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-    </span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;
-    </span><span class="hl-reserved">width:</span><span class="hl-code"> </span><span class="hl-number">32</span><span class="hl-string">em</span><span class="hl-code">;
-    </span><span class="hl-reserved">max-width:</span><span class="hl-code"> max-content</span><span class="hl-code">;
-    </span><span class="hl-reserved">min-width:</span><span class="hl-code"> </span><span class="hl-string">auto</span><span class="hl-code">;
-    </span><span class="hl-reserved">flex-direction:</span><span class="hl-code"> row</span><span class="hl-code">;
-    </span><span class="hl-reserved">flex-wrap:</span><span class="hl-code"> wrap</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#top-bar</span><span class="hl-code"> &gt; </span><span class="hl-identifier">div</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> &gt; </span><span class="hl-identifier">li</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> &gt; </span><span class="hl-identifier">li</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">width:</span><span class="hl-code"> </span><span class="hl-number">50</span><span class="hl-string">%</span><span class="hl-code">;
-    </span><span class="hl-reserved">flex-grow:</span><span class="hl-code"> </span><span class="hl-number">1</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#top-bar</span><span class="hl-code"> &gt; </span><span class="hl-identifier">div</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> &gt; </span><span class="hl-special">:is</span><span class="hl-code">(</span><span class="hl-identifier">li</span><span class="hl-code">, </span><span class="hl-identifier">li</span><span class="hl-special">:hover</span><span class="hl-code">, </span><span class="hl-identifier">li</span><span class="hl-special">:focus</span><span class="hl-code">, </span><span class="hl-identifier">li.sfhover</span><span class="hl-code">, </span><span class="hl-identifier">li</span><span class="hl-special">:focus-within</span><span class="hl-code">) &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> &gt; </span><span class="hl-identifier">li</span><span class="hl-code"> &gt; </span><span class="hl-identifier">a</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">box-sizing:</span><span class="hl-code"> border-box</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#content-wrap</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">display:</span><span class="hl-code"> contents</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#side-bar</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">max-height:</span><span class="hl-code"> unset</span><span class="hl-code">;
-    </span><span class="hl-reserved">overflow-y:</span><span class="hl-code"> </span><span class="hl-string">auto</span><span class="hl-code">;
-    </span><span class="hl-reserved">border:</span><span class="hl-code"> unset</span><span class="hl-code">;
-    </span><span class="hl-reserved">box-shadow:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code"> </span><span class="hl-number">1.5</span><span class="hl-code">rem -</span><span class="hl-number">1</span><span class="hl-code">rem rgb(var(--global-dark-color))</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#side-bar</span><span class="hl-code">:</span><span class="hl-special">:after</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">backdrop-filter:</span><span class="hl-code"> blur(</span><span class="hl-number">1</span><span class="hl-code">rem)</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#main-content</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">grid-column:</span><span class="hl-code"> </span><span class="hl-number">2</span><span class="hl-code"> / </span><span class="hl-number">3</span><span class="hl-code">;
-    </span><span class="hl-reserved">grid-row:</span><span class="hl-code"> </span><span class="hl-number">2</span><span class="hl-code"> / </span><span class="hl-number">3</span><span class="hl-code">;
-    </span><span class="hl-reserved">min-height:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-code">vh</span><span class="hl-code">;
-    </span><span class="hl-reserved">box-sizing:</span><span class="hl-code"> border-box</span><span class="hl-code">;
-    </span><span class="hl-reserved">margin:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code"> </span><span class="hl-string">auto</span><span class="hl-code"> </span><span class="hl-number">15</span><span class="hl-code">vh</span><span class="hl-code">;
-    </span><span class="hl-reserved">padding:</span><span class="hl-code"> </span><span class="hl-number">1.5</span><span class="hl-code">rem</span><span class="hl-code">;
-    </span><span class="hl-reserved">box-shadow:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code"> </span><span class="hl-number">2.5</span><span class="hl-code">rem -</span><span class="hl-number">1</span><span class="hl-code">rem rgb(var(--global-dark-color))</span><span class="hl-code">;
-    </span><span class="hl-reserved">position:</span><span class="hl-code"> </span><span class="hl-string">relative</span><span class="hl-code">;
-    </span><span class="hl-reserved">background:</span><span class="hl-code"> rgba(var(--content-bg), var(--bg-opacity))</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#main-content</span><span class="hl-code">:</span><span class="hl-special">:after</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">content:</span><span class="hl-code"> "控制，收容，保护."</span><span class="hl-code">;
-    </span><span class="hl-reserved">display:</span><span class="hl-code"> flex</span><span class="hl-code">;
-    </span><span class="hl-reserved">align-items:</span><span class="hl-code"> </span><span class="hl-string">center</span><span class="hl-code">;
-    </span><span class="hl-reserved">justify-content:</span><span class="hl-code"> </span><span class="hl-string">center</span><span class="hl-code">;
-    </span><span class="hl-reserved">position:</span><span class="hl-code"> </span><span class="hl-string">absolute</span><span class="hl-code">;
-    </span><span class="hl-reserved">top:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;
-    </span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-    </span><span class="hl-reserved">width:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;
-    </span><span class="hl-reserved">height:</span><span class="hl-code"> </span><span class="hl-number">10</span><span class="hl-code">vh</span><span class="hl-code">;
-    </span><span class="hl-reserved">color:</span><span class="hl-code"> rgb(var(--header-txt))</span><span class="hl-code">;
-    </span><span class="hl-reserved">font-family:</span><span class="hl-code"> var(--banner-font)</span><span class="hl-code">;
-    </span><span class="hl-reserved">font-weight:</span><span class="hl-code"> </span><span class="hl-number">200</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#page-title</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">padding:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-special">:is</span><span class="hl-code">(</span><span class="hl-identifier">blockquote</span><span class="hl-code">, </span><span class="hl-identifier">.blockquote</span><span class="hl-code">, </span><span class="hl-identifier">div.blockquote</span><span class="hl-code">, </span><span class="hl-brackets">[</span><span class="hl-var">class</span><span class="hl-code">*=</span><span class="hl-var">blockquote</span><span class="hl-brackets">]</span><span class="hl-code">) </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">padding:</span><span class="hl-code"> </span><span class="hl-number">0.5</span><span class="hl-code">rem </span><span class="hl-number">1</span><span class="hl-code">rem</span><span class="hl-code">;
-    </span><span class="hl-reserved">border-width:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code"> </span><span class="hl-number">0.3</span><span class="hl-code">rem</span><span class="hl-code">;
-    </span><span class="hl-reserved">background:</span><span class="hl-code"> rgba(var(--light-block-bg), </span><span class="hl-number">0.4</span><span class="hl-code">)</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#page-options-container</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">font-family:</span><span class="hl-code"> var(--ui-font)</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#footer</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">grid-column:</span><span class="hl-code"> </span><span class="hl-number">1</span><span class="hl-code"> / </span><span class="hl-number">4</span><span class="hl-code">;
-    </span><span class="hl-reserved">grid-row:</span><span class="hl-code"> </span><span class="hl-number">3</span><span class="hl-code"> / </span><span class="hl-number">4</span><span class="hl-code">;
-    </span><span class="hl-reserved">box-sizing:</span><span class="hl-code"> border-box</span><span class="hl-code">;
-    </span><span class="hl-reserved">justify-content:</span><span class="hl-code"> flex-end</span><span class="hl-code">;
-    </span><span class="hl-reserved">margin-top:</span><span class="hl-code"> </span><span class="hl-number">0.5</span><span class="hl-code">rem</span><span class="hl-code">;
-    </span><span class="hl-reserved">border:</span><span class="hl-code"> unset</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#license-area</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">grid-column:</span><span class="hl-code"> </span><span class="hl-number">1</span><span class="hl-code"> / </span><span class="hl-number">4</span><span class="hl-code">;
-    </span><span class="hl-reserved">grid-row:</span><span class="hl-code"> </span><span class="hl-number">4</span><span class="hl-code"> / </span><span class="hl-number">5</span><span class="hl-code">;
-    </span><span class="hl-reserved">padding:</span><span class="hl-code"> </span><span class="hl-number">0.5</span><span class="hl-code">rem</span><span class="hl-code">;
-    </span><span class="hl-reserved">justify-content:</span><span class="hl-code"> flex-end</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-identifier">#license-area</span><span class="hl-code"> </span><span class="hl-identifier">a</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">color:</span><span class="hl-code"> rgb(var(--global-pale-color))</span><span class="hl-code">;
-</span><span class="hl-brackets">}</span><span class="hl-code">
- 
-</span><span class="hl-var">@media</span><span class="hl-code"> </span><span class="hl-identifier">only</span><span class="hl-code"> </span><span class="hl-identifier">screen</span><span class="hl-code"> </span><span class="hl-identifier">and</span><span class="hl-code"> (max-width: 1024</span><span class="hl-identifier">px</span><span class="hl-code">) </span><span class="hl-brackets">{</span><span class="hl-code">
-  </span><span class="hl-identifier">#container-wrap</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">perspective-origin:</span><span class="hl-code"> </span><span class="hl-number">49.5</span><span class="hl-string">%</span><span class="hl-code"> </span><span class="hl-number">5</span><span class="hl-code">rem</span><span class="hl-code">;
-  </span><span class="hl-brackets">}</span><span class="hl-code">
- 
-  </span><span class="hl-identifier">#container</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">display:</span><span class="hl-code"> flex</span><span class="hl-code">;
-  </span><span class="hl-brackets">}</span><span class="hl-code">
- 
-  </span><span class="hl-identifier">#header</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">min-width:</span><span class="hl-code"> var(--sidebar-width)</span><span class="hl-code">;
-    </span><span class="hl-reserved">grid-template-columns:</span><span class="hl-code"> var(--header-ui-size) </span><span class="hl-number">1</span><span class="hl-code">fr </span><span class="hl-string">auto</span><span class="hl-code"> </span><span class="hl-string">auto</span><span class="hl-code">;
-    </span><span class="hl-reserved">grid-template-rows:</span><span class="hl-code"> var(--header-ui-size) </span><span class="hl-string">auto</span><span class="hl-code"> </span><span class="hl-string">auto</span><span class="hl-code">;
-    </span><span class="hl-reserved">top:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-    </span><span class="hl-reserved">width:</span><span class="hl-code"> initial</span><span class="hl-code">;
-    </span><span class="hl-reserved">position:</span><span class="hl-code"> </span><span class="hl-string">static</span><span class="hl-code">;
-  </span><span class="hl-brackets">}</span><span class="hl-code">
- 
-  </span><span class="hl-identifier">#content-wrap</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">display:</span><span class="hl-code"> </span><span class="hl-string">block</span><span class="hl-code">;
-    </span><span class="hl-reserved">margin:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-  </span><span class="hl-brackets">}</span><span class="hl-code">
- 
-  </span><span class="hl-identifier">#login-status</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">position:</span><span class="hl-code"> </span><span class="hl-string">relative</span><span class="hl-code">;
-    </span><span class="hl-reserved">backdrop-filter:</span><span class="hl-code"> unset</span><span class="hl-code">;
-  </span><span class="hl-brackets">}</span><span class="hl-code">
- 
-  </span><span class="hl-identifier">#search-top-box</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">position:</span><span class="hl-code"> </span><span class="hl-string">static</span><span class="hl-code">;
-    </span><span class="hl-reserved">backdrop-filter:</span><span class="hl-code"> unset</span><span class="hl-code">;
-  </span><span class="hl-brackets">}</span><span class="hl-code">
- 
-  </span><span class="hl-identifier">#login-status</span><span class="hl-code"> </span><span class="hl-identifier">#account-options</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">left:</span><span class="hl-code"> initial</span><span class="hl-code">;
-    </span><span class="hl-reserved">right:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-  </span><span class="hl-brackets">}</span><span class="hl-code">
- 
-  </span><span class="hl-identifier">#top-bar</span><span class="hl-code"> &gt; </span><span class="hl-identifier">div</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">flex-direction:</span><span class="hl-code"> row</span><span class="hl-code">;
-    </span><span class="hl-reserved">margin-right:</span><span class="hl-code"> </span><span class="hl-string">auto</span><span class="hl-code">;
-  </span><span class="hl-brackets">}</span><span class="hl-code">
- 
-  </span><span class="hl-identifier">#top-bar</span><span class="hl-code"> &gt; </span><span class="hl-identifier">div</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> &gt; </span><span class="hl-identifier">li</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">flex-basis:</span><span class="hl-code"> min-content</span><span class="hl-code">;
-  </span><span class="hl-brackets">}</span><span class="hl-code">
- 
-  </span><span class="hl-identifier">#top-bar</span><span class="hl-code"> &gt; </span><span class="hl-identifier">div</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> &gt; </span><span class="hl-identifier">li</span><span class="hl-code"> &gt; </span><span class="hl-identifier">a</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">justify-content:</span><span class="hl-code"> </span><span class="hl-string">center</span><span class="hl-code">;
-    </span><span class="hl-reserved">padding:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-  </span><span class="hl-brackets">}</span><span class="hl-code">
- 
-  </span><span class="hl-identifier">#top-bar</span><span class="hl-code"> &gt; </span><span class="hl-identifier">div</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> &gt; :</span><span class="hl-identifier">is</span><span class="hl-code">(</span><span class="hl-identifier">li</span><span class="hl-code">, </span><span class="hl-reserved">li:</span><span class="hl-code">last-of-type) &gt; ul {
-    </span><span class="hl-string">top</span><span class="hl-code">: </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;
-    </span><span class="hl-reserved">left:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-    </span><span class="hl-reserved">width:</span><span class="hl-code"> </span><span class="hl-string">auto</span><span class="hl-code">;
-    </span><span class="hl-reserved">flex-direction:</span><span class="hl-code"> column</span><span class="hl-code">;
-  </span><span class="hl-brackets">}</span><span class="hl-code">
- 
-  </span><span class="hl-identifier">#top-bar</span><span class="hl-code"> &gt; </span><span class="hl-identifier">div</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> &gt; </span><span class="hl-identifier">li</span><span class="hl-special">:last-of-type</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">left:</span><span class="hl-code"> initial</span><span class="hl-code">;
-    </span><span class="hl-reserved">right:</span><span class="hl-code"> </span><span class="hl-number">0</span><span class="hl-code">;
-  </span><span class="hl-brackets">}</span><span class="hl-code">
- 
-  </span><span class="hl-identifier">#top-bar</span><span class="hl-code"> &gt; </span><span class="hl-identifier">div</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> &gt; </span><span class="hl-identifier">li</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> &gt; </span><span class="hl-identifier">li</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-reserved">width:</span><span class="hl-code"> </span><span class="hl-number">100</span><span class="hl-string">%</span><span class="hl-code">;
-    </span><span class="hl-reserved">flex-grow:</span><span class="hl-code"> </span><span class="hl-number">1</span><span class="hl-code">;
-  </span><span class="hl-brackets">}</span><span class="hl-code">
+    --banner-font: "Nixie One", "Noto Serif SC", Franklin Gothic Medium, Franklin Gothic, ITC Franklin Gothic, Arial, serif;
+    --header-font: var(--banner-font);
+    --title-font: "Outfit", "Noto Sans SC", "Noto Sans TC", Franklin Gothic Medium, Franklin Gothic, ITC Franklin Gothic, Arial, sans-serif;
+    --body-font: "Atkinson Hyperlegible", "Noto Sans SC", "Noto Sans TC", Arimo, Verdana, Geneva, sans-serif;
+    --ui-font: "Outfit", "Noto Sans SC", "Noto Sans TC", Arimo, Verdana, Geneva, sans-serif;
 }
  
-</span><span class="hl-var">@media</span><span class="hl-code"> </span><span class="hl-identifier">only</span><span class="hl-code"> </span><span class="hl-identifier">screen</span><span class="hl-code"> </span><span class="hl-identifier">and</span><span class="hl-code"> (max-width: 768</span><span class="hl-identifier">px</span><span class="hl-code">) </span><span class="hl-brackets">{</span><span class="hl-code">
-    </span><span class="hl-identifier">#top-bar</span><span class="hl-code"> &gt; </span><span class="hl-identifier">div</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> &gt; :</span><span class="hl-identifier">is</span><span class="hl-code">(</span><span class="hl-identifier">li</span><span class="hl-code">, </span><span class="hl-reserved">li:</span><span class="hl-code">last-of-type) &gt; ul {
-        flex-direction: row</span><span class="hl-code">;
-    </span><span class="hl-brackets">}</span><span class="hl-code">
-    </span><span class="hl-identifier">#top-bar</span><span class="hl-code"> &gt; </span><span class="hl-identifier">div</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> &gt; </span><span class="hl-identifier">li</span><span class="hl-code"> &gt; </span><span class="hl-identifier">ul</span><span class="hl-code"> &gt; </span><span class="hl-identifier">li</span><span class="hl-code"> </span><span class="hl-brackets">{</span><span class="hl-code">
-        </span><span class="hl-reserved">width:</span><span class="hl-code"> </span><span class="hl-number">50</span><span class="hl-string">%</span><span class="hl-code">;
-    </span><span class="hl-brackets">}</span><span class="hl-code">
-}</span></pre></div>
+#extra-div-1 {
+    position: fixed;
+    width: 100%;
+    height: 25vh;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-image: var(--extra-bg-1);
+    background-size: 20rem;
+    background-repeat: repeat-x;
+    background-position: center;
+    opacity: var(--extra-opacity-1);
+}
+ 
+#extra-div-2 {
+    position: fixed;
+    width: 100%;
+    height: 50vh;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+    background-image: var(--extra-bg-2);
+    background-size: 40rem;
+    background-repeat: repeat-x;
+    background-position: center;
+    opacity: var(--extra-opacity-2);
+}
+ 
+#extra-div-3 {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    bottom: 0;
+    left: 0;
+    z-index: -3;
+    background-image: var(--extra-bg-3);
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    opacity: var(--extra-opacity-3);
+}
+ 
+#container {
+    display: grid;
+    grid-template-columns: minmax(var(--sidebar-width), 1fr)auto 1fr;
+    grid-template-rows: auto auto auto auto;
+}
+ 
+#extrac-div-1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--banner-font);
+    font-weight: 200;
+    width: 100%;
+    height: var(--banner-height);
+    color: rgb(var(--header-txt));
+    order: -1;
+}
+ 
+#extrac-div-1::before {
+    content: var(--banner-title);
+    font-size: var(--banner-title-size);
+}
+ 
+#extrac-div-1::after {
+    content: var(--banner-subtitle);
+    font-size: var(--banner-subtitle-size);
+}
+ 
+#header {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    min-width: var(--sidebar-width);
+    width: 100%;
+    height: fit-content;
+    grid-template-columns: var(--header-ui-size) 1fr auto auto;
+    grid-template-rows: var(--header-ui-size) calc(var(--banner-height) - var(--header-ui-size)) auto;
+    top: calc(0px - var(--banner-height));
+    order: -2;
+}
+ 
+#search-top-box {
+    grid-column: 3 / 4;
+    position: fixed;
+    right: var(--header-ui-size);
+    backdrop-filter: blur(1rem);
+}
+ 
+#login-status {
+    grid-column: 4 / 5;
+    position: fixed;
+    right: 0;
+    backdrop-filter: blur(1rem);
+}
+ 
+#header h1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    height: var(--header-height);
+    position: static;
+}
+ 
+#header h1 a {
+    justify-content: flex-start;
+    padding: 0;
+    padding-left: 0.5rem;
+    transition: padding var(--global-duration);
+}
+ 
+#header h1 a:is(:hover, :focus) {
+    padding-left: 1rem;
+    transition: padding var(--global-hover-duration);
+}
+ 
+#header h2 {
+    display: none;
+}
+ 
+#header-extra-div-1 {
+    display: none;
+}
+ 
+#top-bar {
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+    height: auto;
+}
+ 
+#top-bar &gt; div &gt; ul {
+    flex-direction: column;
+    height: auto;
+    margin-right: 0;
+}
+ 
+#top-bar &gt; div &gt; ul &gt; li {
+    flex-basis: unset;
+    height: var(--topbar-height);
+}
+ 
+#top-bar &gt; div &gt; ul &gt; li &gt; a {
+    justify-content: flex-end;
+    padding: 0 1rem;
+}
+ 
+#top-bar &gt; div &gt; ul &gt; :is(li, li:last-of-type) &gt; ul {
+    top: 0;
+    left: 100%;
+    width: 32em;
+    max-width: max-content;
+    min-width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ 
+#top-bar &gt; div &gt; ul &gt; li &gt; ul &gt; li {
+    width: 50%;
+    flex-grow: 1;
+}
+ 
+#top-bar &gt; div &gt; ul &gt; :is(li, li:hover, li:focus, li.sfhover, li:focus-within) &gt; ul &gt; li &gt; a {
+    box-sizing: border-box;
+}
+ 
+#content-wrap {
+    display: contents;
+}
+ 
+#side-bar {
+    max-height: unset;
+    overflow-y: auto;
+    border: unset;
+    box-shadow: 0 0 1.5rem -1rem rgb(var(--global-dark-color));
+}
+ 
+#side-bar::after {
+    backdrop-filter: blur(1rem);
+}
+ 
+#main-content {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0 auto 15vh;
+    padding: 1.5rem;
+    box-shadow: 0 0 2.5rem -1rem rgb(var(--global-dark-color));
+    position: relative;
+    background: rgba(var(--content-bg), var(--bg-opacity));
+}
+ 
+#main-content::after {
+    content: "控制，收容，保护.";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    color: rgb(var(--header-txt));
+    font-family: var(--banner-font);
+    font-weight: 200;
+}
+ 
+#page-title {
+    padding: 0;
+}
+ 
+:is(blockquote, .blockquote, div.blockquote, [class*=blockquote]) {
+    padding: 0.5rem 1rem;
+    border-width: 0 0 0 0.3rem;
+    background: rgba(var(--light-block-bg), 0.4);
+}
+ 
+#page-options-container {
+    font-family: var(--ui-font);
+}
+ 
+#footer {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+    border: unset;
+}
+ 
+#license-area {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    padding: 0.5rem;
+    justify-content: flex-end;
+}
+ 
+#license-area a {
+    color: rgb(var(--global-pale-color));
+}
+ 
+@media only screen and (max-width: 1024px) {
+  #container-wrap {
+    perspective-origin: 49.5% 5rem;
+  }
+ 
+  #container {
+    display: flex;
+  }
+ 
+  #header {
+    min-width: var(--sidebar-width);
+    grid-template-columns: var(--header-ui-size) 1fr auto auto;
+    grid-template-rows: var(--header-ui-size) auto auto;
+    top: 0;
+    width: initial;
+    position: static;
+  }
+ 
+  #content-wrap {
+    display: block;
+    margin: 0;
+  }
+ 
+  #login-status {
+    position: relative;
+    backdrop-filter: unset;
+  }
+ 
+  #search-top-box {
+    position: static;
+    backdrop-filter: unset;
+  }
+ 
+  #login-status #account-options {
+    left: initial;
+    right: 0;
+  }
+ 
+  #top-bar &gt; div &gt; ul {
+    flex-direction: row;
+    margin-right: auto;
+  }
+ 
+  #top-bar &gt; div &gt; ul &gt; li {
+    flex-basis: min-content;
+  }
+ 
+  #top-bar &gt; div &gt; ul &gt; li &gt; a {
+    justify-content: center;
+    padding: 0;
+  }
+ 
+  #top-bar &gt; div &gt; ul &gt; :is(li, li:last-of-type) &gt; ul {
+    top: 100%;
+    left: 0;
+    width: auto;
+    flex-direction: column;
+  }
+ 
+  #top-bar &gt; div &gt; ul &gt; li:last-of-type &gt; ul {
+    left: initial;
+    right: 0;
+  }
+ 
+  #top-bar &gt; div &gt; ul &gt; li &gt; ul &gt; li {
+    width: 100%;
+    flex-grow: 1;
+  }
+}
+ 
+@media only screen and (max-width: 768px) {
+    #top-bar &gt; div &gt; ul &gt; :is(li, li:last-of-type) &gt; ul {
+        flex-direction: row;
+    }
+    #top-bar &gt; div &gt; ul &gt; li &gt; ul &gt; li {
+        width: 50%;
+    }
+}</pre></div>
 </div>
 </div>
 
@@ -403,68 +405,68 @@ source: "https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-sc
 
 
 
-<div id="u-credit-view">
-<div class="fader">
+<div>
+<div>
 
 </div>
-<div class="modalcontainer">
-<div class="modalbox">
-<div style="text-align: center;">
-<h2><span>著作信息</span></h2>
+<div>
+<div>
+<div>
+<h2>著作信息</h2>
 </div>
 <hr/>
-<div class="credit first">
+<div>
 
-<div style="text-align: center;">
-<p><span style="font-size:larger;"><strong>故事、算法、意义量产</strong></span></p>
+<div>
+<p><strong>故事、算法、意义量产</strong></p>
 </div>
 <p>回想起来，我还有许多事要去做。我还没有玩过她负责剧本的游戏，也还没有知道哥哥的死因。这两件不相关的事让我打起精神。我开始依靠别的借口活下来。</p>
 <p>于是我长长地叹了一口气。</p>
 <hr/>
-<div style="text-align: center;">
+<div>
 <p>NICE TO MEET YOU ！</p>
-<p><span style="font-size:larger;"><strong>作者</strong></span></p>
-<p>Just <span class="printuser"><a href="http://www.wikidot.com/user:info/linternoka">Linternoka</a></span></p>
+<p><strong>作者</strong></p>
+<p>Just <a href="http://www.wikidot.com/user:info/linternoka">Linternoka</a></p>
 <p>其他作品</p>
 <p><a href="/scp-cn-4234">SCP-CN-4234 - ♾️→❌</a></p>
-<p><span style="font-size:larger;"><strong>特别鸣谢</strong></span></p>
-<p><span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/river-sixwater"><img class="small" src="/scp/scp-stories-algorithms/5324c2aaced8.png" alt="River_SixWater" style="background-image:url(https://www.wikidot.com/userkarma.php?u=9760508)" loading="lazy"/></a><a href="http://www.wikidot.com/user:info/river-sixwater">River_SixWater</a></span> and <span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/tomjens"><img class="small" src="/scp/scp-stories-algorithms/66f4e708a8d0.png" alt="TomJens" style="background-image:url(https://www.wikidot.com/userkarma.php?u=6127263)" loading="lazy"/></a><a href="http://www.wikidot.com/user:info/tomjens">TomJens</a></span> 看稿</p>
-<p><span style="font-size:larger;"><strong>图片来源</strong></span></p>
+<p><strong>特别鸣谢</strong></p>
+<p><a href="http://www.wikidot.com/user:info/river-sixwater"><img src="/scp/scp-stories-algorithms/5324c2aaced8.png" alt="River_SixWater"/></a><a href="http://www.wikidot.com/user:info/river-sixwater">River_SixWater</a> and <a href="http://www.wikidot.com/user:info/tomjens"><img src="/scp/scp-stories-algorithms/66f4e708a8d0.png" alt="TomJens"/></a><a href="http://www.wikidot.com/user:info/tomjens">TomJens</a> 看稿</p>
+<p><strong>图片来源</strong></p>
 <p><a href="https://commons.wikimedia.org/wiki/File:Atmosphere_Sky_Clouds.jpg">https://commons.wikimedia.org/wiki/File:Atmosphere_Sky_Clouds.jpg</a><br/>
 <a href="https://commons.wikimedia.org/wiki/File:Sky_Clouds_Atmosphere.jpg">https://commons.wikimedia.org/wiki/File:Sky_Clouds_Atmosphere.jpg</a></p>
 </div>
 </div>
 <hr/>
-<div class="credit-back" style="text-align: center;">
+<div>
 
 </div>
-<div class="creditBottomRate" style="position:relative;height:30px;">
+<div>
 
 </div>
 </div>
 </div>
 </div>
-<p><span style="color: #808080">在远离城市的高速公路边，出现了一位约三十岁，或者还要更年长的女性。她走到公路旁荒芜的草地上。</span></p>
+<p>在远离城市的高速公路边，出现了一位约三十岁，或者还要更年长的女性。她走到公路旁荒芜的草地上。</p>
 
-<p><span style="white-space: pre-wrap;"> </span></p>
-<p><span style="color: #808080">她抬头看着天空。天空是深蓝色的，然而在极远的地方露出晚霞鲜艳的赤红色光辉，仿佛挣扎着冲出傍晚沉钝的天幕。这时候，有什么东西响了起来。她察觉到那声音来自于她的口袋，从那里拿出因来电而震动的手机。她把手机贴到耳边。然而接通之后，对面仍然只有冗长的白噪音传来。</span></p>
-<p><span style="color: #808080">于是她主动开口：</span>“你想要个解释，是吗？” “……” “我这么做不因为什么。因为我做错了事。” “……”</p>
+
+<p>她抬头看着天空。天空是深蓝色的，然而在极远的地方露出晚霞鲜艳的赤红色光辉，仿佛挣扎着冲出傍晚沉钝的天幕。这时候，有什么东西响了起来。她察觉到那声音来自于她的口袋，从那里拿出因来电而震动的手机。她把手机贴到耳边。然而接通之后，对面仍然只有冗长的白噪音传来。</p>
+<p>于是她主动开口：“你想要个解释，是吗？” “……” “我这么做不因为什么。因为我做错了事。” “……”</p>
 <p>“你，没法理解吗？”</p>
-<p><span style="color: #808080">风吹过短暂的对话间隙，电话那头第一次传来了回答：</span>“我没有你完整的记忆，你不能指望我能独自理解一切。”<span style="color: #808080">那声音和她一模一样。</span></p>
+<p>风吹过短暂的对话间隙，电话那头第一次传来了回答：“我没有你完整的记忆，你不能指望我能独自理解一切。”那声音和她一模一样。</p>
 <p>“这样啊。” “嗯。” “……所以——你想要理解的是？”</p>
-<p>“…………筱泽宽、你为什么歪曲了红匣子？为什么终止我们的进程？”<span style="color: #808080">电话那头的存在这么质问。</span></p>
-<p>“嗯……为什么呢？”<span style="color: #808080">她明显地苦苦思索着，</span>“……我该从哪里讲起呢？要讲它为什么停止，就要讲它为什么开始；要讲它……”</p>
-<p>“一开始。”<span style="color: #808080">对面打断她，</span>“从一开始讲起吧。”</p>
-<p><span style="color: #808080">她，筱泽宽，闭上眼睛，让自己回到过去：</span>“那么——”</p>
+<p>“…………筱泽宽、你为什么歪曲了红匣子？为什么终止我们的进程？”电话那头的存在这么质问。</p>
+<p>“嗯……为什么呢？”她明显地苦苦思索着，“……我该从哪里讲起呢？要讲它为什么停止，就要讲它为什么开始；要讲它……”</p>
+<p>“一开始。”对面打断她，“从一开始讲起吧。”</p>
+<p>她，筱泽宽，闭上眼睛，让自己回到过去：“那么——”</p>
 <p>你知道的，我一直把故事看作特别的存在。</p>
 <hr/>
-<h3 id="toc0"><span>One View 筱泽 宽</span></h3>
+<h3>One View 筱泽 宽</h3>
 <p>七岁时，当我正在家附近的某处试图连根拔出一株无名之花时，我偶然听到路过的大人谈及智能自动化机械会取代越来越多的人的工作。他们看到我的样子，转而又开始担忧，在这种境况下，下一代人会变成什么样？</p>
 <p>回家后，我问父亲我应该活成什么样的人时，他不耐烦地挥挥手，说我随便活活就行了；而当两年后参加父亲的葬礼时，我意识到，我再也没有机会从他那里得到认真的答案。</p>
 <p>我呆呆地坐在人群角落，看着不认识的人在房间里进进出出，耳边充满了嘈杂细碎的人声。我第一次知道，啊，原来人死之后会变成这样。这时候，注意到我状况的哥哥向我走过来。哥哥比我大得多，那时候大概已经有了二十岁。他把我带到另外一个安静的房间，翻找一同拿过来的自己的包，从里面拿出一本大部头的小说塞到我手上，对我说：“你先一个人看会儿故事吧，我等会儿再过来。”</p>
 <p>我已经忘记了那本小说的名字，甚至连那场葬礼都在我的记忆中淡去，只有对「故事」这个名词的认知，随着那两年间庞杂而模糊的情感在我身上留下了印记。</p>
 <p>那之后哥哥拿着父亲的遗产笨拙地料理我们的生活，那段时间我被故事欺骗着活下来。故事里面说，世界上有许多美好、许多善，所以即使别人无缘无故地对我冷眼相待，我也能怀着希望；故事说，我们的大脑比天空更为广阔，所以即使我在这些年里被困在家与学校的狭小世界内，我也相信自己拥有广阔的世界；故事说，活下去吧，所以我想，好，就好好地活着吧。</p>
-<p>“但这终究只是自我欺骗。”<span style="color: #808080">电话那头的人评价。</span></p>
+<p>“但这终究只是自我欺骗。”电话那头的人评价。</p>
 <p>“是的，是这样。”筱泽没有否认，“不过，请听我继续说下去吧。”</p>
 <p>■</p>
 <p>小学时，班上每个人都喜欢看小说，把那些没有营养的情节当成娱乐和幻想的素材。然后，许多孩子开始写自己最初的拙劣作品。在那之中，我写得尤其多，因为我既没有别的事情可以做，也没有别的人和我玩。所以我只能一直读、一直写，写到身边的人都对这种写作游戏感到厌烦，从小学一直写到国中。我不怎么把自己写的东西给别人看，因为那会让我感到莫名其妙的羞耻感。而在哥哥找到工作而不常回来之后，几乎再没有人看过我的作品。</p>
@@ -472,11 +474,11 @@ source: "https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-sc
 <p>“你这写的啥啊？我看不懂。”领头的人露出笑容，这么评价道。我感到一种嗡鸣般的声音在四周回荡，教室里的其他响动都变得模糊不清。我自闭的灵魂被强行翻出了内脏，将之暴露于蓝天之下，受到鸟群的嘲笑。我有这种感受。</p>
 <p>我礼貌地询问是谁翻了我的包，他们打闹着，指向了领头的人。下一瞬间我就扑了上去，用自己的拳头打在那个人的脸上。仅仅是一拳，用来发泄我无处安放的怒火。但下一秒我发觉自己被推倒了，有什么像是咆哮的声音在耳膜边响起。我的草稿被甩在我身上，然后是别的什么东西。我感觉到身体各处传来的疼痛，但这一切只持续了很短的时间。毕竟只是小孩子打架。只是这样。</p>
 <p>后来，老师在裁决这件事时，从周围的学生那里听说了小说的事。“你写的什么？也给我看一看吧？”她对我伸出手。我难以对着那生气的面孔说出一个不字。从我那里拽走稿子的纸页，老师瞪着那张纸，随后在班上当众朗读了一段，但周围的人只是保持着死一般的寂静。随后，她要求我多花点心思在学习上，我依然无法反驳，但也无法停下身体的颤抖。</p>
-<p>“你为什么不呢冷静地处理事情呢？”<span style="color: #808080">电话那头这么问。</span></p>
-<p>“我不知道。”<span style="color: #808080">筱泽说。</span></p>
+<p>“你为什么不呢冷静地处理事情呢？”电话那头这么问。</p>
+<p>“我不知道。”筱泽说。</p>
 <p>那之后，我转学了。</p>
-<div class="block dark-bg">
-<h3 id="toc1"><span>Another View 晓山 奈</span></h3>
+<div>
+<h3>Another View 晓山 奈</h3>
 <p>今天也是一如既往的愉快的一天，我，晓山奈，像往常一样走进教室。九月的空气微凉，没有开灯的室内，阳光与阴影对比鲜明，朦胧地映出黑板上幼稚的字迹。环视教室一圈，我发现了那孩子。</p>
 <p>她蜷缩在后墙的阴影中，在最后一排座位上沉默地抱着身子，没法看清她的表情。直到我凑近她身边，她都没有抬头看我，然而我却能看到更多细节，比如她微微颤抖的身体、脸上的疤痕，还有怀里抱着的小包。</p>
 <p>我把她判断为有趣的人。</p>
@@ -500,13 +502,13 @@ source: "https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-sc
 <p>最有意思的是，她的情绪稳定程度与她当天的阅读量成正比。我唯一把她拉出门那一天，看东西的时间被占用的她马上变成了会扑在我身上大呼小叫的怪物。她就是这么个奇怪的人。</p>
 <p>总之，我在几个月后如愿以偿。她开始给我看她自己写出来的草稿。</p>
 </div>
-<h3 id="toc2"><span>One View 筱泽 宽</span></h3>
-<p><span style="color: #808080">她哽咽了一下，继续开口：</span>“好像有点扯远了……那么说回故事的事情吧。”</p>
+<h3>One View 筱泽 宽</h3>
+<p>她哽咽了一下，继续开口：“好像有点扯远了……那么说回故事的事情吧。”</p>
 <p>“嗯。”</p>
 <p>我想说的是，那段时间我写了很多东西，也就是，创造了好多个世界。但，我总是不给别人看我写的东西的另一个原因，是我往往没有把那些故事写完。这其中既有我时间、精力与灵感的问题，但更多是因为我当时作为一个孩子，仍然缺乏把握与完成一个世界的能力。换句话来说，我笔力不足，不会构建故事。</p>
 <p>我写得不好。而且……</p>
-<div class="block dark-bg">
-<h3 id="toc3"><span>Another View 晓山 奈</span></h3>
+<div>
+<h3>Another View 晓山 奈</h3>
 <p>我沿着校舍的铁制外梯上到天台，被头顶广阔无云的、一直延伸到无限远的蓝色天空所震慑。视野的末端，学校南面、山丘脚下的海面在阳光照耀下波光粼粼。</p>
 <p>我在天台一角发现了靠着防护网看书的她，筱泽宽。可喜可贺，上了高中之后，那些伴随着她的疤渐渐消失了，但那些书，或者说故事，却始终陪伴着她。我朝她走过去。</p>
 <p>“不吃饭吗？”</p>
@@ -547,13 +549,13 @@ source: "https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-sc
 <p>“诶？”</p>
 <p>“学人工智能。”筱泽这么再次宣言。</p>
 </div>
-<h3 id="toc4"><span>One View 筱泽 宽</span></h3>
+<h3>One View 筱泽 宽</h3>
 <p>那段时间里，我只能看着一个个故事的架构在我手中崩塌，最终归于荒诞、浑浊。但我却不得不继续写下去，打开一个毁坏的世界，再去创造另一个，为了满足我自私的创作欲，填补我的空虚和孤独。</p>
 <p>因此，由我创造的无数故事迈上必定终结的命运，我生下这些孩子们，祈愿他们茁壮成长，为我带来荣誉与安慰，但却根本没有供养他们的能力——这是我的第一罪。所以最终，我放弃了写作。</p>
-<p>“你明明还没有好好努力过吧？你不知道你有着多少潜力吧？”<span style="color: #808080">电话里的人这么说。</span></p>
+<p>“你明明还没有好好努力过吧？你不知道你有着多少潜力吧？”电话里的人这么说。</p>
 <p>当然，我放弃它还有其他的原因。我不想说出那是什么，可以肯定的是，当时我对那东西的出现无比愤怒、悲伤，但我之后却创造出了与那东西相似的造物。这无疑值得羞耻。</p>
 <p>■</p>
-<p><span style="color: #808080">她，或者在此之后我们称呼她的姓氏，筱泽说完之后默默地喘着气，电话另一头的人也保持着沉默。休息了一会儿后，她继续说下去。</span></p>
+<p>她，或者在此之后我们称呼她的姓氏，筱泽说完之后默默地喘着气，电话另一头的人也保持着沉默。休息了一会儿后，她继续说下去。</p>
 <p>因为我自己无法创造出令我自已满意的故事，所以我越来越多地去看别人写出的东西。</p>
 <p>在这个世界上，似乎每时每刻都有大量的故事在产生。所以，我想，即使我无法按照自己的愿望创造自己喜欢的故事，我也迟早能找到自己想要的。而在最初的那几年里，似乎就是如此。我沉迷在虚构的海洋里。</p>
 <p>小说、电视剧、游戏、动漫、漫画、戏剧……那些为了向世界发出自己的声音、为了从他人那里交换情感与金钱而生的故事，我看了很多、很多，像是过着自己的生活一般过着那些下叙角色的人生。而自己在真实世界上的模样，则是怎样都好。</p>
@@ -562,7 +564,7 @@ source: "https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-sc
 <p>……在这之中，终于出现了让我困扰的事情。</p>
 <p>我看过了那些被称为神作的作品，受其感动而怅然若失，想要去看更多。我想看到更多崭新而触动我灵魂的世界，去在永恒变幻的虚构梦境中沉沦。但人们……人们总是在写相同的、劣化的东西，不是吗？</p>
 <p>当我向任何体裁的新作看去时，我看到了千篇一律的东西。恋爱喜剧，公式化的党争写法，两卷腰斩；视觉小说，试图复刻会社曾经成功作品的流水线产物；新专辑，用旧旋律和新采样拼凑出来的缝合品。总是这样。当一个模式被创造出来，并且一个故事依此到达了顶峰，大家就渴望创造同样的东西，用着被称作标签的模块化内容排列组合。</p>
-<p>“人们只要见到自己喜欢的那一套要素就会高兴。”<span style="color: #808080">电话那头这么说。</span></p>
+<p>“人们只要见到自己喜欢的那一套要素就会高兴。”电话那头这么说。</p>
 <p>但我难以忍受那种东西。我宁愿看到写得超级烂但是有特色的想法；我还想要更多我没有见过的、崭新的、不断涌现的风景；我希望它可以几乎不基于任何我所见过的模式，或者书写任何我没有见过的思维——</p>
 <p>这不可能，因为这种奇迹诞生在多么微小的巧合里，淹没在流水线制品中显得是那么小，躲藏在那么难以到达的地方。我所偶遇的那些，依然无法令我满足。</p>
 <p>但不全是这样。我所认识的那些创作者中，有某几位，他们将我无数次见过的要素与套路以特定的结构重组，掺入特别的思绪与情感，写出的东西让我喜爱。我知道那样的大多数东西我已经见过，只是其中有一点点值得品尝的东西，但我发现自己仍然被它们感动。</p>
@@ -577,14 +579,14 @@ source: "https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-sc
 <p>代替他的遗体来见我的，是他在站点外一间房子的钥匙。我走进那间房子的门，看见满书架的书，不是什么工作文件或技术书籍，只是很平常的娱乐读物。小说、哲学、画集……就像我和他还生活在一起时，他书架上摆放的东西一样。那之中最新的小说，是今年四月才出版的某文库新人赏大赏作；书架另一侧的柜子里则是堆放整齐的游戏光碟。随后我去检查电脑，发现了他在几个小说网站上的作者账号。这让我想起他毕竟是第一个递小说给我的人。</p>
 <p>看见身处异常世界的哥哥的这副样子，我不合时宜地想起偶然听到的<a href="https://scp-wiki-cn.wikidot.com/takabe-eri">O5也会玩galgame的笑话</a>。但我却笑不出来。我感觉自己提前看见了自己的末路，由我曾经在世的唯一亲人为我提前展示。随后我清理掉那里的所有东西，把钥匙交还给基金会人事处，在第二天回到工作。</p>
 <p>■</p>
-<p>“你该讲到重点了。”<span style="color: #808080">电话那头的声音这么要求，</span>“你知道的，我们的剩余运行时间并不充裕了。”</p>
-<p>“接下来就是了。”<span style="color: #808080">筱泽回答。</span></p>
+<p>“你该讲到重点了。”电话那头的声音这么要求，“你知道的，我们的剩余运行时间并不充裕了。”</p>
+<p>“接下来就是了。”筱泽回答。</p>
 <p>那之后，我偶尔接触到叙事学部的工作委派。在工作事宜上负责与我对接的白发的老前辈告诉我，我们生活在叙事梯阵当中——一个由上层叙事写出下层叙事，再由下层写出更下层的连缀体系。我很惊讶，但没有多大感触。因为一直以来，我已经把这个沉迷于虚构故事中的自己，当作活在故事中的人了。</p>
 <p>真正改变我的契机发生在数年后。那位前辈对我说，筱泽，你们能做个故事生成器不？质量越高越好。于是我获得了实验项目编号与资金下拨，供我去制作某种机械地写出故事的东西。起初我不明白这意味着什么，直到我灵魂中的某种渴望，被原始程序呈现在屏幕上的文字所激起。那与我多年前的想法不谋而合。</p>
-<p><span style="color: #808080">筱泽停顿了几秒钟。她感到口干舌燥，于是反复咽了几口唾沫。</span></p>
+<p>筱泽停顿了几秒钟。她感到口干舌燥，于是反复咽了几口唾沫。</p>
 <p>我造了一台机器，不是什么大机器，基本不具备异常性。它现在就在我头顶的天空中，在环地高轨上自动运行。但，它……</p>
-<div class="block dark-bg">
-<h3 id="toc5"><span>Another View 晓山 奈</span></h3>
+<div>
+<h3>Another View 晓山 奈</h3>
 <p>大学毕业的几年后，我辞掉了我的第一份工作。那时我从高中同学那里听说，筱泽去了某家文娱公司工作，而那家公司现在正好在提供适合我简历的工作。于是我决定到那里去碰碰运气。</p>
 <p>当我推开门，看到坐在长桌后的几位面试官中有一张熟悉的脸时，我吓得停下了动作。那人和我对上眼后，也几乎从凳子上站了起来。</p>
 <p>“怎么了吗，组长？”旁边的人疑惑地问她。那个熟悉的人拥有一副颓丧的面容，侧分的浅色刘海映出苍白的皮肤，总是无精打采的眼睛此时微微睁大。</p>
@@ -616,7 +618,7 @@ source: "https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-sc
 <p>我想起来，她在那之前，一直在试图写出能和专业人士相提并论的作品。但我无法收回已经说出的话。</p>
 <p>筱泽背对着红匣子，不再说话。</p>
 </div>
-<h3 id="toc6"><span>One View 筱泽 宽</span></h3>
+<h3>One View 筱泽 宽</h3>
 <p>我一开始的想法是相当明了的，我想要量产优秀的作品、我喜欢的作品、神作。首先是评价系统。这一系统的主体最开始是人，后来是统计学，最后是心智模型，从一个加到五十个、一千个、三千个、五千个。每个心智模型拥有一张票权，up或者down。up加一，down减一，最终得出总分。</p>
 <p>同时，我们采用另一个算法进行创作。我们当然不关心版权问题，所以它用现成的故事内容和社区评价作为训练和参考内容，把每一份在长评中传达出的感动变成参数，学习人类在几百年内反复优化验证的叙事模式、类型、套路、写法，从心理学了解怎样的人物可以打动人类，从哲学了解人类的精神渴望看到什么，用统计来分析，用数据去体会。这就是所谓的“理论引导型”。</p>
 <p>它进行有限度的穷举，输出某种故事的原始形态到评价系统，选出高于4700分的作品，完成它，交到我手上。</p>
@@ -631,12 +633,12 @@ source: "https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-sc
 <p>然而它出产的东西看上去并不套路化。我猜想，那些经典的要素在一次次优化中被提纯为更根本的某种范式，以全新的姿态出现，好似是全新的思想的产物，只是看上去像没人见过的新结构、内核、人设、思想。但随着它结构的复杂化，这个系统已经日渐成为一个黑箱，我们无法知晓它是否真的创造了新的东西。</p>
 <p>但这本来就是我们所期待的，正如它的名字一般——「Red Box」红匣子，我看过的一部小说用它指代「人类未到产物」。我希望它能够成为踏足人类未至的虚构领域的自行机构。但这还不是它的极限，它可以依靠更高的算力与存储，成为比人类意识更加复杂的系统；它还可以利用异常的技术，达到正常难以达到的效果。但不需要，不需要做到那一步。</p>
 <p>它已经超出了我的预期。我把它写出来的作品发给其他站点的员工，测试它们究竟到达了何种地步。我看见Site-78的一位研究员在接受我的询问时突然开始哭，跟我说某部作品让她想起了<a href="https://scp-wiki-cn.wikidot.com/scp-cn-4234">自己死去的导师</a>，让她重新审视了自己十几年来的所作所为；我收到一位特遣队员的回复，说他以前虽然没怎么读过小说，但觉得我给他的作品简直好得无与伦比，他会一辈子记住那个故事；我看到心智模型的详细反应结构，其中有一个是我哥哥有一个是她有一个是我——也就是你！</p>
-<p>“对，是我。我确实那么认为。”<span style="color: #808080">电话那头的人，「红匣子」上装载的、筱泽宽的人格模型承认。</span></p>
+<p>“对，是我。我确实那么认为。”电话那头的人，「红匣子」上装载的、筱泽宽的人格模型承认。</p>
 <p>我们三个人都**的觉得这简直就是神作，心目中的最佳作品top 1。但这东西是量产的啊！量产！要多少有多少！那这还有什么意义？他们、我们到底在感动什么？！</p>
 <p>……我真的去读了它写出来的东西，然后真的哭了出来。嗯，我们已经可以很简单地批量生产神作了，如果它不因为数量而贬值的话。确认那一点的瞬间，我觉得自己完蛋了。我最喜爱的东西、我半生追寻的东西、我生存至今的意义，遍地都是了。不再有价值了。我无法原谅红匣子。无法原谅创造出它的自己。</p>
 <p>这是我的第二罪。</p>
-<div class="block dark-bg">
-<h3 id="toc7"><span>Another View 晓山 奈</span></h3>
+<div>
+<h3>Another View 晓山 奈</h3>
 <p>红匣子升上天空的第二天，我得知那台机器有着与造物主相等的威能，它的造物与人类的造物在叙事学上等价，甚至有着更稳固的现实构造……好吧，我听不懂那些东西，就连筱泽本人也搞不懂给这个项目出钱的叙事学部想要干什么。</p>
 <p>但，现在有更重要的事情等着我。</p>
 <p>我推开病房的门，门后单调的白色房间内，筱泽躺在病床上。打开的窗外，是蓝色的澄净天空。</p>
@@ -661,8 +663,8 @@ source: "https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-sc
 <p>……真是对不起她。我突然想到，结果是我这种不珍视故事的人，到最后以写故事为生；而她把故事看得无比重要，却放弃了写作，制造出了红匣子。这一切绝对是命运最恶劣的玩笑，是故事套路里最能留下遗憾的要素。</p>
 <p>我只好握住她的手。</p>
 </div>
-<h3 id="toc8"><span>One View 筱泽 宽</span></h3>
-<p><span style="color: #808080">筱泽坐了下来，面对着头顶湛蓝的天空。晚霞的颜色已经逐渐暗淡。</span></p>
+<h3>One View 筱泽 宽</h3>
+<p>筱泽坐了下来，面对着头顶湛蓝的天空。晚霞的颜色已经逐渐暗淡。</p>
 <p>然后，我想着我还可以干些别的。那里面没有意义，现在我已经确切地意识到了。我摧毁了它……不，说到底，也许一直就不存在。我只是一直依靠这个借口，试图幸福快乐而充实地活下去。</p>
 <p>然后我想：</p>
 <p>我所写的那些故事，我的机器所作所选的那些故事，这世界上所有被人们认可的故事，都是按照一定的标准、特定的价值观写出来的，按照人们的喜好、时代的环境、当世的风流评判，弃存的。它们有目的，为了表达自我、感动他人、连接灵魂、赚取金钱，因而被加以限制，形成特定的样子。</p>
@@ -673,13 +675,13 @@ source: "https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-sc
 <p>然后我想，故事必须遵守的限制大概有且只有逻辑一个。除此之外，它为什么可以不按任何标准，不受任何限制，不基于任何人的喜恶地存在？这样的同样无意义的世界为何不被创造？嗯，故事就是故事，Nothing Else。</p>
 <p>因此——</p>
 <hr/>
-<p><span style="color: #190480">现在，我在红匣子中留下的后门应该已经覆盖了原有的程序。红匣子将随机调用库中的叙事元素，仅仅按照逻辑的要求产生不基于任何标准的故事。</span></p>
-<p><span style="color: #15036d">不，请不要问我，我不因为任何理由做出这样的行动。我只是觉得，如果故事其实没有什么进一步意义的话，那产生一些自由的世界也没什么关系。这就是你想要知道的理由。</span></p>
-<p><span style="color: #12035a">在红匣子的周围防卫系统被突破前，它将一直去无意义地写。当然，没有评选机制了，先存到本地，再发往我私人名下的存储服务器，再发往深空……</span></p>
-<p><span style="color: #0e0247">总之，只要有存在就好，因为无意义。我没法再依靠它了，它在哪里都无所谓。既然是你，我希望你可以理解我的想法。</span></p>
-<p><span style="color: #0a0234">总之……随机创造的无限的故事，随机存在的无意义的世界。那台机器此时就在我的头顶。</span></p>
-<p><span style="color: #060121">说着，我指了指自己的头顶。</span></p>
-<p><span style="color: #03000e">“我明白了。”我听到电话对面这么回答，“我知道了。所以——”</span></p>
+<p>现在，我在红匣子中留下的后门应该已经覆盖了原有的程序。红匣子将随机调用库中的叙事元素，仅仅按照逻辑的要求产生不基于任何标准的故事。</p>
+<p>不，请不要问我，我不因为任何理由做出这样的行动。我只是觉得，如果故事其实没有什么进一步意义的话，那产生一些自由的世界也没什么关系。这就是你想要知道的理由。</p>
+<p>在红匣子的周围防卫系统被突破前，它将一直去无意义地写。当然，没有评选机制了，先存到本地，再发往我私人名下的存储服务器，再发往深空……</p>
+<p>总之，只要有存在就好，因为无意义。我没法再依靠它了，它在哪里都无所谓。既然是你，我希望你可以理解我的想法。</p>
+<p>总之……随机创造的无限的故事，随机存在的无意义的世界。那台机器此时就在我的头顶。</p>
+<p>说着，我指了指自己的头顶。</p>
+<p>“我明白了。”我听到电话对面这么回答，“我知道了。所以——”</p>
 <p>“——筱泽，你为什么还活着呢？”</p>
 <p>“嗯……为什么呢？”</p>
 <p>在红匣子的评价系统刚刚完成的那时候，我决定将自己的心智模型作为整个系统的外联部分，希望她能告诉我那个黑箱里到底发生着什么；然而，现如今，她却以这样的姿态向自己本身询问生的意义。我把手机从耳边放下，眺望着天空思考这个问题的答案。空气的味道真好，和天空的深蓝色一样有糖果味的气息。我站起身来，在逐渐显现出身影的群星下舒展僵硬的身体，看着眼前理所当然般地存在的无穷之物在我前方铺陈。我现在还好好地活着，但接下来该怎么办呢？我感到烦恼。</p>
@@ -698,7 +700,9 @@ source: "https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-sc
 <p>“这样啊。”电话那头隐约传来这样的声音。</p>
 <p>于是我长长地叹了一口气。</p>
 
-<p><span style="white-space: pre-wrap;"> </span></p>
+
 
                     
+</div>
+
 </div>

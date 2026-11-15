@@ -7,8 +7,9 @@ source: "https://scpper.mer.run/page/1468155578"
 ---
 
 <p class="license-note">Linternoka 的原创作品，2026-02-21 创建、2026-02-25 删除，历史评分 -10（18 票，支持率 22%）。正文据 SCPPER-CN 的记录页还原，<a href="https://scpper.mer.run/page/1468155578" target="_blank" rel="noopener noreferrer">记录页</a>，存档于 2026-11-16。</p>
-<div class="moe-archive">
-<p style="text-align:center"><img src="/scp/scp-cn-4310/cover.jpeg" alt="SCP-CN-4310&#xA0;&#xA0;&#xA0;&#x6444;&#x4E8E;&#x53D1;&#x73B0;&#x5730;"/><br/><small>SCP-CN-4310   摄于发现地</small></p>
+<div class="doc-archive">
+<div>
+<p><img src="/scp/scp-cn-4310/cover.jpeg" alt="SCP-CN-4310&#xA0;&#xA0;&#xA0;&#x6444;&#x4E8E;&#x53D1;&#x73B0;&#x5730;"/><br/>SCP-CN-4310   摄于发现地</p>
 <p><strong>项目编号：</strong>SCP-CN-4310</p>
 <p><strong>项目等级：</strong>Safe</p>
 <p><strong>特殊收容措施：</strong> SCP-CN-4310被置于Site-23的小型静态收容单元的专用保护罩内，并通过特定标志物标识出其实际所在位置，以减小其异常光学性质带来的影响。应当避免对其进行不必要的操作，以减小其意外损坏的几率。</p>
@@ -17,6 +18,8 @@ source: "https://scpper.mer.run/page/1468155578"
 <p>其具体外形为一面大型长方形无边框镜面，异常性质体现为无法映出生物体及其所穿戴的衣物、饰品等。未发现其余异常性质。</p>
 <p>图片中的双反相机仅作拍摄用途，<strong>并不是</strong>项目本体。</p>
 <p>&lt;&lt; <a href="/SCP-CN-4309">SCP-CN-4309</a> | SCP-CN-4310 | <a href="/SCP-CN-4311">SCP-CN-4311</a> &gt;&gt;</p>
+</div>
+
 </div>
 <details><summary>原始维基源码</summary><pre>[[&gt;]]
 

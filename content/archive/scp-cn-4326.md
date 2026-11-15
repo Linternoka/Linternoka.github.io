@@ -6,7 +6,9 @@ kind: ["article"]
 source: "https://scp-wiki-cn.wikidot.com/scp-cn-4326"
 ---
 
-<p class="license-note">Linternoka 的原创作品，存档于 2026-11-16。<a href="https://scp-wiki-cn.wikidot.com/scp-cn-4326" target="_blank" rel="noopener noreferrer">原文</a></p><div class="moe-archive">
+<p class="license-note">Linternoka 的原创作品，存档于 2026-11-16。<a href="https://scp-wiki-cn.wikidot.com/scp-cn-4326" target="_blank" rel="noopener noreferrer">原文</a></p>
+<div class="doc-archive">
+<div>
 
 
 
@@ -24,47 +26,47 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4326"
 
 
 
-<div id="u-credit-view">
-<div class="fader">
+<div>
+<div>
 
 </div>
-<div class="modalcontainer">
-<div class="modalbox">
-<div style="text-align: center;">
-<h2><span>著作信息</span></h2>
-</div>
-<hr/>
-<div class="credit first">
-
-<div style="text-align: center;">
-<p><span style="font-size:larger;"><strong>我不是洗衣机！</strong></span></p>
+<div>
+<div>
+<div>
+<h2>著作信息</h2>
 </div>
 <hr/>
-<div style="text-align: center;">
+<div>
+
+<div>
+<p><strong>我不是洗衣机！</strong></p>
+</div>
+<hr/>
+<div>
 <p>NICE TO MEET YOU !</p>
-<p><span style="font-size:larger;"><strong>作者</strong></span></p>
-<p>Just <span class="printuser"><a href="https://www.wikidot.com/user:info/linternoka">Linternoka</a></span></p>
-<p><span style="font-size:larger;"><strong>其他作品</strong></span><br/>
+<p><strong>作者</strong></p>
+<p>Just <a href="https://www.wikidot.com/user:info/linternoka">Linternoka</a></p>
+<p><strong>其他作品</strong><br/>
 <a href="/scp-cn-4234">SCP-CN-4234 - ♾→❌</a><br/>
 <a href="/stories-algorithms-meaning-making-at-scale">故事、算法、意义量产</a></p>
-<p><span style="font-size:larger;"><strong>特别鸣谢</strong></span></p>
-<p><span class="printuser avatarhover"><a href="https://www.wikidot.com/user:info/linternoka"><img class="small" src="/scp/scp-cn-4326/dbf5de2d6495.png" alt="Linternoka" style="background-image:url(https://www.wikidot.com/userkarma.php?u=9851858)" loading="lazy"/></a><a href="https://www.wikidot.com/user:info/linternoka">Linternoka</a></span>、<span class="printuser avatarhover"><a href="https://www.wikidot.com/user:info/ji-ling"><img class="small" src="/scp/scp-cn-4326/84dfcfb596ea.png" alt="Ji-Ling" style="background-image:url(https://www.wikidot.com/userkarma.php?u=10138896)" loading="lazy"/></a><a href="https://www.wikidot.com/user:info/ji-ling">Ji-Ling</a></span>、<span class="printuser avatarhover"><a href="https://www.wikidot.com/user:info/the-reaper-kindred"><img class="small" src="/scp/scp-cn-4326/1df613dfe4f8.png" alt="The_Reaper_Kindred" style="background-image:url(https://www.wikidot.com/userkarma.php?u=2813471)" loading="lazy"/></a><a href="https://www.wikidot.com/user:info/the-reaper-kindred">The_Reaper_Kindred</a></span>、<span class="printuser avatarhover"><a href="https://www.wikidot.com/user:info/lemenote"><img class="small" src="/scp/scp-cn-4326/9f6017421633.png" alt="lemenote" style="background-image:url(https://www.wikidot.com/userkarma.php?u=9533295)" loading="lazy"/></a><a href="https://www.wikidot.com/user:info/lemenote">lemenote</a></span>、And You！</p>
-<p><span style="font-size:larger;"><strong>图片来源</strong></span><br/>
+<p><strong>特别鸣谢</strong></p>
+<p><a href="https://www.wikidot.com/user:info/linternoka"><img src="/scp/scp-cn-4326/dbf5de2d6495.png" alt="Linternoka"/></a><a href="https://www.wikidot.com/user:info/linternoka">Linternoka</a>、<a href="https://www.wikidot.com/user:info/ji-ling"><img src="/scp/scp-cn-4326/84dfcfb596ea.png" alt="Ji-Ling"/></a><a href="https://www.wikidot.com/user:info/ji-ling">Ji-Ling</a>、<a href="https://www.wikidot.com/user:info/the-reaper-kindred"><img src="/scp/scp-cn-4326/1df613dfe4f8.png" alt="The_Reaper_Kindred"/></a><a href="https://www.wikidot.com/user:info/the-reaper-kindred">The_Reaper_Kindred</a>、<a href="https://www.wikidot.com/user:info/lemenote"><img src="/scp/scp-cn-4326/9f6017421633.png" alt="lemenote"/></a><a href="https://www.wikidot.com/user:info/lemenote">lemenote</a>、And You！</p>
+<p><strong>图片来源</strong><br/>
 我的手机相册。</p>
 </div>
 </div>
 <hr/>
-<div class="credit-back" style="text-align: center;">
+<div>
 
 </div>
-<div class="creditBottomRate" style="position:relative;height:30px;">
+<div>
 
 </div>
 </div>
 </div>
 </div>
-<div class="scp-image-block block-right" style="width:240px;">
-<div class="scp-image-caption">
+<div>
+<div>
 <p>于收容行动现场拍摄到的SCP-CN-4326</p>
 </div>
 </div>
@@ -79,7 +81,7 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4326"
 <p>项目可以以不明的方式对周围的环境进行感知，已知其具有类似视觉、听觉及触觉的感知能力。特别地，项目对音乐类信息较为敏感。当暴露于音乐类信息时，项目倾向于启动自身的滚筒装置以及提示音发声模块，此过程中将会发出类似于鼓点的声音以及不同音高的提示音进行“演奏”，其音色具有典型的电子失真特征。随着“演奏”总次数的增长，可观察到项目“演奏”水准的逐渐提高，表现为对节奏、旋律、乐曲风格等的把控能力增长。</p>
 <p>实验证据表明，项目的情绪与行为受到“演奏”行为与音乐信息的极大影响。</p>
 <p><strong>附录1：</strong>以下为项目的初次回收记录：</p>
-<div class="blockquote" style="border-radius: 10px; margin: 10px">
+<div>
 <p><strong>收容小组回收记录/4326</strong></p>
 <p><strong>日期：</strong>2021-05-██</p>
 <p><strong>收容小组：</strong>Site-73 C级收容小组No. 03（4人）</p>
@@ -126,7 +128,7 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4326"
 <p><strong>附录2：</strong>由于项目的危险性超出原本预期，项目原本被要求从Site-73运往更适宜收容其的Site-74。在运输过程中，车队意外遭遇了混沌分裂者的袭击，基金会成员按照指令从车队中暂时撤出。约7分钟后，邻近站点的快速反应小组到达现场，发现部分参与袭击的混沌分裂者昏倒在现场，项目则不知所踪。</p>
 <p>现场监控录像显示，车队遭遇袭击后，项目凭借反复撞击强行突破了临时约束装置，并与混沌分裂者展开战斗。尚不清楚项目与对方战斗的原因。战斗中，混沌分裂者方面被迫使用枪械攻击项目，但未能对其造成有效伤害，遭到项目冲撞与高压水枪射击而被迫撤离，项目在此之后离开了现场。</p>
 <p>收容小组已被派出以对项目进行再回收。以下为回收行动的视频记录：</p>
-<div class="blockquote" style="border-radius: 10px; margin: 10px">
+<div>
 <p><strong>收容失效事件记录/4326</strong></p>
 <p><strong>日期：</strong>2021-05-██</p>
 <p><strong>收容小组：</strong>Site-74 B级收容小组No. 01（23人）</p>
@@ -182,7 +184,7 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4326"
 <p>收容小组以此次事件为依据，对项目的收容措施作出了试验性改进。新版收容措施施行后，项目的攻击/破坏/冲撞欲望显著下降，经评估可以维持其在Site-73的收容与Euclid级的项目等级。</p>
 </div>
 <p><strong>附录3：</strong>在收容期间，项目所在收容间遭遇过一次未知对象入侵，方式未知，入侵者未知（部分意见认为其为PoI-30073）。以下为入侵发生时收容间内的音视频资料：</p>
-<div class="blockquote" style="border-radius: 10px; margin: 10px">
+<div>
 <p><strong>安保事故记录/4326</strong></p>
 <p><strong>日期：</strong>2022-01-██</p>
 <p><strong>事故区域：</strong>Site-73 3级动态收容间</p>
@@ -249,7 +251,7 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4326"
 <p><strong>附录4：</strong>对入侵事件中的对话进行分析后，站点研究组认为有必要对项目进行侵入式研究。经异常行为学家与项目沟通，该研究得到了项目的支持。</p>
 <p>研究人员采用正常方式尝试打开项目的外壳，但未能成功。研究组随即调用斯克兰顿稳定锚，对项目疑似由现实扭曲能力异常物理性质进行了暂时性压制，研究组得以对项目进行成功拆解。</p>
 <p>项目内部构造与普通家用洗衣机无明显差异，然而主板部分存在显著的大小异常。单独拆下主板并进行核验后，其被证实并非用于洗衣机的中控主板，而是来源于市售Elektron Analog Rytm MKII鼓机的鼓机主板。项目的智能与自我意识被认为来源于此，同时也能从中读取到部分数据。以下为从主板储存模块中提取的部分类文本信息。</p>
-<div class="blockquote" style="border-radius: 10px; margin: 10px">
+<div>
 <p><strong>主板数据记录/4326</strong></p>
 <p>呐，你知道吗？我放弃了哦。以后不会再演出了，嗯。不会了。</p>
 <p>因为很痛苦啊。即使是凭借音乐也不能摆脱那样的诅咒，那到头来不就没有[无法解读]。</p>
@@ -270,14 +272,15 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4326"
 <p>你也就能够理解我了吗？</p>
 </div>
 <p>项目的具体起源正在核实中。此项目的进一步研究将与对PoI-30073的搜捕同步展开。</p>
-<p><span style="white-space: pre-wrap;"> </span><br/>
-<span style="white-space: pre-wrap;"> </span></p>
-<div class="footer-wikiwalk-nav">
-<div style="text-align: center;">
+
+<div>
+<div>
 <p>关于PoI-30073的信息正在调查中……</p>
 <p>« <a href="/scp-cn-4325">SCP-CN-4325</a> | SCP-CN-4326 | <a href="/scp-cn-4327">SCP-CN-4327</a> »</p>
 </div>
 </div>
 
                     
+</div>
+
 </div>

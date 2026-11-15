@@ -6,7 +6,9 @@ kind: ["article"]
 source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 ---
 
-<p class="license-note">Linternoka 的原创作品，存档于 2026-11-16。<a href="https://scp-wiki-cn.wikidot.com/scp-cn-4234" target="_blank" rel="noopener noreferrer">原文</a></p><div class="moe-archive">
+<p class="license-note">Linternoka 的原创作品，存档于 2026-11-16。<a href="https://scp-wiki-cn.wikidot.com/scp-cn-4234" target="_blank" rel="noopener noreferrer">原文</a></p>
+<div class="doc-archive">
+<div>
 
 
 
@@ -17,10 +19,10 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 
 
 
-<div id="u-peroxide-savingpages-blocker">
-<div class="collapsible-block">
+<div>
+<div>
 
-<div class="collapsible-block-unfolded" style="display:none">
+<div>
 
 
 </div>
@@ -33,104 +35,104 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 
 
 
-<div id="u-credit-view">
-<div class="fader">
+<div>
+<div>
 
 </div>
-<div class="modalcontainer">
-<div class="modalbox">
-<div style="text-align: center;">
-<h2><span>著作信息</span></h2>
+<div>
+<div>
+<div>
+<h2>著作信息</h2>
 </div>
 <hr/>
-<div class="credit first">
+<div>
 
-<div style="text-align: center;">
-<p><span style="font-size:larger;"><strong>SCP-CN-4234 ♾️→❌</strong></span></p>
+<div>
+<p><strong>SCP-CN-4234 ♾️→❌</strong></p>
 </div>
 <p>永恒不存在——确实，我也这么觉得。但无论事实怎样，这不能成为你逃避的借口。“既然一切都不能永远存在的话，那就只看着今天吧。”这样断然是不正确的，因为无论如何明天都会切切实实地来到。这根本不是活在当下，这只是短视、自私、欺骗、自甘堕落。如果这样你还是不知悔改的话，那你就该明白，迟早会有一天——不需要等到无限的未来——后果会降临到你面前的。</p>
 <hr/>
-<div style="text-align: center;">
+<div>
 <p>NICE TO MEET YOU ！</p>
-<p><span style="font-size:larger;"><strong>作者</strong></span></p>
+<p><strong>作者</strong></p>
 </div>
-<div style="text-align: center;">
-<p>Just <span class="printuser"><a href="http://www.wikidot.com/user:info/linternoka">Linternoka</a></span><br/>
+<div>
+<p>Just <a href="http://www.wikidot.com/user:info/linternoka">Linternoka</a><br/>
 暂无其他作品</p>
 </div>
-<div style="text-align: center;">
-<p><span style="font-size:larger;"><strong>特别鸣谢</strong></span></p>
-<p><span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/lemenote"><img class="small" src="/scp/scp-cn-4234/fe420842a695.png" alt="lemenote" style="background-image:url(https://www.wikidot.com/userkarma.php?u=9533295)" loading="lazy"/></a><a href="http://www.wikidot.com/user:info/lemenote">lemenote</a></span>、<span class="printuser avatarhover"><a href="http://www.wikidot.com/user:info/the-reaper-kindred"><img class="small" src="/scp/scp-cn-4234/bfc15a13b676.png" alt="The_Reaper_Kindred" style="background-image:url(https://www.wikidot.com/userkarma.php?u=2813471)" loading="lazy"/></a><a href="http://www.wikidot.com/user:info/the-reaper-kindred">The_Reaper_Kindred</a></span> 感谢看稿</p>
+<div>
+<p><strong>特别鸣谢</strong></p>
+<p><a href="http://www.wikidot.com/user:info/lemenote"><img src="/scp/scp-cn-4234/fe420842a695.png" alt="lemenote"/></a><a href="http://www.wikidot.com/user:info/lemenote">lemenote</a>、<a href="http://www.wikidot.com/user:info/the-reaper-kindred"><img src="/scp/scp-cn-4234/bfc15a13b676.png" alt="The_Reaper_Kindred"/></a><a href="http://www.wikidot.com/user:info/the-reaper-kindred">The_Reaper_Kindred</a> 感谢看稿</p>
 </div>
-<div style="text-align: center;">
-<p><span style="font-size:larger;"><strong>图片来源</strong></span><br/>
+<div>
+<p><strong>图片来源</strong><br/>
 •<a href="https://commons.wikimedia.org/wiki/File:Charles_Babbage%27s_notebook_at_Wroughton_museum.jpg">https://commons.wikimedia.org/wiki/File:Charles_Babbage%27s_notebook_at_Wroughton_museum.jpg</a><br/>
 •<a href="https://commons.wikimedia.org/wiki/File:Mobius_ring.jpg">https://commons.wikimedia.org/wiki/File:Mobius_ring.jpg</a><br/>
 •<a href="https://commons.wikimedia.org/wiki/File:Birthday_cake.jpg">https://commons.wikimedia.org/wiki/File:Birthday_cake.jpg</a></p>
 </div>
 </div>
 <hr/>
-<div class="credit-back" style="text-align: center;">
+<div>
 
 </div>
-<div class="creditBottomRate" style="position:relative;height:30px;">
+<div>
 
 </div>
 </div>
 </div>
 </div>
-<div class="underline">
+<div>
 <p><strong>/-/</strong>登入 账号：████████ 密码：████████</p>
 </div>
-<div class="underline">
-<p><span style="color:#696969">欢迎访问，监察委员会特派员</span> Luna Bennett。<span style="color:#696969">您想做些什么？</span></p>
+<div>
+<p>欢迎访问，监察委员会特派员 Luna Bennett。您想做些什么？</p>
 </div>
-<div class="underline">
-<p><strong>/-/</strong>查询 人员档案 <span style="text-decoration: underline;">Chloe Bennett</span></p>
+<div>
+<p><strong>/-/</strong>查询 人员档案 Chloe Bennett</p>
 </div>
-<div class="underline">
-<p><span style="color:#696969">正在查询，请稍候……</span></p>
+<div>
+<p>正在查询，请稍候……</p>
 </div>
-<div class="underline">
+<div>
 <p><strong>姓名：</strong>Chloe Bennett<br/>
 <strong>人员编级：</strong>B<br/>
 <strong>安保权限等级：</strong>4<br/>
 <strong>就职站点：</strong>Site-78、Site-73（曾）<br/>
 <strong>职务：</strong>现实构成学研究员、SCP-CN-4234项目主管</p>
 </div>
-<div class="underline">
-<p><strong>/-/</strong>人员分组 <span style="text-decoration: underline;">敏感监视对象</span> + <span style="text-decoration: underline;">Chloe Bennett</span></p>
+<div>
+<p><strong>/-/</strong>人员分组 敏感监视对象 + Chloe Bennett</p>
 </div>
-<div class="underline">
-<p><span style="color:#696969">您是否想要将</span> Chloe Bennett <span style="color:#696969">移入</span> 敏感监视对象 <span style="color:#696969">分组？此操作不可逆转。</span></p>
+<div>
+<p>您是否想要将 Chloe Bennett 移入 敏感监视对象 分组？此操作不可逆转。</p>
 </div>
-<div class="underline">
+<div>
 <p><strong>/-/</strong>是</p>
 </div>
-<div class="underline">
-<p><span style="color:#696969">请填写分组理由：</span></p>
+<div>
+<p>请填写分组理由：</p>
 </div>
-<div class="underline">
-<p><strong>/-/</strong> <span style="text-decoration: underline;">伦理违规</span> <span style="text-decoration: underline;">包庇行为</span> <span style="text-decoration: underline;">知识危险性</span> <span style="text-decoration: underline;">过失损害</span></p>
+<div>
+<p><strong>/-/</strong> 伦理违规 包庇行为 知识危险性 过失损害</p>
 </div>
-<div class="underline">
-<p><span style="color:#696969">已将</span> Chloe Bennett <span style="color:#696969">移入</span> 敏感监视对象分组<span style="color:#696969">。您可以进一步上传佐证文件。</span></p>
+<div>
+<p>已将 Chloe Bennett 移入 敏感监视对象分组。您可以进一步上传佐证文件。</p>
 </div>
-<p><span style="color: transparent">如果人们不将永恒理解为无穷的时间延续，</span><br/>
-<span style="color: transparent">而将其理解为非时间性，</span><br/>
-<span style="color: transparent">那么生活于现在之中的人，</span><br/>
-<span style="color: transparent">就生活在永恒之中。</span><br/>
-<span style="color: transparent">——Wittgenstein, L. TLP, 6.4311.</span></p>
-<table class="scale CN-base">
+<p>如果人们不将永恒理解为无穷的时间延续，<br/>
+而将其理解为非时间性，<br/>
+那么生活于现在之中的人，<br/>
+就生活在永恒之中。<br/>
+——Wittgenstein, L. TLP, 6.4311.</p>
+<table>
 <tr>
-<td class="class1">
-<h1><span><span class="base &#x7EA7; CN">4/-CN-4234</span> 级 <span class="base &#x7EA7; CN">4/-CN-4234</span></span></h1>
-<h1><span>监察报告</span></h1>
+<td>
+<h1>4/-CN-4234 级 4/-CN-4234</h1>
+<h1>监察报告</h1>
 </td>
-<td class="class1image" rowspan="2"/>
-<td class="item1 CN">
-<h1><span>项目编号: SCP—CN-4234</span></h1>
-<h1><span>项目等级: Euclid</span></h1>
+<td rowspan="2"/>
+<td>
+<h1>项目编号: SCP—CN-4234</h1>
+<h1>项目等级: Euclid</h1>
 </td>
 </tr>
 </table>
@@ -139,25 +141,25 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 
 
 
-<p><span style="color: transparent">我没想弄成这样的。</span><br/>
-<span style="color: transparent">为什么</span></p>
+<p>我没想弄成这样的。<br/>
+为什么</p>
 <p><strong>特殊收容措施：</strong>SCP-CN-4234应存储于当前所在的基金会制式移动硬盘中，并置于Site-112的4级静态收容单元，收容单元内应至少有一台斯克兰顿现实稳定锚处于工作状态。非收容维持程序和实验状态下，应确保本项目远离任何数据读取、播放设备。禁止3级安保权限等级以下的非实验人员接触该项目，对该项目的任何实验操作应在4/4234级人员的监督下进行。</p>
 <p>每三日应当由站点项目小组对SCP-CN-4234进行一次收容维持程序。该程序包括：<br/>
 1.调用一名通过基础认知测试的D级人员，并要求其观看SCP-CN-4234。控制室应持续确认该D级人员的存在，直至其因本项目的异常性质而消失，记录该人员观看本项目的时长。不应使用机器代替D级人员进行本操作，其可能造成3-5 min的测量误差。<br/>
 2.依据测得时长，利用收容隔间内专用设备向SCP-CN-4234开头添加标准内容的视频片段，维持本项目可播放内容的时长为30 min。</p>
 <p>当站点人员认识到 SCP-CN-4234-3时，应视情况中止对SCP-CN-4234的操作并撤出收容/实验区域或在一名4级人员的许可下继续实验，等待对其的认知自然消失。</p>
-<p><span style="color: transparent">变成这样了。</span><br/>
+<p>变成这样了。<br/>
  <strong>描述：</strong> SCP-CN-4234 是一具有现实扭曲性质的异常MPEG-4视频文件，时长据估计在33 min 09 s至42 min 13 s之间，尺寸1,920 x 1,080，大小478.3 MB。文件源信息显示该文件创建于20██年3月7日，最后编辑于相同日期。该项目由两部分组成，分别是视频前段的正常内容（SCP-CN-4234-1）与后段具有异常性质的未知内容（SCP-CN-4234-2）。SCP-CN-4234-1内容为一个在白色背景上持续闪动的黑色圆点，与相同时长的雪花白噪音，时长被控制在30 min左右。</p>
 <p>该项目的异常性质集中体现在SCP-CN-4234-2部分。当SCP-CN-4234-2被播放时，将引发一场EMM级别的局部现实扭曲，播放载体周边半径不定的区域内的部分物质存在性消失。此性质的作用对象一般包括播放载体本身，从而使SCP-CN-4234被动停止播放。该过程中未见明显的能量放出，未见周围物质质量增加。</p>
 <p>SCP-CN-4234-3是一存在性有疑的非物理实体，被报告以较低的不定频率出现于SCP-CN-4234周围，其仅可被生物个体以感质的方式认知，尚无任何以科学手段验证该实体存在的方法。认知到SCP-CN-4234-3的个体常常描述“感受到极其强烈的存在感，产生被注视的感觉，好像感受到人形生物的存在”。该存在偶尔以复数的形式出现。</p>
 <p>SCP-CN-4234在Site-73站点失效事件后，被参与善后行动的特遣队员发现于站点废墟中。有观点认为该项目是导致站点失效事件的项目TTL-2<sup>The Timeless Loom Project 02</sup>的终产物，但此观点的真实性尚无定论。</p>
-<p><span style="color: transparent">对不起……</span><br/>
-<span style="color: transparent">我错了吗？</span></p>
-<h2 id="toc0"><span>序 发生了什么？</span></h2>
-<div class="doubleline dark">
+<p>对不起……<br/>
+我错了吗？</p>
+<h2>序 发生了什么？</h2>
+<div>
 <p><strong>/-/</strong>上传文件 SCP-CN-4234 实验记录 MMCVK-4234-03</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2019-04-22</p>
 <p><strong>记录地点：</strong>Site-78 SCP-CN-4234实验隔间</p>
 <p><strong>相关人员：</strong>Chloe Bennett<sup>项目主管</sup>、Ethan Carter<sup>研究员</sup></p>
@@ -227,7 +229,7 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>Chloe：</strong>不重要，很多D级都报告看到了幻象，那个不是本次试验的目标。时长损耗在接受范围内……AIC，验证信标状态。</p>
 <p><strong>AIC：</strong>确认信标已从当前现实消失。正在接收数据……</p>
 <p><strong>AIC：</strong>数据已接收。正在为您展现……</p>
-<p><strong>&lt;AIC在玻璃上投影出信标<sup class="footnoteref"><a id="footnoteref-1" href="javascript:;" class="footnoteref">1</a></sup>信号分布图&gt;</strong></p>
+<p><strong>&lt;AIC在玻璃上投影出信标<sup><a>1</a></sup>信号分布图&gt;</strong></p>
 <p><strong>Ethan：</strong>我看看……</p>
 <p><strong>&lt;Ethan向前看去，Chloe低着头布置善后流程&gt;</strong></p>
 <p><strong>Ethan：</strong>呃？</p>
@@ -239,11 +241,11 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>Ethan：</strong>呃？等一下——</p>
 <p><strong>&lt;记录结束&gt;</strong></p>
 </div>
-<p><span style="white-space: pre-wrap;"> </span></p>
-<div class="doubleline dark">
+
+<div>
 <p><strong>/-/</strong>上传文件 内部通话 录音-1</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2019-04-22</p>
 <p><strong>记录地点：</strong>Site-78 走廊</p>
 <p><strong>相关人员：</strong>Chloe Bennett<sup>项目主管</sup>、Akari Tanaka<sup>站点主管、O5-6代表</sup></p>
@@ -252,18 +254,18 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>&lt;录音开始&gt;</strong></p>
 <p><strong>Chloe：</strong>主管，那个东西，找到了。</p>
 </div>
-<h2 id="toc1"><span>Part-1 他们是如何看待这场闹剧的？</span></h2>
-<div class="doubleline dark">
+<h2>Part-1 他们是如何看待这场闹剧的？</h2>
+<div>
 <p><strong>/-/</strong>上传文件 项目TLL-2前心理评估记录 -Arthur Montgomery-part 1</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2016-01-01</p>
 <p><strong>记录地点：</strong>Site-73 心理审查室</p>
 <p><strong>相关人员：</strong>Arthur Montgomery<sup>高级研究员</sup>、Akari Tanaka<sup>心理评估员</sup></p>
 <p><strong>记录内容：</strong>对项目TLL-2参与人员的例行心理审查。</p>
 <hr/>
-<p> <strong>评估对象：</strong><tt>Arthur Montgomery<sup>高级研究员</sup></tt></p>
-<p>  <strong>采访者：</strong><tt>Akari Tanaka<sup>心理评估员</sup></tt>  </p>
+<p> <strong>评估对象：</strong>Arthur Montgomery<sup>高级研究员</sup></p>
+<p>  <strong>采访者：</strong>Akari Tanaka<sup>心理评估员</sup>  </p>
 <p><strong>前言：</strong>依据O5指挥部的要求，对项目TLL-2预定参与者进行心理评估。本次评估对象为高级研究员Arthur Montgomery，其预定担任本项目的主要操作员与辅助观察员。  </p>
 <p><strong>&lt;记录开始&gt;</strong> </p>
 <p><strong>Tanaka：</strong>Arthur博士，请放松，我是负责本次项目人员心理评估的Tanaka。</p>
@@ -284,11 +286,11 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>Tanaka：</strong>只是无限长度的视频，是吗？</p>
 <p><strong>Arthur：</strong>如果存储介质不会被占满的话，是的。但理论上它还是会受到物理上的制约……</p>
 </div>
-<p><span style="white-space: pre-wrap;"> </span></p>
-<div class="doubleline dark">
+
+<div>
 <p><strong>/-/</strong>上传文件 项目TLL-2企划书 前言</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2015-03-12</p>
 <p><strong>记录地点：</strong>不适用</p>
 <p><strong>相关人员：</strong>不适用</p>
@@ -299,22 +301,22 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p>现如今，我们已在概念的操作上有了更大的突破。我们有了成熟的实验流程、体系化的实验设备，更重要的是，新生代的研究人员。现如今，一场验证对象学的无限可能性、揭开对对象属性新认识的大型项目所需的条件已经成熟，而一场成功的实验将向我们展现现实构成的真面目——我们将有可能在对常态的认识上迈出巨大的一步。</p>
 <p>这一切并不是空谈。经过形而上学部内部的探讨，我们已经选定了将要进行操作的对象，并且如你所见——撰写了完整的项目企划书。企划书现在已经正式被通过，项目将被编号为TLL-2。然而，要展开这个项目，我们需要更多优秀项目人员的加入，其中包括正在看这段话的你。</p>
 <p>我们将见证现实构成学伟大的一步发展。</p>
-<div style="text-align: right;">
+<div>
 <p>TLL-2项目主管 Elara J. Sullivan<br/>
 2015年03月12日</p>
 </div>
 </div>
-<div class="doubleline dark">
+<div>
 <p><strong>/-/</strong>上传文件 项目TLL-2前心理评估记录 -Arthur Montgomery-part 2</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2016-01-01</p>
 <p><strong>记录地点：</strong>Site-73 心理审查室</p>
 <p><strong>相关人员：</strong>Arthur Montgomery<sup>高级研究员</sup>、Akari Tanaka<sup>心理评估员</sup></p>
 <p><strong>记录内容：</strong>对项目TLL-2参与人员的例行心理审查。</p>
 <hr/>
-<p> <strong>评估对象：</strong><tt>Arthur Montgomery<sup>高级研究员</sup></tt></p>
-<p>  <strong>采访者：</strong><tt>Akari Tanaka<sup>心理评估员</sup></tt></p>
+<p> <strong>评估对象：</strong>Arthur Montgomery<sup>高级研究员</sup></p>
+<p>  <strong>采访者：</strong>Akari Tanaka<sup>心理评估员</sup></p>
 <p><strong>Tanaka：</strong>——之前那个项目，您是与您的学生Chloe、Ethan一同参与的吧？（笑）我们也都知道，曾经有一段时间，你们的关系真的特别好。</p>
 <p><strong>Arthur：</strong>确实是这样。我们在多个项目中合作顺利。实话实说，他们非常聪明，而且接触帷幕后世界与基金会的时间甚至并不比我短多少。平心而论我觉得，他们是能够继承我的工作的人。……（犹豫）而且，在我两年前那件事情时——你应该能在档案上看到——他们也帮助了我很多。尤其是Chloe，没有她，我今天也许就不会在这里。</p>
 <p><strong>Tanaka：</strong>（翻阅档案）……那件事啊。您能像现在这样谈论那件事，说明您已经能放下了？</p>
@@ -326,11 +328,11 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>Tanaka：</strong>这样吗？那，没有其他原因吗？</p>
 <p><strong>Arthur：</strong>……也许。</p>
 </div>
-<p><span style="white-space: pre-wrap;"> </span></p>
-<div class="doubleline dark">
+
+<div>
 <p><strong>/-/</strong>上传文件 关于项目TLL-2的质疑-Chloe Bennett （节选）</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2015-03-27</p>
 <p><strong>记录地点：</strong>不适用</p>
 <p><strong>相关人员：</strong>Chloe Bennett</p>
@@ -340,27 +342,27 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p>简单来说，TLL-2的核心在于通过在14年被发明的对象学技术，企图在实质上破坏某一对象/事物的“结束”属性，以期其达到永恒。在这一语境之下，事态/事件的三要素——起始、经过、结束被认为由参与组成事态的对象所决定。项目的企划者认为，如果一个事态中的对象不具备实现结束的能力，那事态本身便失去了结束的可能。通过这一方式，基金会可以制造一个具有无限时长的、永远不会停止播放的、永恒的视频。</p>
 <p>诚然，对象学可以实现对概念和属性的操纵，这是所有人都不得不承认、甚至可以为之感到自豪的伟大成就。但必须要提出的质疑是，TLL-2假设对对象属性的操作可以自发地赋予一个对象异常性，使其违背固有的认知，而这一假设是<strong>毫无依据的</strong>。</p>
 <p>其次，假设对象学作为一门异常科学，确实具有创造异常对象的能力，而不会结束的事物确实不会迎来一个带给它结束的事件。但自然条件下，起始事件与结束事件总是成对存在的，我们必须问出的问题是，一个违反这一常理的对象能否在符合这个常理的宇宙中正常存在？结束属性的剥离可能导致对象的存在状态发生根本性的改变，而非仅仅是简单的延长。它的存在是否又会对我们的现实造成某种不良的影响？这些问题都没有得到有效保证。而我必须指出的是，现有项目企划也没有充足的、对这些可能问题的对策，而这可能会造成相当严重的后果。基金会不能承受这样的、因为理想主义倾向而犯下的错误。</p>
-<div style="text-align: right;">
+<div>
 <p>Chloe Bennett<br/>
 2015年03月27日</p>
 </div>
 </div>
-<p><span style="white-space: pre-wrap;"> </span></p>
-<div class="doubleline dark">
+
+<div>
 <p><strong>/-/</strong>上传文件 基金会心理干预部访谈记录-Robert Miller</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2015-07-03</p>
 <p><strong>记录地点：</strong>Site-73 心理干预办公室</p>
 <p><strong>相关人员：</strong>Robert Miller<sup>研究员</sup>、Akari Tanaka<sup>心理评估员</sup></p>
 <p><strong>记录内容：</strong>在Chloe Bennett发表对项目TLL-2的质疑后，其与其导师、基金会高级研究员Arthur Montgomery发生了严重的争执。基金会心理干预部随即介入了解情况。</p>
 <hr/>
-<p> <strong>受访者：</strong><tt>Robert Miller<sup>研究员</sup></tt>  <strong>采访者：</strong><tt>Akari Tanaka<sup>心理评估员</sup></tt></p>
+<p> <strong>受访者：</strong>Robert Miller<sup>研究员</sup>  <strong>采访者：</strong>Akari Tanaka<sup>心理评估员</sup></p>
 <p><strong>Tanaka：</strong>据我们所知，Arthur博士与Chloe发生了非常严重的争吵，是吗？</p>
 <p><strong>Robert：</strong>是。我当时正好在旁边，Chloe就在离我不远的地方。我看到Arthur博士突然怒气冲冲地跑过来高声质问Chloe，当时真的是吓得动都不敢动。</p>
 <p><strong>Tanaka：</strong>能讲讲大致的情况吗？我记得Arthur博士与Chloe不是向来关系很好吗？</p>
-<div class="scp-image-block block-right" style="width:300px;">
-<div class="scp-image-caption">
+<div>
+<div>
 <p>Chloe成为基金会正式研究员后赠予Arthur的笔记本。扉页语：我永远都是您的学生。摄于2026年，采用一台具有异常属性的相机试验性拍摄。</p>
 </div>
 </div>
@@ -376,18 +378,18 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>Robert：</strong>这……我也不知道她最后说了什么就是了。就我听到的部分来说……Chloe本意是这项目没底，Arthur去参加也不安全，而且某种程度上也不符合人员分级规定。但Arthur真的很执着，而且很冲动。Chloe似乎是开始质疑Arthur的动机……但到后面他们越说越快，我是真的听不清楚了。</p>
 <p><strong>Robert：</strong>那之后Ethan也赶过来了，而且他再怎么说，呃，也是有点向着Chloe的。所以我想就是因为那样，Ethan才跟着Chloe离开了Arthur博士那里。</p>
 </div>
-<p><span style="white-space: pre-wrap;"> </span></p>
-<div class="doubleline dark">
+
+<div>
 <p><strong>/-/</strong>上传文件 TLL-2项目前心理评估记录 -Arthur Montgomery-part 3</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2016-01-01</p>
 <p><strong>记录地点：</strong>Site-73 心理审查室</p>
 <p><strong>相关人员：</strong>Arthur Montgomery<sup>高级研究员</sup>、Akari Tanaka<sup>心理评估员</sup></p>
 <p><strong>记录内容：</strong>对项目TLL-2参与人员的例行心理审查。</p>
 <hr/>
-<p> <strong>评估对象：</strong><tt>Arthur Montgomery<sup>高级研究员</sup></tt>  </p>
-<p><strong>采访者：</strong><tt>Akari Tanaka<sup>心理评估员</sup></tt></p>
+<p> <strong>评估对象：</strong>Arthur Montgomery<sup>高级研究员</sup>  </p>
+<p><strong>采访者：</strong>Akari Tanaka<sup>心理评估员</sup></p>
 <p><strong>Tanaka：</strong>真的没有其他原因吗？就算您不确定，尽管说说您的个人看法就好。Chloe与Ethan都是非常优秀的研究者，他们如果能参与得更深入，对项目也有好处。而且——您似乎和Chloe因为项目的事情争吵过吧？她有没有提到她不参加这个项目的原因？</p>
 <p><strong>Arthur：</strong>……你知道的，她发过文章批判那个项目。她不想去是她自己的选择。</p>
 <p><strong>Tanaka：</strong>您与他们谈过了？</p>
@@ -398,10 +400,10 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>Arthur：</strong>她太感性了。</p>
 <p><strong>Tanaka：</strong>这样……吗？</p>
 </div>
-<div class="doubleline dark">
+<div>
 <p><strong>/-/</strong>上传文件 Site-73应急警报 摘录</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2016-03-18</p>
 <p><strong>记录地点：</strong>Site-73</p>
 <p><strong>相关人员：</strong> 不适用</p>
@@ -409,11 +411,11 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <hr/>
 <p>紧急通知！Site-73地下实验区域H-13至K-04发生大规模现实扭曲，站点中心区域已从可见现实中消失，所有收到这条警告的Site-73站点人员立刻结束手上的工作，立即对正在进行的项目进行紧急冻结处理，保持冷静，听从站点安保人员的安排撤出站点！站点安保人员与收容小组正在组织对收容物的初步再收容，特遣队将迅速到来。重复，Site-73地下实验区域H-13至K-04发生大规模现实扭曲，站点中心区域已从可见现实中消失，所有收到这条警告的Site-73站点人员立刻结束手上的工作，立即对正在进行的项目进行紧急冻结处理，保持冷静，听从站点安保人员的安排撤出站点！站点安保人员与收容小组正在组织对收容物的初步再收容，特遣队将迅速到来。</p>
 </div>
-<p><span style="white-space: pre-wrap;"> </span></p>
-<div class="doubleline dark">
+
+<div>
 <p><strong>/-/</strong>上传文件 Site-73站点紧急事件特别响应组 录音</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2016-03-18</p>
 <p><strong>记录地点：</strong>Site-73外围区域 特别行动组紧急会议室</p>
 <p><strong>相关人员：</strong>Chloe Bennett<sup>研究员</sup>、MTF-Delta-37 “音无”收容专家</p>
@@ -439,18 +441,18 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>Marcus：</strong>……我们会的。</p>
 <p><strong>后续：</strong>特遣队在处理Site-73收容失效事件时未再次遭遇现实扭曲，再收容工作逐步完成。消失的站点物资及人员未再被发现，但从事外围工作的研究员以及其余的站点人员均安全获救，其中包括研究员Ethan。Arthur博士被认定在该次事故中损失。</p>
 </div>
-<p><span style="white-space: pre-wrap;"> </span></p>
-<div class="doubleline dark">
+
+<div>
 <p><strong>/-/</strong>上传文件 TLL-2项目前心理评估记录 -Arthur Montgomery-part 4</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2016-01-01</p>
 <p><strong>记录地点：</strong>Site-73 心理审查室</p>
 <p><strong>相关人员：</strong>Arthur Montgomery<sup>高级研究员</sup>、Akari Tanaka<sup>心理评估员</sup></p>
 <p><strong>记录内容：</strong>对TLL-2参与人员的例行心理审查。</p>
 <hr/>
-<p> <strong>评估对象：</strong><tt>Arthur Montgomery<sup>高级研究员</sup></tt></p>
-<p>  <strong>采访者：</strong><tt>Akari Tanaka<sup>心理评估员</sup></tt></p>
+<p> <strong>评估对象：</strong>Arthur Montgomery<sup>高级研究员</sup></p>
+<p>  <strong>采访者：</strong>Akari Tanaka<sup>心理评估员</sup></p>
 <p><strong>Tanaka：</strong>那么，如果最终证明了这样的永恒是存在的，您会怎样想呢？</p>
 <p><strong>Arthur：</strong>……</p>
 <p><strong>Tanaka：</strong>说说您的个人感想就行了，不需要考虑太多</p>
@@ -466,8 +468,8 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>&lt;Tanaka盯着Arthur的眼睛&gt;</strong></p>
 <p><strong>Tanaka：</strong>那么最后——抱歉，您和您妻子是什么时候认识的？</p>
 <p><strong>Arthur：</strong>二十三岁。</p>
-<div class="scp-image-block block-right" style="width:300px;">
-<div class="scp-image-caption">
+<div>
+<div>
 <p>Arthur与其妻子的结婚戒指，其形状是象征永恒与无限的莫比乌斯环。</p>
 </div>
 </div>
@@ -485,10 +487,10 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>&lt;记录结束&gt;</strong><br/>
  <strong>结语：</strong>与Arthur Montgomery的谈话记录随后被发往项目评估中心进行人类-AIC双重评估，结果显示Arthur心理评估通过，允许参与该项目。 </p>
 </div>
-<div class="doubleline dark">
+<div>
 <p><strong>/-/</strong>上传文件 项目TLL-2后事故调查记录-Chloe Bennett part-1</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2016-01-20</p>
 <p><strong>记录地点：</strong>Site-78 审查室</p>
 <p><strong>相关人员：</strong>Chloe Bennett<sup>研究员</sup>、Akari Tanaka<sup>调查员</sup></p>
@@ -524,12 +526,12 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>Chloe：</strong>好吧。那我说就是了，无非只是那么点事情。Tanaka——当时项目的心理审查也是你做的，对吧？你们应该在项目前，因为Arthur的妻女的缘故，也好好问过他各种问题了。我想说的是……不是他说的那个样子，也不是你想的样子，只是一场彻彻底底的闹剧。</p>
 <p><strong>Chloe：</strong>不管他说了些什么，他大概压根就是在放屁，他不可能承认那一点——而你们的推测也一样。你们都忽略了一个最基本的问题，做出了一个错误的假设——你们怎么能确定，Arthur和他女儿的关系，实际上是怎样的？</p>
 </div>
-<p><span style="white-space: pre-wrap;"> </span></p>
-<h2 id="toc2"><span>Part-2 闹剧实际上是怎样发生的？</span></h2>
-<div class="doubleline dark">
+
+<h2>Part-2 闹剧实际上是怎样发生的？</h2>
+<div>
 <p><strong>/-/</strong>上传文件 对话录音-Arthur Montgomery</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2016-03-16</p>
 <p><strong>记录地点：</strong>Site-73 站点辖下酒吧</p>
 <p><strong>相关人员：</strong>Arthur Montgomery<sup>高级研究员</sup>、Chloe Bennett<sup>研究员</sup></p>
@@ -565,11 +567,11 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>Arthur：</strong>她就是会死的，你不明白吗？就是会！不是我，这一切和我……我到底做错了什么？我难道做错了什么吗？为什么……为什么她会……</p>
 <p><strong>&lt;记录结束&gt;</strong></p>
 </div>
-<p><span style="white-space: pre-wrap;"> </span></p>
-<div class="doubleline dark">
+
+<div>
 <p><strong>/-/</strong>上传文件 未知 录音文件-Chloe Bennett、Lyra Montgomery</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2013-11-13</p>
 <p><strong>记录地点：</strong>Site-73 休息室</p>
 <p><strong>相关人员：</strong> Arthur Montgomery、Chloe Bennett、Ethan Carter</p>
@@ -601,10 +603,10 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>Arthur：</strong>哼……</p>
 <p><strong>&lt;记录结束&gt;</strong></p>
 </div>
-<div class="doubleline dark">
+<div>
 <p><strong>/-/</strong>上传文件 项目TLL-2后事故调查记录-Chloe Bennett part-1.5</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2016-01-20</p>
 <p><strong>记录地点：</strong>Site-78 审查室</p>
 <p><strong>相关人员：</strong>Chloe Bennett<sup>研究员</sup>、Akari Tanaka<sup>调查员</sup></p>
@@ -612,10 +614,10 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <hr/>
 <p><strong>Chloe：</strong>Arthur说得没错，Lyra确实和我说了一些东西。但实际上，是在那之后说的。在她死前几天。</p>
 </div>
-<div class="doubleline dark">
+<div>
 <p><strong>/-/</strong>上传文件 未知 录音文件-Chloe Bennett、Lyra Montgomery</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2015-03-03</p>
 <p><strong>记录地点：</strong>Arthur Montgomery的家中</p>
 <p><strong>相关人员：</strong>Chloe Bennett、Lyra Montgomery</p>
@@ -637,10 +639,10 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>Chloe：</strong>……好吧。</p>
 <p><strong>&lt;记录结束&gt;</strong></p>
 </div>
-<div class="doubleline dark">
+<div>
 <p><strong>/-/</strong>上传文件 项目TLL-2后事故调查记录-Chloe Bennett part-2</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2016-01-20</p>
 <p><strong>记录地点：</strong>Site-78 审查室</p>
 <p><strong>相关人员：</strong>Chloe Bennett<sup>研究员</sup>、Akari Tanaka<sup>调查员</sup></p>
@@ -652,10 +654,10 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>Chloe：</strong>他当然不可能听劝，因为他都这么气势汹汹地来找我了。所以，我质问他，为什么要费尽心思去验证一个永恒的存在？“你还是忘不掉她们？你想知道是否真的有一种可能，你们可以真的<strong>永远</strong>生活在一起？”——我当然没有说这种话。我只是问他：</p>
 <p><strong>Chloe：</strong>“我当时说的话刺痛到你了吗？让你这么急切地想给自己的借口增添正当性？”</p>
 </div>
-<div class="doubleline dark">
+<div>
 <p><strong>/-/</strong>上传文件 未知 录音文件-Chloe Bennett、Arthur Montgomery</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2015-03-20</p>
 <p><strong>记录地点：</strong>Arthur Montgomery的家中</p>
 <p><strong>相关人员：</strong>Chloe Bennett、Arthur Montgomery</p>
@@ -676,10 +678,10 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>Chloe：</strong>你哪里有资格在这里一个人伤感？</p>
 <p><strong>&lt;记录结束&gt;</strong></p>
 </div>
-<div class="doubleline dark">
+<div>
 <p><strong>/-/</strong>上传文件 项目TLL-2后事故调查记录-Chloe Bennett part-2</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2016-01-20</p>
 <p><strong>记录地点：</strong>Site-78 审查室</p>
 <p><strong>相关人员：</strong>Chloe Bennett<sup>研究员</sup>、Akari Tanaka<sup>调查员</sup></p>
@@ -692,8 +694,8 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>Chloe：</strong>因为我其实一直知道这件事。Lyra只比我小一点，我们绝对说不上关系好，但她显然不想在我面前藏着她的不满和恨意。直到她死前的那几天，Arthur因为忙着基金会的工作，让我去先照看一下她。她应该很绝望吧，到快要死的时候，自己的优先级甚至还是比不上他父亲那些不为人知的工作。所以她把对Arthur的怒火全部发泄到了我的身上。</p>
 <p><strong>Chloe：</strong>我没有义务受着她。我录了音。</p>
 <p><strong>Tanaka：</strong>你不会……</p>
-<div class="scp-image-block block-right" style="width:300px;">
-<div class="scp-image-caption">
+<div>
+<div>
 <p>Lyra的十岁生日蛋糕。附赠的卡片上的文字是：Lyra，我们永远爱你。</p>
 </div>
 </div>
@@ -708,12 +710,12 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>Chloe：</strong>我想想……“别装了，你其实压根就不爱Lyra，还拼命地找各种借口。她就是你和Elowen爱情的副产物。”大概是这样的气话。他那么生气，是因为我说到他痛处了吧。</p>
 <p><strong>&lt;记录结束&gt;</strong></p>
 </div>
-<p><span style="white-space: pre-wrap;"> </span></p>
-<h2 id="toc3"><span>尾声 它是什么？</span></h2>
-<div class="doubleline dark">
+
+<h2>尾声 它是什么？</h2>
+<div>
 <p><strong>/-/</strong>上传文件 内部通话 录音-2</p>
 </div>
-<div class="blockquote shadow">
+<div>
 <p><strong>记录时间：</strong>2019-04-22</p>
 <p><strong>记录地点：</strong>Site-78 走廊</p>
 <p><strong>相关人员：</strong>Chloe Bennett<sup>项目主管</sup>、Akari Tanaka<sup>站点主管</sup></p>
@@ -764,98 +766,33 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>Chloe：</strong>就是这样。那么，我挂了。回头交报告给你。</p>
 <p><strong>&lt;记录结束&gt;</strong></p>
 </div>
-<p><span style="color: transparent">假设1：你因为个人性格扭曲，强行要求使用D级人员替代机器，造成不必要的损耗。</span><br/>
-<span style="color: transparent">假设2：你压根不清楚其中原理，但这样做确实有效果。</span><br/>
-<span style="color: transparent">假设3：你将拥有高信息密度的人类喂给非现实团块，从而阻止其扩张。</span></p>
-<div class="underline">
+<p>假设1：你因为个人性格扭曲，强行要求使用D级人员替代机器，造成不必要的损耗。<br/>
+假设2：你压根不清楚其中原理，但这样做确实有效果。<br/>
+假设3：你将拥有高信息密度的人类喂给非现实团块，从而阻止其扩张。</p>
+<div>
 <p><strong>/-/</strong>登出</p>
 </div>
-<div class="underline">
-<p><span style="color:#696969">已登出。再见，</span>Luna Bennett<span style="color:#696969">。</span></p>
+<div>
+<p>已登出。再见，Luna Bennett。</p>
 </div>
-<p><span style="color: transparent">假设4：你通过心灵控制给D级人员植入命令，在他们被转化为非时间性状态后对团块释放某种影响。</span><br/>
-<span style="color: transparent">假设5：你在通过人类试验找到带回A的方法。</span><br/>
-<span style="color: transparent">假设6：这样做根本没有任何意义。，</span><br/>
-<span style="color: transparent">假设7：这是其他更高权限人员的授意。</span></p>
+<p>假设4：你通过心灵控制给D级人员植入命令，在他们被转化为非时间性状态后对团块释放某种影响。<br/>
+假设5：你在通过人类试验找到带回A的方法。<br/>
+假设6：这样做根本没有任何意义。，<br/>
+假设7：这是其他更高权限人员的授意。</p>
 <hr/>
 <p><strong>附录：</strong>Luna Bennett，Lyra生前的好友，原隶属于Site-73收容小组，在TLL-2事故后因其在收容再建立的过程中表现优异，加之其优秀的信息统合调查能力，被调入Site-01负责基金会特工工作，后来再度接手与Site-73有关的监察工作。</p>
 <p>依据Luna提交的文件与监视要求，伦理道德委员会与O4会议对于Chloe在Site-73 TLL-2事故前后与当下SCP-CN-4234的收容工作中的表现进行了全面再评估，最终认定，其虽然在TLL-2事故中起到了一定的促成作用，在SCP-CN-4234的收容工作中存在滥用D级人员的嫌疑，但总体无显著过失，且在基金会的当前运行中起到了重要的作用，故未对其采取进一步措施。</p>
 <p>目前SCP-CN-4234的收容协议仍主要由Chloe主持进行。</p>
 <hr/>
-<p><br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/></p>
-<p><span style="color: #ebebeb">喂？</span></p>
-<p><span style="color: #e1e1e1">姐。</span></p>
-<p><span style="color: #d7d7d7">关于你的监察报告，我整理好了。</span></p>
-<p><span style="color: #cecece">……我理解你要坚守职责。我做了什么，有没有错，我心里也有底。所以我无所谓。</span></p>
-<p><span style="color: #c4c4c4">……我还有问题。</span></p>
-<p><span style="color: #bababa">你问。</span></p>
-<p><span style="color: #b0b0b0">SCP-CN-4234，当时它造成了站点级别的巨型现实扭曲，是吗？但现在，它却有一个30分钟长的安全缓冲，造成的现实扭曲规模也再没有那种量级了。为什么？</span></p>
-<p><span style="color: #a6a6a6">你做了什么？它为什么现在会被好好地收容在一个普通的……存储器里？</span></p>
+
+<p>喂？</p>
+<p>姐。</p>
+<p>关于你的监察报告，我整理好了。</p>
+<p>……我理解你要坚守职责。我做了什么，有没有错，我心里也有底。所以我无所谓。</p>
+<p>……我还有问题。</p>
+<p>你问。</p>
+<p>SCP-CN-4234，当时它造成了站点级别的巨型现实扭曲，是吗？但现在，它却有一个30分钟长的安全缓冲，造成的现实扭曲规模也再没有那种量级了。为什么？</p>
+<p>你做了什么？它为什么现在会被好好地收容在一个普通的……存储器里？</p>
 <p>那你想多了。我，什么也没做。特遣队发现它时，它就已经是这个状态了。</p>
 <p>姐……</p>
 <p>你想知道？</p>
@@ -879,16 +816,18 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p>——他恨非时间性、恨永恒。</p>
 <p>所以毫无疑问，如果他还在非时间性中存在的话，如果他能做到点什么的话。如果。他就一定会让那团东西离现实远一点，就一定会继续尝试去——</p>
 <p>否定永恒。</p>
-<p><span style="color: #a6a6a6">只是这样而已。</span></p>
-<div class="footnotes-footer">
-<div class="title">Footnotes</div>
-<div class="footnote-footer" id="footnote-1"><a href="javascript:;">1</a>. 斯克兰顿-A信标是一种具有极高现实自稳定性的信号源，在经历复杂的现实扭曲破坏后能够保持正常功能，并且持续汇报自身所处的四维时空位。常被用来界定现实扭曲现象的原理。</div>
+<p>只是这样而已。</p>
+<div>
+<div>Footnotes</div>
+<div><a>1</a>. 斯克兰顿-A信标是一种具有极高现实自稳定性的信号源，在经历复杂的现实扭曲破坏后能够保持正常功能，并且持续汇报自身所处的四维时空位。常被用来界定现实扭曲现象的原理。</div>
 </div>
-<div class="footer-wikiwalk-nav">
-<div style="text-align: center;">
+<div>
+<div>
 <p>« <a href="/scp-cn-4233">SCP-CN-4233</a> | SCP-CN-4234 | <a href="/scp-cn-4235">SCP-CN-4235</a> »</p>
 </div>
 </div>
 
                     
+</div>
+
 </div>
