@@ -34,7 +34,7 @@ summaryLength = 60
   [params.profileMode]
     enabled = true
     title = '废书库修缮委员会'
-    subtitle = '记录 · 归档 · 展示'
+    subtitle = '记录、展示、分享'
     imageUrl = 'images/avatar.jpg'
     imageTitle = 'Linternoka'
     imageWidth = 140
