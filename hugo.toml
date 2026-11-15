@@ -1,5 +1,5 @@
 baseURL = 'https://linternoka.github.io/'
-title = '废书库修缮委员会'
+title = 'liNterNoka_11'
 languageCode = 'zh-cn'
 defaultContentLanguage = 'zh'
 theme = 'PaperMod'
@@ -33,7 +33,7 @@ summaryLength = 60
 
   [params.profileMode]
     enabled = true
-    title = '废书库修缮委员会'
+    title = 'liNterNoka_11'
     subtitle = '记录、展示、分享'
     imageUrl = 'images/avatar.jpg'
     imageTitle = 'Linternoka'
