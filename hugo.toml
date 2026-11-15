@@ -17,6 +17,9 @@ summaryLength = 60
 [outputs]
   home = ['HTML', 'RSS', 'JSON']
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
   env = 'production'
   description = '记录、展示、分享'
