@@ -1,0 +1,90 @@
+baseURL = 'https://linternoka.github.io/'
+title = '废书库修缮委员会'
+languageCode = 'zh-cn'
+defaultContentLanguage = 'zh'
+theme = 'PaperMod'
+enableRobotsTXT = true
+hasCJKLanguage = true
+summaryLength = 60
+
+[pagination]
+  pagerSize = 30
+
+[taxonomies]
+  platform = 'platforms'
+  kind = 'kinds'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[params]
+  env = 'production'
+  description = '记录、展示、分享'
+  defaultTheme = 'auto'
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowToc = false
+  ShowCodeCopyButtons = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowRssButtonInSectionTermList = false
+  mainSections = ['archive']
+  DateFormat = '2006-01-02'
+
+  [params.profileMode]
+    enabled = true
+    title = '废书库修缮委员会'
+    subtitle = '记录 · 归档 · 展示'
+    imageUrl = 'images/avatar.jpg'
+    imageTitle = 'Linternoka'
+    imageWidth = 140
+    imageHeight = 140
+
+    [[params.profileMode.buttons]]
+      name = '归档'
+      url = '/archives/'
+
+    [[params.profileMode.buttons]]
+      name = '推荐'
+      url = '/works/'
+
+    [[params.profileMode.buttons]]
+      name = 'GitHub'
+      url = 'https://github.com/Linternoka'
+
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/Linternoka'
+
+  [[params.socialIcons]]
+    name = 'rss'
+    url = 'https://linternoka.github.io/index.xml'
+
+  [[params.socialIcons]]
+    name = 'email'
+    url = 'mailto:15716291510@163.com'
+
+[menu]
+  [[menu.main]]
+    identifier = 'archive'
+    name = '归档'
+    url = '/archives/'
+    weight = 10
+
+  [[menu.main]]
+    identifier = 'works'
+    name = '推荐'
+    url = '/works/'
+    weight = 20
+
+  [[menu.main]]
+    identifier = 'about'
+    name = '关于'
+    url = '/about/'
+    weight = 30
+
+  [[menu.main]]
+    identifier = 'search'
+    name = '搜索'
+    url = '/search/'
+    weight = 40

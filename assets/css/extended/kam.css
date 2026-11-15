@@ -1,0 +1,64 @@
+/* 只改排版与配色，不动版式结构 */
+
+:root {
+  --nav-width: 920px;
+  --main-width: 760px;
+  --radius: 4px;
+  --kam-accent: #6f8f7f;
+}
+
+body {
+  font-family: -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "Source Han Sans SC", sans-serif;
+  line-height: 1.9;
+  letter-spacing: 0.01em;
+}
+
+.post-content p,
+.post-content li {
+  margin-bottom: 0.9em;
+}
+
+.post-content h2 {
+  margin-top: 2.2em;
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--kam-accent);
+}
+
+.archive-year-header {
+  margin-top: 2.4em;
+  font-size: 1.35rem;
+}
+
+.archive-entry-title {
+  font-size: 1rem;
+}
+
+.archive-meta {
+  opacity: 0.55;
+  font-size: 0.85rem;
+}
+
+.post-meta,
+.entry-footer {
+  opacity: 0.6;
+}
+
+.entry-cover img {
+  max-height: 280px;
+  object-fit: cover;
+}
+
+.profile_inner h1 {
+  font-size: 2rem;
+}
+
+.profile_inner span {
+  opacity: 0.65;
+}
