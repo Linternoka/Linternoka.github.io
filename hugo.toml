@@ -32,7 +32,7 @@ summaryLength = 60
   DateFormat = '2006-01-02'
 
   [params.profileMode]
-    enabled = true
+    enabled = false
     title = 'liNterNoka_11'
     subtitle = '记录、展示、分享'
     imageUrl = 'images/avatar.jpg'
@@ -51,6 +51,12 @@ summaryLength = 60
     [[params.profileMode.buttons]]
       name = 'GitHub'
       url = 'https://github.com/Linternoka'
+
+  [params.homeInfoParams]
+    Title = 'liNterNoka_11'
+    AlignSocialIconsTo = 'center'
+    # 关于文字写在这里，支持 Markdown，多段用 ''' ... ''' 包起来
+    Content = ''
 
   [[params.socialIcons]]
     name = 'github'
