@@ -667,6 +667,9 @@ html {
   margin: 1.9em 0 0.4em;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
+  /* 编号与计数跟全站界面小字一致，用黑体；正文仍是宋体 */
+  font-family: "Kam Sans", "Noto Sans SC", "Source Han Sans SC", "PingFang SC",
+    "Microsoft YaHei", sans-serif;
 }
 
 .md-content a.subject-card {
@@ -774,4 +777,21 @@ html {
   .md-content a.subject-card + a.subject-card {
     border-left: 1px solid var(--border);
   }
+}
+
+/* 关掉 tags taxonomy 后主题仍会输出空的标签列表，直接收起 */
+.post-tags:empty {
+  display: none;
+}
+
+/* 页底统一收尾：细线隔开正文，站名/版权同排 */
+.footer {
+  margin-top: 3em;
+  padding-top: 1.4em;
+  border-top: 1px solid var(--border);
+  font-family: "Kam Sans", "Noto Sans SC", "Source Han Sans SC", "PingFang SC",
+    "Microsoft YaHei", sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  line-height: 1.9;
 }

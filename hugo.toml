@@ -13,7 +13,6 @@ summaryLength = 60
 
 [taxonomies]
   category = 'categories'
-  tag = 'tags'
   platform = 'platforms'
   kind = 'kinds'
 
@@ -26,7 +25,7 @@ summaryLength = 60
 
 [params]
   env = 'production'
-  description = '记录、展示、分享'
+  description = ''
   defaultTheme = 'auto'
   ShowReadingTime = false
   ShowShareButtons = false
@@ -43,7 +42,7 @@ summaryLength = 60
   [params.profileMode]
     enabled = false
     title = 'liNterNoka_11'
-    subtitle = '记录、展示、分享'
+    subtitle = ''
     imageUrl = 'images/avatar.jpg'
     imageTitle = 'liNterNoka_11'
     imageWidth = 140
