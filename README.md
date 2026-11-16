@@ -7,16 +7,16 @@
 ## 结构
 
 ```
-hugo.toml                    站点配置（导航、taxonomy、首页 profile）
+hugo.toml                    站点配置（导航、taxonomy、首页头像与副标题）
 content/
   _index.md                  首页正文
   archive/                   归档条目，一条一个 md
   works/                     推荐作品
   archives.md                归档页（layout: archives）
   search.md                  搜索页
-  about.md                   关于
-data/subjects.yaml           首页三张分科卡片的标题、分类与链接
-layouts/_shortcodes/subject-cards.html  首页分科卡片
+data/subjects.yaml           首页分科目录的标题、分类与链接
+layouts/home.html            首页：置顶头像昵称 + 导言 + 分科目录
+layouts/_shortcodes/subject-cards.html  首页分科目录
 assets/css/extended/kam.css  唯一的样式覆盖，只改排版与配色
 themes/PaperMod              submodule，锁在 1181196
 .github/workflows/hugo.yml   构建与部署
@@ -24,8 +24,9 @@ themes/PaperMod              submodule，锁在 1181196
 
 ## 首页
 
-正文写在 `content/_index.md`。三张分科卡片由 `{{< subject-cards >}}` 插在正文中间，
-卡片内容在 `data/subjects.yaml`：`term` 用来统计该分类的条目数，`href` 指向点进去的分类页。
+顶部头像、昵称、副标题读 `hugo.toml` 的 `params.profileMode`（`title` / `subtitle` / `imageUrl`）。
+正文写在 `content/_index.md`，分科目录由 `{{< subject-cards >}}` 插在正文中间；
+条目内容在 `data/subjects.yaml`：`term` 用来统计该分类的条目数，`href` 指向点进去的分类页。
 
 ## 加一条归档
 

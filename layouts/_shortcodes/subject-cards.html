@@ -11,12 +11,9 @@
     {{- $href = .RelPermalink -}}
   {{- end }}
   <a class="subject-card" href="{{ $href }}">
-    <span class="subject-card__top">
-      <span class="subject-card__num">{{ printf "%02d" (add $i 1) }}</span>
-      <span class="subject-card__arrow" aria-hidden="true">→</span>
-    </span>
+    <span class="subject-card__num">{{ printf "%02d" (add $i 1) }}</span>
     <span class="subject-card__title">{{ $item.title }}</span>
-    <span class="subject-card__meta">{{ $count }} 条归档</span>
+    <span class="subject-card__meta">{{ $count }} 篇<span class="subject-card__arrow" aria-hidden="true">→</span></span>
   </a>
   {{- end }}
 </nav>

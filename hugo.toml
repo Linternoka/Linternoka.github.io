@@ -39,6 +39,7 @@ summaryLength = 60
   mainSections = ['archive']
   DateFormat = '2006-01-02'
 
+  # 首页顶部头像/昵称/副标题走这里（layouts/home.html 读取），profileMode 本身保持关闭
   [params.profileMode]
     enabled = false
     title = 'liNterNoka_11'
@@ -80,6 +81,12 @@ summaryLength = 60
 
 [menu]
   [[menu.main]]
+    identifier = 'home'
+    name = '首页'
+    url = '/'
+    weight = 5
+
+  [[menu.main]]
     identifier = 'archive'
     name = '归档'
     url = '/archives/'
@@ -108,12 +115,6 @@ summaryLength = 60
     name = '推荐'
     url = '/works/'
     weight = 50
-
-  [[menu.main]]
-    identifier = 'about'
-    name = '关于'
-    url = '/about/'
-    weight = 60
 
   [[menu.main]]
     identifier = 'search'

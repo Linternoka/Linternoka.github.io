@@ -1,4 +1,14 @@
 {{- define "main" }}
+{{- $pm := site.Params.profileMode }}
+<div class="home-hero">
+  {{- with $pm.imageUrl }}
+  <img class="home-hero__avatar" src="{{ . | relURL }}" alt="" width="112" height="112" draggable="false">
+  {{- end }}
+  <h1 class="home-hero__title">{{ $pm.title | default site.Title }}</h1>
+  {{- with $pm.subtitle }}
+  <p class="home-hero__subtitle">{{ . }}</p>
+  {{- end }}
+</div>
 {{- with .Content }}
 <div class="post-content md-content home-intro">
   {{ . }}
