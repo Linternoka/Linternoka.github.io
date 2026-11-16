@@ -6,8 +6,6 @@ kind: ["article"]
 source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 ---
 
-*项目名称：SCP-CN-4234 ♾️→❌*
-
 > **著作信息**
 >
 > **SCP-CN-4234 ♾️→❌**
