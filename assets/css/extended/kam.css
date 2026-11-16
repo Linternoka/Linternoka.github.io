@@ -557,3 +557,9 @@ html {
 /* 加粗走真实的 600 字重，避免浏览器合成 */
 .md-content strong, .md-content b,
 .post-content strong, .post-content b { font-weight: 600; }
+
+/* 小屏：18px/1.95 是按桌面调的，手机降到 16px/1.8，标题同步收一档 */
+@media (max-width: 768px) {
+  body { font-size: 16px; line-height: 1.8; }
+  .post-title { font-size: 32px; }
+}
