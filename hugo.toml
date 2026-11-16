@@ -39,6 +39,11 @@ summaryLength = 60
   DateFormat = '2006-01-02'
 
   # 首页顶部头像/昵称/副标题走这里（layouts/home.html 读取），profileMode 本身保持关闭
+  # 浏览器 UI 与系统磁贴跟随站点深色底
+  [params.assets]
+    theme_color = '#121212'
+    msapplication_TileColor = '#121212'
+
   [params.profileMode]
     enabled = false
     title = 'liNterNoka_11'
