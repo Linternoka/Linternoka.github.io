@@ -9,8 +9,8 @@ page_css: "/css/scp-cn-4326.css"
 
 *原文：[https://scp-wiki-cn.wikidot.com/scp-cn-4326](https://scp-wiki-cn.wikidot.com/scp-cn-4326)（存档于 2026-11-16）*
 
-## 著作信息
-
+> **著作信息**
+>
 > <strong>我不是洗衣机！</strong>
 >
 > - <strong>作者</strong>　Just [Linternoka](https://www.wikidot.com/user:info/linternoka)
@@ -178,8 +178,8 @@ page_css: "/css/scp-cn-4326.css"
 
 « [SCP-CN-4325](https://scp-wiki-cn.wikidot.com/scp-cn-4325) \| SCP-CN-4326 \| [SCP-CN-4327](https://scp-wiki-cn.wikidot.com/scp-cn-4327) »
 
-## 作者贴
-
+> **作者贴**
+>
 > <strong>作者贴</strong>
 >
 > 好像没什么好写的……那就祝各位看得开心吧。

@@ -9,8 +9,8 @@ page_css: "/css/scp-stories-algorithms.css"
 
 *原文：[https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-scale](https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-scale)（存档于 2026-11-16）*
 
-## 著作信息
-
+> **著作信息**
+>
 > <strong>故事、算法、意义量产</strong>
 >
 > 回想起来，我还有许多事要去做。我还没有玩过她负责剧本的游戏，也还没有知道哥哥的死因。这两件不相关的事让我打起精神。我开始依靠别的借口活下来。
@@ -510,8 +510,8 @@ page_css: "/css/scp-stories-algorithms.css"
 
 ![Atmosphere%20Sky%20Clouds.jpeg](http://scpsandboxcn.wikidot.com/local--files/linternoka/Atmosphere%20Sky%20Clouds.jpeg)
 
-## 作者贴
-
+> **作者贴**
+>
 > <strong>文文无关的作者贴</strong>
 >
 > 总之这是我的第一篇故事，希望喜欢。
