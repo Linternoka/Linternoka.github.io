@@ -1,8 +1,23 @@
+/* 自托管思源宋体子集：字符集按站点实际用字裁切，缺字自动回落系统宋体 */
+@font-face {
+  font-family: "Kam Serif";
+  src: url("/fonts/kam-serif-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Kam Serif";
+  src: url("/fonts/kam-serif-semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 /* 只改排版与配色，不动版式结构 */
 
 :root {
   --nav-width: 920px;
-  --main-width: 760px;
+  --main-width: 700px;
   --radius: 4px;
   --scrollthumb: #a3a398;
 }
@@ -22,7 +37,7 @@
 }
 
 body {
-  font-family: "Noto Serif SC", "NotoSerifSC", "Source Han Serif SC",
+  font-family: "Kam Serif", "Noto Serif SC", "NotoSerifSC", "Source Han Serif SC",
     "思源宋体", "Songti SC", STSong, SimSun, serif;
   line-height: 1.95;
   letter-spacing: 0.01em;
@@ -69,13 +84,13 @@ a {
 }
 
 .archive-meta {
-  opacity: 0.55;
+  color: var(--secondary);
   font-size: 0.85rem;
 }
 
 .post-meta,
 .entry-footer {
-  opacity: 0.6;
+  color: var(--secondary);
 }
 
 .entry-cover img {
@@ -405,7 +420,7 @@ a {
 
 /* 文章大标题用宋体，和正文同一套，黑体留给小标题 */
 .post-title {
-  font-family: "Noto Serif SC", "NotoSerifSC", "Source Han Serif SC",
+  font-family: "Kam Serif", "Noto Serif SC", "NotoSerifSC", "Source Han Serif SC",
     "思源宋体", "Songti SC", STSong, SimSun, serif;
   font-weight: 600;
   letter-spacing: 0.01em;
@@ -534,3 +549,11 @@ html {
     max-width: calc(960px + var(--gap) * 2);
   }
 }
+/* 标题层级修正：h4 以下不再小于正文 */
+.md-content h4 { font-size: 20px; }
+.md-content h5 { font-size: 18px; }
+.md-content h6 { font-size: 18px; color: var(--secondary); }
+
+/* 加粗走真实的 600 字重，避免浏览器合成 */
+.md-content strong, .md-content b,
+.post-content strong, .post-content b { font-weight: 600; }
