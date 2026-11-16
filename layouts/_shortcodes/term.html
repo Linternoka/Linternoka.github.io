@@ -1,2 +1,3 @@
 {{- /* 终端记录块 */ -}}
-<div class="term">{{ .Inner | safeHTML }}</div>
+<div class="term">{{ .Inner | markdownify }}</div>
+

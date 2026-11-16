@@ -1,0 +1,3 @@
+{{- $src := .Get "src" -}}
+{{- $cap := .Get "caption" | default "" -}}
+<figure class="doc-figure"><img src="{{ $src }}" alt="{{ $cap }}"><figcaption>{{ $cap }}</figcaption></figure>

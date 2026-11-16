@@ -193,7 +193,7 @@ a {
 }
 
 /* 存档页的原文说明：细竖线，不做成卡片 */
-.post-content p:has(> em:only-child) {
+.post-content > p:has(> em:only-child) {
   border-left: 2px solid var(--border);
   padding-left: 14px;
   opacity: 0.75;
@@ -324,5 +324,25 @@ a {
 
 
 .gap-rule { border: none; border-top: 1px solid var(--border); margin: 2.4em 0 0; }
-.gap { margin: 0; }
+.gap { height: 45vh; }
+
+
+/* 存档页插图：统一成居中插图 + 图注，不搬原站浮动样式 */
+.doc-figure {
+  margin: 1.4em 0;
+  text-align: center;
+}
+.doc-figure img {
+  max-height: 420px;
+}
+.doc-figure figcaption {
+  margin-top: 0.5em;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  opacity: 0.65;
+}
+
+/* 短代码里的 Markdown 段落 */
+.file-head p { margin: 0; }
+.term em { color: var(--secondary); font-style: normal; }
 

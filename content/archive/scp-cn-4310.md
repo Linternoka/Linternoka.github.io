@@ -8,9 +8,7 @@ source: "https://scpper.mer.run/page/1468155578"
 
 *Linternoka 的原创作品，2026-02-21 创建、2026-02-25 删除，正文据 SCPPER-CN 记录页还原。*
 
-![SCP-CN-4310 摄于发现地](/scp/scp-cn-4310/cover.jpg)
-
-*SCP-CN-4310　摄于发现地*
+{{< fig src="/scp/scp-cn-4310/cover.jpg" caption="SCP-CN-4310　摄于发现地" >}}
 
 **项目编号：** SCP-CN-4310
 

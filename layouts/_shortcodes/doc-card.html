@@ -1,2 +1,3 @@
 {{- /* 档案卡片 */ -}}
-<div class="doc-card">{{ .Inner | safeHTML }}</div>
+<div class="doc-card">{{ .Inner | markdownify }}</div>
+

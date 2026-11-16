@@ -30,7 +30,7 @@ source: "https://scp-wiki-cn.wikidot.com/linternoka"
 
 ### 原创故事
 
-- **[故事、算法、意义量产](https://scp-wiki-cn.wikidot.com/scp-stories-algorithms)**
+- **[故事、算法、意义量产](https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-scale)**
   · 原创 故事
 
 ## 谈谈作者
@@ -71,18 +71,20 @@ VOCALOID P 主，我好像见过喜欢 r-906 的其他站内作者。确实，r-
 
 啊，是这样的，怎么说的来着？总之，本世界观下一年有 0721 天。虽然他们只有十五十六十七十八十九二十二一二二随便多少岁，但其实真实年龄都很大了。就是这样。这也是 neta。
 
-## 猎巫
-
 这个设定只在需要的时候为真哦。
+
+## 猎巫
 
 这样的情节，我是不是在绘画领域看过一遍了？嗯，未来会变成什么样呢……
 
-## 重写
-
-说到 AI 创作，就不得不推荐一下[这篇故事了](https://scp-wiki-cn.wikidot.com/scp-stories-algorithms)。对的，我纯粹因为想推文提起的这个话题。其中有女孩子间美好的纯友谊，还有关于故事生成的混乱看法。我也说不清哪边才是重点。
+说到 AI 创作，就不得不推荐一下[这篇故事了](https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-scale)。对的，我纯粹因为想推文提起的这个话题。其中有女孩子间美好的纯友谊，还有关于故事生成的混乱看法。我也说不清哪边才是重点。
 
 这篇文里有海量 neta。也许这才是重点吧。
+
+## 重写
 
 你可以随便改/重写我的作品，真的，反正也没人真的会来写；你也可以随便借用我的角色，真的，反正也没人会真的来借。
 
 这就是我的自信……好吧，最好还是提前联系一下我。万一呢。
+
+{{< fig src="/scp/scp-author/QDyj.jpg" caption="文字下方的说明图片" >}}
