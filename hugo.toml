@@ -1,4 +1,4 @@
-﻿baseURL = 'https://linternoka.github.io/'
+baseURL = 'https://linternoka.github.io/'
 title = 'liNterNoka_11'
 languageCode = 'zh-cn'
 defaultContentLanguage = 'zh'
@@ -22,6 +22,7 @@ summaryLength = 60
 
 [markup.goldmark.renderer]
   unsafe = true
+  hardWraps = true
 
 [params]
   env = 'production'
