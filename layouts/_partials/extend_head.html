@@ -1,5 +1,7 @@
 <link rel="preload" href="/fonts/kam-serif-regular.woff2" as="font" type="font/woff2" crossorigin media="(min-width: 700px)">
 <link rel="manifest" href="/site.webmanifest">
+{{- /* 放在最后：抓 favicon 的工具（浏览器起始页插件等）取最后一个 icon，这里给 PNG 头像而不是 Safari 的蒙版 */ -}}
+<link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png">
 {{- /* 页面级样式：存档页保留原页面的特效，但只作用于该页容器 */ -}}
 {{- with .Params.page_css -}}
 <link rel="stylesheet" href="{{ . | relURL }}">
