@@ -1,0 +1,37 @@
+{{- /* 文档卡片：{{< entry "slug" >}}；slug 为 content/archive/ 下的文件名。
+     卡片按正文里出现的顺序排列；term.html 会读取本页引用过的 slug，末尾只补没被引用的条目。 */ -}}
+{{- $slug := .Get "slug" -}}
+{{- if not $slug }}{{ $slug = .Get 0 }}{{ end -}}
+{{- $slug = strings.TrimSuffix "/" (strings.TrimSpace $slug) -}}
+{{- $page := .Page.Site.GetPage (printf "/archive/%s" $slug) -}}
+{{- if not $page -}}
+  {{- warnf "entry 短代码：找不到 /archive/%s（页面：%s）" $slug .Page.RelPermalink -}}
+  <span class="entry-missing">［缺少条目：{{ $slug }}］</span>
+{{- else -}}
+  {{- $store := .Page.Store -}}
+  {{- $used := $store.Get "entry-slugs" -}}
+  {{- if not $used }}{{ $used = slice }}{{ end -}}
+  {{- if not (in $used $slug) -}}
+    {{- $store.Set "entry-slugs" ($used | append $slug) -}}
+  {{- end -}}
+  {{- $kindLabels := dict "article" "原创" "profile" "简介" "deleted" "已删除" "essay" "随笔" -}}
+  {{- $kindKey := "" -}}
+  {{- with $page.Params.kind -}}
+    {{- if reflect.IsSlice . }}{{ $kindKey = index . 0 }}{{ else }}{{ $kindKey = . }}{{ end -}}
+  {{- end -}}
+  {{- $kind := index $kindLabels $kindKey | default "条目" -}}
+  {{- $desc := $page.Description -}}
+  <a class="entry-card" href="{{ $page.RelPermalink }}">
+    <span class="entry-card__top">
+      <span class="entry-card__kind">{{ $kind }}</span>
+      <span aria-hidden="true" class="entry-card__arrow">→</span>
+    </span>
+    <span class="entry-card__title">{{ $page.Title }}</span>
+    {{- with $desc }}
+    <span class="entry-card__desc">{{ . }}</span>
+    {{- end }}
+    <span class="entry-card__meta">
+      <time datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date.Format "2006-01-02" }}</time>
+    </span>
+  </a>
+{{- end -}}

@@ -1,0 +1,112 @@
+/* ------------------------------------------------------------
+   分科中心页（/categories/<词>/）：文档卡片
+   卡片由 {{< entry "slug" >}} 短代码输出，整块是链接，
+   沿用首页分科卡的边线与底色语言，不另起风格。
+   ------------------------------------------------------------ */
+
+.md-content a.entry-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  margin: 1.15em 0;
+  padding: 14px 16px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--entry);
+  color: var(--primary);
+  text-decoration: none;
+  transition: border-color 0.25s ease;
+}
+
+.md-content a.entry-card:hover {
+  border-color: var(--secondary);
+}
+
+.md-content a.entry-card:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 3px;
+}
+
+.entry-card__top,
+.entry-card__meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--secondary);
+  font-size: 0.68rem;
+  letter-spacing: 0.16em;
+  line-height: 1;
+}
+
+.entry-card__meta time {
+  font-variant-numeric: tabular-nums;
+}
+
+.entry-card__title {
+  font-family: "Kam Sans", "Noto Sans SC", "Source Han Sans SC", "PingFang SC",
+    "Microsoft YaHei", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+
+.entry-card__desc {
+  color: var(--content);
+  font-size: 0.86rem;
+  line-height: 1.75;
+}
+
+.entry-card__arrow {
+  font-size: 0.95rem;
+  transition: transform 0.25s ease;
+}
+
+.md-content a.entry-card:hover .entry-card__arrow {
+  transform: translateX(4px);
+}
+
+.entry-missing {
+  color: var(--secondary);
+  font-size: 0.85rem;
+}
+
+/* 正文没引用到的条目：末尾补一个小列表 */
+.entry-rest {
+  margin-top: 2.6em;
+  padding-top: 1.2em;
+  border-top: 1px solid var(--border);
+}
+
+.entry-rest__head {
+  margin: 0 0 0.7em;
+  color: var(--secondary);
+  font-family: "Cascadia Mono", "Consolas", "Sarasa Mono SC", monospace;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+.entry-rest__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.entry-rest__list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  padding: 0.5em 0;
+  border-bottom: 1px dashed var(--border);
+}
+
+.entry-rest__date {
+  color: var(--secondary);
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}

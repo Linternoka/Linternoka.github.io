@@ -1,0 +1,46 @@
+{{- /* 分类中心页：只渲染 _index.md 的正文（卡片由正文里的 entry 短代码穿插），
+     末尾把正文没引用到的条目补成一个小列表，避免文章从导航里消失。 */ -}}
+{{- define "main" }}
+
+{{- if .Title }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+</header>
+{{- end }}
+
+{{- if .Content }}
+<div class="post-content md-content">
+  {{- .Content }}
+</div>
+{{- end }}
+
+{{- /* .Content 渲染完之后，store 里才有本条正文引用过的 slug。
+       只给分类中心页补漏卡：tags / kinds / platforms 的 term 页保持原样。 */ -}}
+{{- if and (eq .Type "categories") (gt (len .Pages) 0) }}
+  {{- $used := .Store.Get "entry-slugs" -}}
+  {{- if not $used }}{{ $used = slice }}{{ end }}
+  {{- $rest := slice }}
+  {{- range .Pages }}
+    {{- $name := .File.ContentBaseName }}
+    {{- if not (in $used $name) }}
+      {{- $rest = $rest | append . }}
+    {{- end }}
+  {{- end }}
+
+  {{- with $rest }}
+  <section class="entry-rest">
+    <h2 class="entry-rest__head">其他条目</h2>
+    <ul class="entry-rest__list">
+      {{- range . }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span class="entry-rest__date">{{ .Date.Format "2006-01-02" }}</span>
+      </li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+{{- end }}
+
+{{- end }}{{/* end main */}}
