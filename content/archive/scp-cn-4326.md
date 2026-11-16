@@ -425,8 +425,6 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4326"
 
 关于PoI-30073的信息正在调查中……
 
-« [SCP-CN-4325](https://scp-wiki-cn.wikidot.com/scp-cn-4325) \| SCP-CN-4326 \| [SCP-CN-4327](https://scp-wiki-cn.wikidot.com/scp-cn-4327) »
-
 > **作者贴**
 >
 > 好像没什么好写的……那就祝各位看得开心吧。

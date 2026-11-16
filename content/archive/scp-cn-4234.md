@@ -1320,8 +1320,6 @@ Arthur。
 {{< fade 0.349 >}}只是这样而已。{{< /fade >}}
 
 
-{{< center >}}« [SCP-CN-4233](https://scp-wiki-cn.wikidot.com/scp-cn-4233) | SCP-CN-4234 | [SCP-CN-4235](https://scp-wiki-cn.wikidot.com/scp-cn-4235) »{{< /center >}}
-
 > **作者贴**
 >
 > **碎碎念 文文无关**

@@ -24,6 +24,3 @@ source: "https://scpper.mer.run/page/1468155578"
 
 图片中的双反相机仅作拍摄用途，**并不是**项目本体。
 
----
-
-<< [SCP-CN-4309](https://scp-wiki-cn.wikidot.com/scp-cn-4309) | SCP-CN-4310 | [SCP-CN-4311](https://scp-wiki-cn.wikidot.com/scp-cn-4311) >>
