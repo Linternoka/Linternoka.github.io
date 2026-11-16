@@ -145,7 +145,7 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p>——他恨非时间性、恨永恒。</p>
 <p>所以毫无疑问，如果他还在非时间性中存在的话，如果他能做到点什么的话。如果。他就一定会让那团东西离现实远一点，就一定会继续尝试去——</p>
 <p>否定永恒。</p>
-<p><span class="dim">只是这样而已。</p>
+<p><span style="color:#545454">只是这样而已。</span></p>
 
 <p class="center"><a href="https://scp-wiki-cn.wikidot.com/scp-cn-4233">SCP-CN-4233</a> · SCP-CN-4234 · <a href="https://scp-wiki-cn.wikidot.com/scp-cn-4235">SCP-CN-4235</a></p>
 
