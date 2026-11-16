@@ -5,9 +5,6 @@ platform: ["scp"]
 kind: ["profile"]
 source: "https://scp-wiki-cn.wikidot.com/linternoka"
 ---
-
-*原文：[scp-wiki-cn.wikidot.com/linternoka](https://scp-wiki-cn.wikidot.com/linternoka)（存档于 2026-11-16）*
-
 也许有的人进来想看见作者页常见的 Tab 排版。
 
 但是很遗憾，我貌似没有那么多东西，像是下叙啊翻译啊之类的给我填满那么多 Tab。所以，你们可以在这里看到一个只能往下滑的流式的作者页——

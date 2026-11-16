@@ -6,9 +6,6 @@ kind: ["article"]
 source: "https://scp-wiki-cn.wikidot.com/scp-cn-4326"
 page_css: "/css/scp-cn-4326.css"
 ---
-
-*原文：[https://scp-wiki-cn.wikidot.com/scp-cn-4326](https://scp-wiki-cn.wikidot.com/scp-cn-4326)（存档于 2026-11-16）*
-
 > **著作信息**
 >
 > <strong>我不是洗衣机！</strong>

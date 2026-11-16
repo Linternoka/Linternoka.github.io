@@ -7,10 +7,6 @@ source: "https://zh.moegirl.org.cn/User:%E7%A3%B7%E7%83%81/%E8%B4%A1%E7%8C%AE%E6
 license: "CC BY-NC-SA 4.0"
 ---
 
-*本页转载自萌娘百科，依 CC BY-NC-SA 4.0 共享。原文：[萌百原文](https://zh.moegirl.org.cn/User:%E7%A3%B7%E7%83%81/%E8%B4%A1%E7%8C%AE%E6%80%BB%E8%A7%88)（存档于 2026-11-16）*
-
-
-
 ### 单机游戏
   - [恸哭机巧](https://zh.moegirl.org.cn/%E6%81%B8%E5%93%AD%E6%9C%BA%E5%B7%A7)（剧情设定 24.8）
   - [恸哭之星](https://zh.moegirl.org.cn/%E6%81%B8%E5%93%AD%E4%B9%8B%E6%98%9F)（创建 24.8）

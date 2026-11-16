@@ -6,9 +6,6 @@ kind: ["article"]
 source: "https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-scale"
 page_css: "/css/scp-stories-algorithms.css"
 ---
-
-*原文：[https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-scale](https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-scale)（存档于 2026-11-16）*
-
 > **著作信息**
 >
 > <strong>故事、算法、意义量产</strong>

@@ -1,9 +1,12 @@
+---
 title: "SCP-CN-4234"
 date: 2026-11-16T01:10:00+08:00
 platform: ["scp"]
 kind: ["article"]
 source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
-*原文：[https://scp-wiki-cn.wikidot.com/scp-cn-4234](https://scp-wiki-cn.wikidot.com/scp-cn-4234)（存档于 2026-11-16）*
+---
+
+*项目名称：SCP-CN-4234 ♾️→❌*
 
 > **著作信息**
 >
@@ -148,10 +151,6 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p>所以毫无疑问，如果他还在非时间性中存在的话，如果他能做到点什么的话。如果。他就一定会让那团东西离现实远一点，就一定会继续尝试去——</p>
 <p>否定永恒。</p>
 <p><span class="fade" style="opacity:0.349">只是这样而已。</span></p>
-
-<p class="center"><a href="https://scp-wiki-cn.wikidot.com/scp-cn-4233">SCP-CN-4233</a> · SCP-CN-4234 · <a href="https://scp-wiki-cn.wikidot.com/scp-cn-4235">SCP-CN-4235</a></p>
-
-</span>
 
 > **作者贴**
 >
