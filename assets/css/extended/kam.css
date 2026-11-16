@@ -393,3 +393,25 @@ a {
 :root[data-theme="dark"] .ink-12035a { color: #b4a5fc; }
 :root[data-theme="dark"] .ink-15036d { color: #a492fc; }
 :root[data-theme="dark"] .ink-190480 { color: #947ffb; }
+
+/* 单页封面按原图比例显示，不裁切 */
+.post-single .entry-cover img {
+  max-height: none;
+  object-fit: contain;
+  height: auto;
+}
+
+/* 文章大标题用宋体，和正文同一套，黑体留给小标题 */
+.post-title {
+  font-family: "Noto Serif SC", "NotoSerifSC", "Source Han Serif SC",
+    "思源宋体", "Songti SC", STSong, SimSun, serif;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+/* 正文分隔线：默认 tertiary 在深底上几乎看不见，提亮一档 */
+.md-content hr {
+  height: 1px;
+  background: var(--secondary);
+  opacity: 0.35;
+}
