@@ -515,3 +515,22 @@ html {
     }
   }
 }
+
+/* ---------- 社区样式适配：thumbnail / sidetoc ---------- */
+/* 上游假定每条列表都有封面；无封面时两列网格会把标题挤到第二列，这里退回块级 */
+@media (min-width: 700px) {
+  .post-entry:not(:has(.entry-cover)),
+  .post-entry.tag-entry {
+    display: block;
+  }
+}
+
+/* sidetoc 需要更宽的版面：正文与侧栏同行，只放宽文章页，列表页维持原宽 */
+@media (min-width: 1200px) {
+  body:not(.list) .main {
+    max-width: calc(960px + var(--gap) * 2);
+  }
+  .header-nav {
+    max-width: calc(960px + var(--gap) * 2);
+  }
+}
