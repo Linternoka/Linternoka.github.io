@@ -1,6 +1,6 @@
 ---
 title: "SCP-CN-4326"
-date: 2026-07-10T00:00:00+08:00
+date: 2026-07-06T00:00:00+08:00
 platform: ["scp"]
 kind: ["article"]
 hideSummary: true

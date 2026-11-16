@@ -1,6 +1,6 @@
 ---
 title: "SCP-CN-4234"
-date: 2026-06-30T00:00:00+08:00
+date: 2026-04-16T00:00:00+08:00
 platform: ["scp"]
 kind: ["article"]
 hideSummary: true
