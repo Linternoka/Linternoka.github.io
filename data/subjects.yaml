@@ -1,0 +1,12 @@
+# 首页「分科入口」卡片
+# title 用首页文案里的称呼；term 对应 taxonomy，用来算条目数；href 指向该分科页
+items:
+  - title: 萌娘百科条目
+    term: 萌百
+    href: /categories/萌百/
+  - title: SCPCN作品
+    term: scp
+    href: /categories/scp/
+  - title: ACGN杂谈
+    term: 杂谈
+    href: /categories/杂谈/

@@ -13,6 +13,27 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Kam Sans";
+  src: url("/fonts/kam-sans-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Kam Sans";
+  src: url("/fonts/kam-sans-semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Kam Display";
+  src: url("/fonts/kam-display.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 /* 只改排版与配色，不动版式结构 */
 
 :root {
@@ -57,7 +78,7 @@ h6,
 .archive-meta,
 .breadcrumbs,
 .paginav {
-  font-family: "Noto Sans SC", "Source Han Sans SC", "PingFang SC",
+  font-family: "Kam Sans", "Noto Sans SC", "Source Han Sans SC", "PingFang SC",
     "Microsoft YaHei", sans-serif;
 }
 
@@ -420,10 +441,10 @@ a {
 
 /* 文章大标题用宋体，和正文同一套，黑体留给小标题 */
 .post-title {
-  font-family: "Kam Serif", "Noto Serif SC", "NotoSerifSC", "Source Han Serif SC",
-    "思源宋体", "Songti SC", STSong, SimSun, serif;
-  font-weight: 600;
-  letter-spacing: 0.01em;
+  font-family: "Kam Display", "Kam Serif", "Noto Serif SC", "NotoSerifSC",
+    "Source Han Serif SC", "思源宋体", "Songti SC", STSong, SimSun, serif;
+  font-weight: 400;
+  letter-spacing: 0;
 }
 
 /* 正文分隔线：默认 tertiary 在深底上几乎看不见，提亮一档 */
@@ -561,5 +582,92 @@ html {
 /* 小屏：18px/1.95 是按桌面调的，手机降到 16px/1.8，标题同步收一档 */
 @media (max-width: 768px) {
   body { font-size: 16px; line-height: 1.8; }
-  .post-title { font-size: 32px; }
+  .post-title {
+  font-family: "Kam Display", "Kam Serif", "Noto Serif SC", "NotoSerifSC",
+    "Source Han Serif SC", "思源宋体", "Songti SC", STSong, SimSun, serif;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+}
+
+/* ---------- 首页：分科入口卡片 ---------- */
+.subject-grid {
+  display: grid;
+  gap: 10px;
+  margin: 1.6em 0 1.9em;
+}
+
+@media (min-width: 620px) {
+  .subject-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.md-content a.subject-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85em;
+  min-height: 118px;
+  padding: 15px 16px 13px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--entry);
+  color: var(--primary);
+  text-decoration: none;
+  transition: border-color 0.25s ease;
+}
+
+.md-content a.subject-card:hover {
+  border-color: var(--secondary);
+}
+
+.md-content a.subject-card:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 3px;
+}
+
+.subject-card__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--secondary);
+  font-size: 0.68rem;
+  letter-spacing: 0.16em;
+  line-height: 1;
+}
+
+.subject-card__num {
+  font-variant-numeric: tabular-nums;
+}
+
+.subject-card__arrow {
+  font-size: 0.95rem;
+  line-height: 1;
+  transition: transform 0.25s ease;
+}
+
+.md-content a.subject-card:hover .subject-card__arrow {
+  transform: translateX(4px);
+}
+
+.subject-card__title {
+  font-family: "Kam Sans", "Noto Sans SC", "Source Han Sans SC", "PingFang SC",
+    "Microsoft YaHei", sans-serif;
+  font-size: 0.98rem;
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+.subject-card__meta {
+  margin-top: auto;
+  color: var(--secondary);
+  font-size: 0.74rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 619px) {
+  .md-content a.subject-card {
+    min-height: 0;
+    padding: 13px 15px 12px;
+  }
 }

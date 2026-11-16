@@ -1,0 +1,22 @@
+{{- $site := .Page.Site -}}
+{{- $items := hugo.Data.subjects.items -}}
+<nav class="subject-grid" aria-label="分科入口">
+  {{- range $i, $item := $items }}
+  {{- $count := 0 -}}
+  {{- with index $site.Taxonomies.categories $item.term -}}
+    {{- $count = len . -}}
+  {{- end }}
+  {{- $href := $item.href -}}
+  {{- with $site.GetPage (printf "/categories/%s" $item.term) -}}
+    {{- $href = .RelPermalink -}}
+  {{- end }}
+  <a class="subject-card" href="{{ $href }}">
+    <span class="subject-card__top">
+      <span class="subject-card__num">{{ printf "%02d" (add $i 1) }}</span>
+      <span class="subject-card__arrow" aria-hidden="true">→</span>
+    </span>
+    <span class="subject-card__title">{{ $item.title }}</span>
+    <span class="subject-card__meta">{{ $count }} 条归档</span>
+  </a>
+  {{- end }}
+</nav>

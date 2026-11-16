@@ -9,15 +9,23 @@
 ```
 hugo.toml                    站点配置（导航、taxonomy、首页 profile）
 content/
+  _index.md                  首页正文
   archive/                   归档条目，一条一个 md
   works/                     推荐作品
   archives.md                归档页（layout: archives）
   search.md                  搜索页
   about.md                   关于
+data/subjects.yaml           首页三张分科卡片的标题、分类与链接
+layouts/_shortcodes/subject-cards.html  首页分科卡片
 assets/css/extended/kam.css  唯一的样式覆盖，只改排版与配色
 themes/PaperMod              submodule，锁在 1181196
 .github/workflows/hugo.yml   构建与部署
 ```
+
+## 首页
+
+正文写在 `content/_index.md`。三张分科卡片由 `{{< subject-cards >}}` 插在正文中间，
+卡片内容在 `data/subjects.yaml`：`term` 用来统计该分类的条目数，`href` 指向点进去的分类页。
 
 ## 加一条归档
 
