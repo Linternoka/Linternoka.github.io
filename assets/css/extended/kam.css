@@ -358,3 +358,23 @@ a {
 }
 .post-content .dark-bg h3 { margin-top: 0; color: #ffffff; }
 .post-content .dark-bg a { color: #9ecbff; }
+
+/* 萌百贡献总览：完整树 */
+.tree { margin: 1.8em 0; }
+.tree ul { list-style: none; margin: 0; padding-left: 1.3em; position: relative; }
+.tree li { position: relative; padding: 0.18em 0 0.18em 1.3em; line-height: 1.7; }
+.tree li::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; border-left: 1px solid var(--border); }
+.tree li::after { content: ""; position: absolute; left: 0; top: 1.15em; width: 1.3em; border-top: 1px solid var(--border); }
+.tree li:last-child::before { bottom: auto; height: 1.15em; }
+.tree > ul > li { padding-left: 0; }
+.tree > ul > li::before, .tree > ul > li::after { display: none; }
+.tree > ul > li > ul { padding-left: 1.3em; }
+.tree li > p { margin: 0; }
+.md-content .tree a:not(.anchor) { text-decoration: none; }
+.md-content .tree a:not(.anchor):hover { text-decoration: underline; }
+@media (max-width: 600px) {
+  .tree ul { padding-left: 0.9em; }
+  .tree li { padding-left: 0.9em; }
+  .tree li::after { width: 0.9em; }
+  .tree > ul > li > ul { padding-left: 0.9em; }
+}
