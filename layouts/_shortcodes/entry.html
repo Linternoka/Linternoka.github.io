@@ -14,24 +14,15 @@
   {{- if not (in $used $slug) -}}
     {{- $store.Set "entry-slugs" ($used | append $slug) -}}
   {{- end -}}
-  {{- $kindLabels := dict "article" "原创" "profile" "简介" "deleted" "已删除" "essay" "随笔" -}}
-  {{- $kindKey := "" -}}
-  {{- with $page.Params.kind -}}
-    {{- if reflect.IsSlice . }}{{ $kindKey = index . 0 }}{{ else }}{{ $kindKey = . }}{{ end -}}
-  {{- end -}}
-  {{- $kind := index $kindLabels $kindKey | default "条目" -}}
   {{- $desc := $page.Description -}}
   <a class="entry-card" href="{{ $page.RelPermalink }}">
-    <span class="entry-card__top">
-      <span class="entry-card__kind">{{ $kind }}</span>
-      <span aria-hidden="true" class="entry-card__arrow">→</span>
-    </span>
     <span class="entry-card__title">{{ $page.Title }}</span>
     {{- with $desc }}
     <span class="entry-card__desc">{{ . }}</span>
     {{- end }}
     <span class="entry-card__meta">
       <time datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date.Format "2006-01-02" }}</time>
+      <span aria-hidden="true" class="entry-card__arrow">→</span>
     </span>
   </a>
 {{- end -}}

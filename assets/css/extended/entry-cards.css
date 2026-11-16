@@ -30,14 +30,15 @@
   outline-offset: 3px;
 }
 
-.entry-card__top,
 .entry-card__meta {
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: var(--secondary);
-  font-size: 0.68rem;
-  letter-spacing: 0.16em;
+  font-family: "Kam Sans", "Noto Sans SC", "Source Han Sans SC", "PingFang SC",
+    "Microsoft YaHei", sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
   line-height: 1;
 }
 
