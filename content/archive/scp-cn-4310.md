@@ -1,6 +1,6 @@
 ---
 title: "SCP-CN-4310（已删除）"
-date: 2026-11-16T01:15:00+08:00
+date: 2026-02-21T00:00:00+08:00
 platform: ["scp"]
 kind: ["deleted"]
 hideSummary: true
