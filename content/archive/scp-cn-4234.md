@@ -116,14 +116,14 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 <p><strong>附录：</strong>Luna Bennett，Lyra生前的好友，原隶属于Site-73收容小组，在TLL-2事故后因其在收容再建立的过程中表现优异，加之其优秀的信息统合调查能力，被调入Site-01负责基金会特工工作，后来再度接手与Site-73有关的监察工作。</p>
 <p>依据Luna提交的文件与监视要求，伦理道德委员会与O4会议对于Chloe在Site-73 TLL-2事故前后与当下SCP-CN-4234的收容工作中的表现进行了全面再评估，最终认定，其虽然在TLL-2事故中起到了一定的促成作用，在SCP-CN-4234的收容工作中存在滥用D级人员的嫌疑，但总体无显著过失，且在基金会的当前运行中起到了重要的作用，故未对其采取进一步措施。</p>
 <p>目前SCP-CN-4234的收容协议仍主要由Chloe主持进行。</p>
-<p><span style="color:#ebebeb">喂？</span></p>
-<p><span style="color:#e1e1e1">姐。</span></p>
-<p><span style="color:#d7d7d7">关于你的监察报告，我整理好了。</span></p>
-<p><span style="color:#cecece">……我理解你要坚守职责。我做了什么，有没有错，我心里也有底。所以我无所谓。</span></p>
-<p><span style="color:#c4c4c4">……我还有问题。</span></p>
-<p><span style="color:#bababa">你问。</span></p>
-<p><span style="color:#b0b0b0">SCP-CN-4234，当时它造成了站点级别的巨型现实扭曲，是吗？但现在，它却有一个30分钟长的安全缓冲，造成的现实扭曲规模也再没有那种量级了。为什么？</span></p>
-<p><span style="color:#a6a6a6">你做了什么？它为什么现在会被好好地收容在一个普通的……存储器里？</span></p>
+<p><span style="color:#121212">喂？</span></p>
+<p><span style="color:#2a2a2a">姐。</span></p>
+<p><span style="color:#424242">关于你的监察报告，我整理好了。</span></p>
+<p><span style="color:#595959">……我理解你要坚守职责。我做了什么，有没有错，我心里也有底。所以我无所谓。</span></p>
+<p><span style="color:#717171">……我还有问题。</span></p>
+<p><span style="color:#898989">你问。</span></p>
+<p><span style="color:#a0a0a0">SCP-CN-4234，当时它造成了站点级别的巨型现实扭曲，是吗？但现在，它却有一个30分钟长的安全缓冲，造成的现实扭曲规模也再没有那种量级了。为什么？</span></p>
+<p><span style="color:#b8b8b8">你做了什么？它为什么现在会被好好地收容在一个普通的……存储器里？</span></p>
 <p>那你想多了。我，什么也没做。特遣队发现它时，它就已经是这个状态了。</p>
 <p>姐……</p>
 <p>你想知道？</p>

@@ -315,3 +315,6 @@ a {
 
 .dim { color: var(--secondary); }
 
+
+.spacer { margin: 0; line-height: 2.6; }
+
