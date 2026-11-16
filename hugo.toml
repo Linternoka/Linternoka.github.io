@@ -1,16 +1,19 @@
-baseURL = 'https://linternoka.github.io/'
+﻿baseURL = 'https://linternoka.github.io/'
 title = 'liNterNoka_11'
 languageCode = 'zh-cn'
 defaultContentLanguage = 'zh'
 theme = 'PaperMod'
 enableRobotsTXT = true
 hasCJKLanguage = true
+capitalizeListTitles = false
 summaryLength = 60
 
 [pagination]
   pagerSize = 30
 
 [taxonomies]
+  category = 'categories'
+  tag = 'tags'
   platform = 'platforms'
   kind = 'kinds'
 
@@ -81,19 +84,37 @@ summaryLength = 60
     weight = 10
 
   [[menu.main]]
+    identifier = 'essay'
+    name = '杂谈'
+    url = '/categories/%E6%9D%82%E8%B0%88/'
+    weight = 20
+
+  [[menu.main]]
+    identifier = 'moegirl'
+    name = '萌百'
+    url = '/categories/%E8%90%8C%E7%99%BE/'
+    weight = 30
+
+  [[menu.main]]
+    identifier = 'scp'
+    name = 'SCP'
+    url = '/categories/scp/'
+    weight = 40
+
+  [[menu.main]]
     identifier = 'works'
     name = '推荐'
     url = '/works/'
-    weight = 20
+    weight = 50
 
   [[menu.main]]
     identifier = 'about'
     name = '关于'
     url = '/about/'
-    weight = 30
+    weight = 60
 
   [[menu.main]]
     identifier = 'search'
     name = '搜索'
     url = '/search/'
-    weight = 40
+    weight = 70

@@ -3,6 +3,8 @@ title: "SCP-CN-4234"
 date: 2026-11-16T01:10:00+08:00
 platform: ["scp"]
 kind: ["article"]
+hideSummary: true
+categories: ["scp"]
 source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 ---
 

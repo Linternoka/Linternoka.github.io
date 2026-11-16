@@ -3,6 +3,8 @@ title: "Linternoka的作者页（原来如此，是作者页）"
 date: 2026-11-16T01:10:00+08:00
 platform: ["scp"]
 kind: ["profile"]
+hideSummary: true
+categories: ["scp"]
 source: "https://scp-wiki-cn.wikidot.com/linternoka"
 ---
 也许有的人进来想看见作者页常见的 Tab 排版。

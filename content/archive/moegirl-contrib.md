@@ -3,6 +3,8 @@ title: "萌百：贡献总览"
 date: 2026-11-16T01:00:00+08:00
 platform: ["moegirl"]
 kind: ["profile"]
+hideSummary: true
+categories: ["萌百"]
 source: "https://zh.moegirl.org.cn/User:%E7%A3%B7%E7%83%81/%E8%B4%A1%E7%8C%AE%E6%80%BB%E8%A7%88"
 license: "CC BY-NC-SA 4.0"
 ---

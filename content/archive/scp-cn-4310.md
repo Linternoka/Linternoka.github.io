@@ -3,6 +3,8 @@ title: "SCP-CN-4310（已删除）"
 date: 2026-11-16T01:15:00+08:00
 platform: ["scp"]
 kind: ["deleted"]
+hideSummary: true
+categories: ["scp"]
 source: "https://scpper.mer.run/page/1468155578"
 ---
 

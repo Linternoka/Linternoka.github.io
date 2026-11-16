@@ -377,4 +377,19 @@ a {
   .tree li { padding-left: 0.9em; }
   .tree li::after { width: 0.9em; }
   .tree > ul > li > ul { padding-left: 0.9em; }
-}
+}/* 原文染色：浅色主题用原色，深色主题按亮度反转避免黑字看不见 */
+.ink-808080 { color: #808080; }
+.ink-03000e { color: #03000e; }
+.ink-060121 { color: #060121; }
+.ink-0a0234 { color: #0a0234; }
+.ink-0e0247 { color: #0e0247; }
+.ink-12035a { color: #12035a; }
+.ink-15036d { color: #15036d; }
+.ink-190480 { color: #190480; }
+:root[data-theme="dark"] .ink-03000e { color: #f4f1ff; }
+:root[data-theme="dark"] .ink-060121 { color: #e3defe; }
+:root[data-theme="dark"] .ink-0a0234 { color: #d3cbfd; }
+:root[data-theme="dark"] .ink-0e0247 { color: #c4b8fd; }
+:root[data-theme="dark"] .ink-12035a { color: #b4a5fc; }
+:root[data-theme="dark"] .ink-15036d { color: #a492fc; }
+:root[data-theme="dark"] .ink-190480 { color: #947ffb; }

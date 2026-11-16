@@ -1,0 +1,36 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">{{ .Description }}</div>
+  {{- end }}
+</header>
+
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $cats := slice "杂谈" "萌百" "scp" }}
+{{- range $cats }}
+  {{- $cat := . }}
+  {{- $group := slice }}
+  {{- range $pages }}
+    {{- if in .Params.categories $cat }}
+      {{- $group = $group | append . }}
+    {{- end }}
+  {{- end }}
+  {{- if $group }}
+  <div class="archive-category">
+    <h2 class="archive-year-header">{{ $cat }}<sup class="archive-count">&nbsp;{{ len $group }}</sup></h2>
+    <div class="archive-posts">
+      {{- range sort $group "Date" "desc" }}
+      <div class="archive-entry">
+        <h3 class="archive-entry-title entry-hint-parent">{{ .Title | markdownify }}</h3>
+        <div class="archive-meta">{{ .Date.Format "2006-01-02" }}</div>
+        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+      </div>
+      {{- end }}
+    </div>
+  </div>
+  {{- end }}
+{{- end }}
+
+{{- end }}
