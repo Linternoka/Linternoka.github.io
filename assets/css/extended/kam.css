@@ -439,7 +439,7 @@ a {
   height: auto;
 }
 
-/* 文章大标题用宋体，和正文同一套，黑体留给小标题 */
+/* 文章大标题用得意黑，正文仍走思源宋体 */
 .post-title {
   font-family: "Kam Display", "Kam Serif", "Noto Serif SC", "NotoSerifSC",
     "Source Han Serif SC", "思源宋体", "Songti SC", STSong, SimSun, serif;
@@ -582,12 +582,7 @@ html {
 /* 小屏：18px/1.95 是按桌面调的，手机降到 16px/1.8，标题同步收一档 */
 @media (max-width: 768px) {
   body { font-size: 16px; line-height: 1.8; }
-  .post-title {
-  font-family: "Kam Display", "Kam Serif", "Noto Serif SC", "NotoSerifSC",
-    "Source Han Serif SC", "思源宋体", "Songti SC", STSong, SimSun, serif;
-  font-weight: 400;
-  letter-spacing: 0;
-}
+  .post-title { font-size: 32px; }
 }
 
 /* ---------- 首页：分科入口卡片 ---------- */
