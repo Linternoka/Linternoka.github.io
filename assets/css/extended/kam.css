@@ -318,3 +318,7 @@ a {
 
 .spacer { margin: 0; line-height: 2.6; }
 
+
+/* 渐显对白：用透明度，深浅两套主题都成立 */
+.fade { color: inherit; }
+
