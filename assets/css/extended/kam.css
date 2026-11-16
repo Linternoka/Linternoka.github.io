@@ -322,3 +322,7 @@ a {
 /* 渐显对白：用透明度，深浅两套主题都成立 */
 .fade { color: inherit; }
 
+
+.gap-rule { border: none; border-top: 1px solid var(--border); margin: 2.4em 0 0; }
+.gap { margin: 0; }
+
