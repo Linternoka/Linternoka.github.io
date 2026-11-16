@@ -346,3 +346,15 @@ a {
 .file-head p { margin: 0; }
 .term em { color: var(--secondary); font-style: normal; }
 
+
+/* 故事页：Another View 暗色段 */
+.post-content .dark-bg {
+  background: #242428;
+  color: #e8e8e8;
+  border: 1px solid #3a3a3f;
+  border-radius: 6px;
+  padding: 1.2em 1.6em;
+  margin: 1.8em 0;
+}
+.post-content .dark-bg h3 { margin-top: 0; color: #ffffff; }
+.post-content .dark-bg a { color: #9ecbff; }

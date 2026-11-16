@@ -4,26 +4,23 @@ date: 2026-11-16T01:10:00+08:00
 platform: ["scp"]
 kind: ["article"]
 source: "https://scp-wiki-cn.wikidot.com/stories-algorithms-meaning-making-at-scale"
-page_css: "/css/scp-stories-algorithms.css"
 ---
 > **著作信息**
 >
-> <strong>故事、算法、意义量产</strong>
+> **故事、算法、意义量产**
 >
 > 回想起来，我还有许多事要去做。我还没有玩过她负责剧本的游戏，也还没有知道哥哥的死因。这两件不相关的事让我打起精神。我开始依靠别的借口活下来。
 >
 > 于是我长长地叹了一口气。
 >
-> - <strong>作者</strong>　Just [Linternoka](https://www.wikidot.com/user:info/linternoka)
-> - <strong>其他作品</strong>　[SCP-CN-4234 - ♾️→❌](https://scp-wiki-cn.wikidot.com/scp-cn-4234)
-> - <strong>特别鸣谢</strong>　[River_SixWater](https://www.wikidot.com/user:info/river-sixwater)、[TomJens](https://www.wikidot.com/user:info/tomjens) 看稿
-> - <strong>图片来源</strong>　[Atmosphere Sky Clouds](https://commons.wikimedia.org/wiki/File:Atmosphere_Sky_Clouds.jpg) · [Sky Clouds Atmosphere](https://commons.wikimedia.org/wiki/File:Sky_Clouds_Atmosphere.jpg)
-
-[](#u-credit-view)
+> - **作者**　Just [Linternoka](https://www.wikidot.com/user:info/linternoka)
+> - **其他作品**　[SCP-CN-4234 - ♾️→❌](https://scp-wiki-cn.wikidot.com/scp-cn-4234)
+> - **特别鸣谢**　[River_SixWater](https://www.wikidot.com/user:info/river-sixwater)、[TomJens](https://www.wikidot.com/user:info/tomjens) 看稿
+> - **图片来源**　[Atmosphere Sky Clouds](https://commons.wikimedia.org/wiki/File:Atmosphere_Sky_Clouds.jpg) · [Sky Clouds Atmosphere](https://commons.wikimedia.org/wiki/File:Sky_Clouds_Atmosphere.jpg)
 
 在远离城市的高速公路边，出现了一位约三十岁，或者还要更年长的女性。她走到公路旁荒芜的草地上。
 
-![Sky%20Clouds%20Atmosphere.jpeg](http://scpsandboxcn.wikidot.com/local--files/linternoka/Sky%20Clouds%20Atmosphere.jpeg)
+{{< fig src="/scp/scp-stories-algorithms/sky-clouds-atmosphere.jpeg" >}}
 
 她抬头看着天空。天空是深蓝色的，然而在极远的地方露出晚霞鲜艳的赤红色光辉，仿佛挣扎着冲出傍晚沉钝的天幕。这时候，有什么东西响了起来。她察觉到那声音来自于她的口袋，从那里拿出因来电而震动的手机。她把手机贴到耳边。然而接通之后，对面仍然只有冗长的白噪音传来。
 
@@ -79,6 +76,8 @@ page_css: "/css/scp-stories-algorithms.css"
 
 那之后，我转学了。
 
+{{< darkblock >}}
+
 ### Another View 晓山 奈
 
 今天也是一如既往的愉快的一天，我，晓山奈，像往常一样走进教室。九月的空气微凉，没有开灯的室内，阳光与阴影对比鲜明，朦胧地映出黑板上幼稚的字迹。环视教室一圈，我发现了那孩子。
@@ -125,6 +124,8 @@ page_css: "/css/scp-stories-algorithms.css"
 
 总之，我在几个月后如愿以偿。她开始给我看她自己写出来的草稿。
 
+{{< /darkblock >}}
+
 ### One View 筱泽 宽
 
 她哽咽了一下，继续开口：“好像有点扯远了……那么说回故事的事情吧。”
@@ -134,6 +135,8 @@ page_css: "/css/scp-stories-algorithms.css"
 我想说的是，那段时间我写了很多东西，也就是，创造了好多个世界。但，我总是不给别人看我写的东西的另一个原因，是我往往没有把那些故事写完。这其中既有我时间、精力与灵感的问题，但更多是因为我当时作为一个孩子，仍然缺乏把握与完成一个世界的能力。换句话来说，我笔力不足，不会构建故事。
 
 我写得不好。而且……
+
+{{< darkblock >}}
 
 ### Another View 晓山 奈
 
@@ -215,6 +218,8 @@ page_css: "/css/scp-stories-algorithms.css"
 
 “学人工智能。”筱泽这么再次宣言。
 
+{{< /darkblock >}}
+
 ### One View 筱泽 宽
 
 那段时间里，我只能看着一个个故事的架构在我手中崩塌，最终归于荒诞、浑浊。但我却不得不继续写下去，打开一个毁坏的世界，再去创造另一个，为了满足我自私的创作欲，填补我的空虚和孤独。
@@ -287,6 +292,8 @@ page_css: "/css/scp-stories-algorithms.css"
 
 我造了一台机器，不是什么大机器，基本不具备异常性。它现在就在我头顶的天空中，在环地高轨上自动运行。但，它……
 
+{{< darkblock >}}
+
 ### Another View 晓山 奈
 
 大学毕业的几年后，我辞掉了我的第一份工作。那时我从高中同学那里听说，筱泽去了某家文娱公司工作，而那家公司现在正好在提供适合我简历的工作。于是我决定到那里去碰碰运气。
@@ -349,6 +356,8 @@ page_css: "/css/scp-stories-algorithms.css"
 
 筱泽背对着红匣子，不再说话。
 
+{{< /darkblock >}}
+
 ### One View 筱泽 宽
 
 我一开始的想法是相当明了的，我想要量产优秀的作品、我喜欢的作品、神作。首先是评价系统。这一系统的主体最开始是人，后来是统计学，最后是心智模型，从一个加到五十个、一千个、三千个、五千个。每个心智模型拥有一张票权，up或者down。up加一，down减一，最终得出总分。
@@ -386,6 +395,8 @@ page_css: "/css/scp-stories-algorithms.css"
 ……我真的去读了它写出来的东西，然后真的哭了出来。嗯，我们已经可以很简单地批量生产神作了，如果它不因为数量而贬值的话。确认那一点的瞬间，我觉得自己完蛋了。我最喜爱的东西、我半生追寻的东西、我生存至今的意义，遍地都是了。不再有价值了。我无法原谅红匣子。无法原谅创造出它的自己。
 
 这是我的第二罪。
+
+{{< darkblock >}}
 
 ### Another View 晓山 奈
 
@@ -434,6 +445,8 @@ page_css: "/css/scp-stories-algorithms.css"
 ……真是对不起她。我突然想到，结果是我这种不珍视故事的人，到最后以写故事为生；而她把故事看得无比重要，却放弃了写作，制造出了红匣子。这一切绝对是命运最恶劣的玩笑，是故事套路里最能留下遗憾的要素。
 
 我只好握住她的手。
+
+{{< /darkblock >}}
 
 ### One View 筱泽 宽
 
@@ -505,11 +518,11 @@ page_css: "/css/scp-stories-algorithms.css"
 
 于是我长长地叹了一口气。
 
-![Atmosphere%20Sky%20Clouds.jpeg](http://scpsandboxcn.wikidot.com/local--files/linternoka/Atmosphere%20Sky%20Clouds.jpeg)
+{{< fig src="/scp/scp-stories-algorithms/atmosphere-sky-clouds.jpeg" >}}
 
 > **作者贴**
 >
-> <strong>文文无关的作者贴</strong>
+> **文文无关的作者贴**
 >
 > 总之这是我的第一篇故事，希望喜欢。
 >
