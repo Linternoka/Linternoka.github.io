@@ -9,7 +9,7 @@ kind: ["article"]
 hideSummary: true
 slug: "fairy-physics-author-talk"
 cover:
-  image: "/images/posts/author-talk.webp"
+  image: "/images/posts/fairy-physics.webp"
   alt: "《妖精的物理学―PHysics PHenomenon PHantom―》作者谈"
 ---
 
