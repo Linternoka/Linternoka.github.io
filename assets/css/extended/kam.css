@@ -4,6 +4,7 @@
   --nav-width: 920px;
   --main-width: 760px;
   --radius: 4px;
+  --scrollthumb: #a3a398;
 }
 
 /* 深色：主题默认带蓝灰调，换成中性灰 */
@@ -17,6 +18,7 @@
   --code-bg: #262626;
   --code-block-bg: #1f1f1f;
   --border: #2a2a2a;
+  --scrollthumb: #585e64;
 }
 
 body {
@@ -414,4 +416,102 @@ a {
   height: 1px;
   background: var(--secondary);
   opacity: 0.35;
+}
+
+/* ---------- 滚动条：纸边墨线 ---------- */
+/* 精细层只给 Chromium / Safari。注意 scrollbar-color 或 scrollbar-width
+   一旦不是 auto，浏览器会忽略这些 webkit 伪元素，所以标准属性只写在
+   下面「没有 webkit 伪元素」的分支里。 */
+@supports selector(::-webkit-scrollbar) {
+  html::-webkit-scrollbar,
+  .doc-archive::-webkit-scrollbar {
+    width: 14px;
+    height: 14px;
+    background: transparent;
+  }
+
+  html::-webkit-scrollbar-track,
+  .doc-archive::-webkit-scrollbar-track,
+  html::-webkit-scrollbar-track-piece,
+  .doc-archive::-webkit-scrollbar-track-piece {
+    background: transparent;
+  }
+
+  html::-webkit-scrollbar-button,
+  .doc-archive::-webkit-scrollbar-button {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  html::-webkit-scrollbar-corner,
+  .doc-archive::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+
+  /* 6px 透明边框把 2px 墨线收进轨道内侧，命中区仍是整条 14px */
+  html::-webkit-scrollbar-thumb,
+  .doc-archive::-webkit-scrollbar-thumb {
+    background: var(--scrollthumb);
+    border: 6px solid transparent;
+    background-clip: content-box;
+    border-radius: 0;
+    min-height: 40px;
+  }
+
+  html::-webkit-scrollbar-thumb:hover,
+  .doc-archive::-webkit-scrollbar-thumb:hover {
+    border-width: 5px;
+  }
+
+  html::-webkit-scrollbar-thumb:active,
+  .doc-archive::-webkit-scrollbar-thumb:active {
+    border-width: 4px;
+  }
+}
+
+/* 降级层：没有 webkit 伪元素的引擎，退回细滚动条加墨色滑块 */
+@supports not selector(::-webkit-scrollbar) {
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollthumb) transparent;
+  }
+}
+
+/* 预留槽位：长短页切换时正文不横向跳动 */
+html {
+  scrollbar-gutter: stable;
+}
+
+/* 导航条是横向滚动容器，不藏起来会出现 17px 系统滚动条，跟页面的墨线脱节 */
+.menu {
+  scrollbar-width: none;
+}
+.menu::-webkit-scrollbar {
+  display: none;
+}
+
+/* 文章页顶部的进度发丝线：滚动时间轴驱动，无脚本；老浏览器静默不显示 */
+@supports (animation-timeline: scroll()) {
+  body:not(.list)::after {
+    content: "";
+    position: fixed;
+    inset: 0 0 auto 0;
+    height: 2px;
+    z-index: 100;
+    background: var(--primary);
+    transform-origin: 0 50%;
+    animation: kam-progress linear both;
+    animation-timeline: scroll(root block);
+    pointer-events: none;
+  }
+
+  @keyframes kam-progress {
+    from {
+      transform: scaleX(0);
+    }
+    to {
+      transform: scaleX(1);
+    }
+  }
 }
