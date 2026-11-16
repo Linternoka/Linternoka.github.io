@@ -1,0 +1,152 @@
+/* 目录：右侧抽屉
+   按钮固定在右下角，点开后从右侧滑出面板；正文不再被侧栏挤窄。
+   结构来自 PaperMod 原有的 details.toc，本文件只负责「藏到屏幕外 / 滑进来」。
+   关闭态一律 translateX(101%)，所以手机上也不需要额外样式。 */
+
+.post-single details.toc {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 320px;
+    max-width: 86vw;
+    height: 100dvh;
+    margin: 0;
+    padding: 20px 8px 40px;
+    box-sizing: border-box;
+    border: 0;
+    border-left: 1px solid var(--border);
+    border-radius: 0;
+    background: var(--entry);
+    box-shadow: -24px 0 48px rgba(0, 0, 0, .45);
+    overflow-y: auto;
+    z-index: 100;
+    transform: translateX(101%);
+    transition: transform .22s ease;
+}
+
+body.toc-open .post-single details.toc {
+    transform: none;
+}
+
+/* 抽屉里不需要那句「目录 ▾」的 summary，标题单独做 */
+.post-single details.toc summary {
+    display: none;
+}
+
+.post-single details.toc .inner {
+    margin: 0 12px;
+}
+
+.post-single details.toc ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+.post-single details.toc li {
+    list-style: none;
+    margin: 2px 0;
+}
+
+.post-single details.toc a {
+    display: block;
+    padding: 6px 10px;
+    border-radius: 8px;
+    color: var(--content);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.post-single details.toc a:hover {
+    background: var(--code-bg);
+    text-decoration: none;
+}
+
+/* 标题行：左边「目录」，右边 × */
+.toc-drawer-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin: 0 8px 14px 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+    color: var(--secondary);
+    font-size: 13px;
+    letter-spacing: .08em;
+}
+
+.toc-close {
+    padding: 2px 6px;
+    border: 0;
+    border-radius: 6px;
+    background: none;
+    color: var(--secondary);
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.toc-close:hover {
+    background: var(--code-bg);
+    color: var(--content);
+}
+
+/* 遮罩：只在打开时吃点击 */
+.toc-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .55);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .2s;
+    z-index: 90;
+}
+
+body.toc-open .toc-backdrop {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* 右下角按钮 */
+.toc-fab {
+    position: fixed;
+    right: 22px;
+    bottom: calc(22px + env(safe-area-inset-bottom, 0px));
+    z-index: 110;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px 16px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--entry);
+    color: var(--content);
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .4);
+    transition: opacity .2s, transform .2s;
+}
+
+.toc-fab:hover {
+    border-color: var(--secondary);
+}
+
+.toc-fab svg {
+    width: 16px;
+    height: 16px;
+}
+
+body.toc-open .toc-fab {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(8px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .post-single details.toc,
+    .toc-backdrop,
+    .toc-fab {
+        transition: none;
+    }
+}
