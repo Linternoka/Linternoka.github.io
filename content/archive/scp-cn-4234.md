@@ -99,7 +99,7 @@ source: "https://scp-wiki-cn.wikidot.com/scp-cn-4234"
 
 {{< ghost >}}——Wittgenstein, L. TLP, 6.4311.{{< /ghost >}}
 
-{{< classified >}}
+{{< classified level="4/-CN-4234 级" mark="监察报告" id="SCP—CN-4234" class="Euclid" >}}
 
 {{< ghost >}}我没想弄成这样的。{{< /ghost >}}
 

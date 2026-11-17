@@ -1,12 +1,17 @@
-{{- /* 分级装饰块：左侧等级、中间斜线、右侧项目信息 */ -}}
+{{- /* 分级装饰块：左侧等级、中间斜线、右侧项目信息。
+     四个文案由调用方传参，缺省值保留 SCP-CN-4234 原文，兼容旧调用。 */ -}}
+{{- $level := .Get "level" | default "4/-CN-4234 级" -}}
+{{- $mark := .Get "mark" | default "监察报告" -}}
+{{- $id := .Get "id" | default "SCP—CN-4234" -}}
+{{- $class := .Get "class" | default "Euclid" -}}
 <div class="classified">
   <div class="classified-left">
-    <span class="lv">4/-CN-4234 级</span>
-    <span class="lv-mark">监察报告</span>
+    <span class="lv">{{ $level }}</span>
+    <span class="lv-mark">{{ $mark }}</span>
   </div>
   <div class="classified-mid"><span class="stripes-text">///</span></div>
   <div class="classified-right">
-    <span>项目编号：SCP—CN-4234</span>
-    <span>项目等级：Euclid</span>
+    <span>项目编号：{{ $id }}</span>
+    <span>项目等级：{{ $class }}</span>
   </div>
 </div>
